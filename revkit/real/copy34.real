@@ -1,0 +1,43 @@
+.version 2.0
+.numvars 68
+.variables x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 y0 y1 y2 y3 y4 y5 y6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 y17 y18 y19 y20 y21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33
+.inputs x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 y0 y1 y2 y3 y4 y5 y6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 y17 y18 y19 y20 y21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33
+.outputs x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 y0 y1 y2 y3 y4 y5 y6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 y17 y18 y19 y20 y21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33
+.constants ----------------------------------0000000000000000000000000000000000
+.garbage 1111111111111111111111111111111111----------------------------------
+.begin
+t2 x0 y0
+t2 x1 y1
+t2 x2 y2
+t2 x3 y3
+t2 x4 y4
+t2 x5 y5
+t2 x6 y6
+t2 x7 y7
+t2 x8 y8
+t2 x9 y9
+t2 x10 y10
+t2 x11 y11
+t2 x12 y12
+t2 x13 y13
+t2 x14 y14
+t2 x15 y15
+t2 x16 y16
+t2 x17 y17
+t2 x18 y18
+t2 x19 y19
+t2 x20 y20
+t2 x21 y21
+t2 x22 y22
+t2 x23 y23
+t2 x24 y24
+t2 x25 y25
+t2 x26 y26
+t2 x27 y27
+t2 x28 y28
+t2 x29 y29
+t2 x30 y30
+t2 x31 y31
+t2 x32 y32
+t2 x33 y33
+.end

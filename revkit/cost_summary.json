@@ -1,0 +1,84 @@
+{
+ "blocks": {
+  "mult24x10": {
+   "lines": 94,
+   "gates": 1770,
+   "t3": 888,
+   "qc": 5322
+  },
+  "mult23x24": {
+   "lines": 119,
+   "gates": 4301,
+   "t3": 2139,
+   "qc": 12857
+  },
+  "square18x18": {
+   "lines": 74,
+   "gates": 2500,
+   "t3": 1207,
+   "qc": 7328
+  },
+  "mult16x18": {
+   "lines": 86,
+   "gates": 2226,
+   "t3": 1104,
+   "qc": 6642
+  },
+  "mult34x34": {
+   "lines": 172,
+   "gates": 9076,
+   "t3": 4522,
+   "qc": 27164
+  },
+  "constsub36": {
+   "lines": 73,
+   "gates": 252,
+   "t3": 70,
+   "qc": 532
+  },
+  "constsub34": {
+   "lines": 69,
+   "gates": 238,
+   "t3": 66,
+   "qc": 502
+  },
+  "abs36": {
+   "lines": 72,
+   "gates": 243,
+   "t3": 68,
+   "qc": 515
+  },
+  "addsub34": {
+   "lines": 70,
+   "gates": 268,
+   "t3": 66,
+   "qc": 532
+  },
+  "add34": {
+   "lines": 69,
+   "gates": 200,
+   "t3": 66,
+   "qc": 464
+  },
+  "copy34": {
+   "lines": 68,
+   "gates": 34,
+   "t3": 0,
+   "qc": 34
+  }
+ },
+ "designs": {
+  "proposed (eps-form, truncated multipliers)": {
+   "qc": 39514,
+   "t3": 6496,
+   "gates": 13530,
+   "lines": 751
+  },
+  "conventional full-width": {
+   "qc": 93174,
+   "t3": 15474,
+   "gates": 31278,
+   "lines": 910
+  }
+ }
+}

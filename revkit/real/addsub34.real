@@ -1,0 +1,277 @@
+.version 2.0
+.numvars 70
+.variables s p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16 n17 n18 n19 n20 n21 n22 n23 n24 n25 n26 n27 n28 n29 n30 n31 n32 n33 cin
+.inputs s p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16 n17 n18 n19 n20 n21 n22 n23 n24 n25 n26 n27 n28 n29 n30 n31 n32 n33 cin
+.outputs s p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16 n17 n18 n19 n20 n21 n22 n23 n24 n25 n26 n27 n28 n29 n30 n31 n32 n33 cin
+.constants -----------------------------------00000000000000000000000000000000000
+.garbage 11111111111111111111111111111111111----------------------------------1
+.begin
+t2 s n0
+t2 s n1
+t2 s n2
+t2 s n3
+t2 s n4
+t2 s n5
+t2 s n6
+t2 s n7
+t2 s n8
+t2 s n9
+t2 s n10
+t2 s n11
+t2 s n12
+t2 s n13
+t2 s n14
+t2 s n15
+t2 s n16
+t2 s n17
+t2 s n18
+t2 s n19
+t2 s n20
+t2 s n21
+t2 s n22
+t2 s n23
+t2 s n24
+t2 s n25
+t2 s n26
+t2 s n27
+t2 s n28
+t2 s n29
+t2 s n30
+t2 s n31
+t2 s n32
+t2 s n33
+t2 p0 n0
+t2 p0 cin
+t3 cin n0 p0
+t2 p1 n1
+t2 p1 p0
+t3 p0 n1 p1
+t2 p2 n2
+t2 p2 p1
+t3 p1 n2 p2
+t2 p3 n3
+t2 p3 p2
+t3 p2 n3 p3
+t2 p4 n4
+t2 p4 p3
+t3 p3 n4 p4
+t2 p5 n5
+t2 p5 p4
+t3 p4 n5 p5
+t2 p6 n6
+t2 p6 p5
+t3 p5 n6 p6
+t2 p7 n7
+t2 p7 p6
+t3 p6 n7 p7
+t2 p8 n8
+t2 p8 p7
+t3 p7 n8 p8
+t2 p9 n9
+t2 p9 p8
+t3 p8 n9 p9
+t2 p10 n10
+t2 p10 p9
+t3 p9 n10 p10
+t2 p11 n11
+t2 p11 p10
+t3 p10 n11 p11
+t2 p12 n12
+t2 p12 p11
+t3 p11 n12 p12
+t2 p13 n13
+t2 p13 p12
+t3 p12 n13 p13
+t2 p14 n14
+t2 p14 p13
+t3 p13 n14 p14
+t2 p15 n15
+t2 p15 p14
+t3 p14 n15 p15
+t2 p16 n16
+t2 p16 p15
+t3 p15 n16 p16
+t2 p17 n17
+t2 p17 p16
+t3 p16 n17 p17
+t2 p18 n18
+t2 p18 p17
+t3 p17 n18 p18
+t2 p19 n19
+t2 p19 p18
+t3 p18 n19 p19
+t2 p20 n20
+t2 p20 p19
+t3 p19 n20 p20
+t2 p21 n21
+t2 p21 p20
+t3 p20 n21 p21
+t2 p22 n22
+t2 p22 p21
+t3 p21 n22 p22
+t2 p23 n23
+t2 p23 p22
+t3 p22 n23 p23
+t2 p24 n24
+t2 p24 p23
+t3 p23 n24 p24
+t2 p25 n25
+t2 p25 p24
+t3 p24 n25 p25
+t2 p26 n26
+t2 p26 p25
+t3 p25 n26 p26
+t2 p27 n27
+t2 p27 p26
+t3 p26 n27 p27
+t2 p28 n28
+t2 p28 p27
+t3 p27 n28 p28
+t2 p29 n29
+t2 p29 p28
+t3 p28 n29 p29
+t2 p30 n30
+t2 p30 p29
+t3 p29 n30 p30
+t2 p31 n31
+t2 p31 p30
+t3 p30 n31 p31
+t2 p32 n32
+t2 p32 p31
+t3 p31 n32 p32
+t2 p33 n33
+t2 p32 n33
+t3 p31 n32 p32
+t2 p32 p31
+t2 p31 n32
+t3 p30 n31 p31
+t2 p31 p30
+t2 p30 n31
+t3 p29 n30 p30
+t2 p30 p29
+t2 p29 n30
+t3 p28 n29 p29
+t2 p29 p28
+t2 p28 n29
+t3 p27 n28 p28
+t2 p28 p27
+t2 p27 n28
+t3 p26 n27 p27
+t2 p27 p26
+t2 p26 n27
+t3 p25 n26 p26
+t2 p26 p25
+t2 p25 n26
+t3 p24 n25 p25
+t2 p25 p24
+t2 p24 n25
+t3 p23 n24 p24
+t2 p24 p23
+t2 p23 n24
+t3 p22 n23 p23
+t2 p23 p22
+t2 p22 n23
+t3 p21 n22 p22
+t2 p22 p21
+t2 p21 n22
+t3 p20 n21 p21
+t2 p21 p20
+t2 p20 n21
+t3 p19 n20 p20
+t2 p20 p19
+t2 p19 n20
+t3 p18 n19 p19
+t2 p19 p18
+t2 p18 n19
+t3 p17 n18 p18
+t2 p18 p17
+t2 p17 n18
+t3 p16 n17 p17
+t2 p17 p16
+t2 p16 n17
+t3 p15 n16 p16
+t2 p16 p15
+t2 p15 n16
+t3 p14 n15 p15
+t2 p15 p14
+t2 p14 n15
+t3 p13 n14 p14
+t2 p14 p13
+t2 p13 n14
+t3 p12 n13 p13
+t2 p13 p12
+t2 p12 n13
+t3 p11 n12 p12
+t2 p12 p11
+t2 p11 n12
+t3 p10 n11 p11
+t2 p11 p10
+t2 p10 n11
+t3 p9 n10 p10
+t2 p10 p9
+t2 p9 n10
+t3 p8 n9 p9
+t2 p9 p8
+t2 p8 n9
+t3 p7 n8 p8
+t2 p8 p7
+t2 p7 n8
+t3 p6 n7 p7
+t2 p7 p6
+t2 p6 n7
+t3 p5 n6 p6
+t2 p6 p5
+t2 p5 n6
+t3 p4 n5 p5
+t2 p5 p4
+t2 p4 n5
+t3 p3 n4 p4
+t2 p4 p3
+t2 p3 n4
+t3 p2 n3 p3
+t2 p3 p2
+t2 p2 n3
+t3 p1 n2 p2
+t2 p2 p1
+t2 p1 n2
+t3 p0 n1 p1
+t2 p1 p0
+t2 p0 n1
+t3 cin n0 p0
+t2 p0 cin
+t2 cin n0
+t2 s n0
+t2 s n1
+t2 s n2
+t2 s n3
+t2 s n4
+t2 s n5
+t2 s n6
+t2 s n7
+t2 s n8
+t2 s n9
+t2 s n10
+t2 s n11
+t2 s n12
+t2 s n13
+t2 s n14
+t2 s n15
+t2 s n16
+t2 s n17
+t2 s n18
+t2 s n19
+t2 s n20
+t2 s n21
+t2 s n22
+t2 s n23
+t2 s n24
+t2 s n25
+t2 s n26
+t2 s n27
+t2 s n28
+t2 s n29
+t2 s n30
+t2 s n31
+t2 s n32
+t2 s n33
+.end

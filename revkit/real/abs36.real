@@ -1,0 +1,252 @@
+.version 2.0
+.numvars 72
+.variables x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 z0 z1 z2 z3 z4 z5 z6 z7 z8 z9 z10 z11 z12 z13 z14 z15 z16 z17 z18 z19 z20 z21 z22 z23 z24 z25 z26 z27 z28 z29 z30 z31 z32 z33 z34 cin
+.inputs x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 z0 z1 z2 z3 z4 z5 z6 z7 z8 z9 z10 z11 z12 z13 z14 z15 z16 z17 z18 z19 z20 z21 z22 z23 z24 z25 z26 z27 z28 z29 z30 z31 z32 z33 z34 cin
+.outputs x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 z0 z1 z2 z3 z4 z5 z6 z7 z8 z9 z10 z11 z12 z13 z14 z15 z16 z17 z18 z19 z20 z21 z22 z23 z24 z25 z26 z27 z28 z29 z30 z31 z32 z33 z34 cin
+.constants 000000000000000000000000000000000000000000000000000000000000000000000000
+.garbage ------------------------------------111111111111111111111111111111111111
+.begin
+t2 x35 x0
+t2 x35 x1
+t2 x35 x2
+t2 x35 x3
+t2 x35 x4
+t2 x35 x5
+t2 x35 x6
+t2 x35 x7
+t2 x35 x8
+t2 x35 x9
+t2 x35 x10
+t2 x35 x11
+t2 x35 x12
+t2 x35 x13
+t2 x35 x14
+t2 x35 x15
+t2 x35 x16
+t2 x35 x17
+t2 x35 x18
+t2 x35 x19
+t2 x35 x20
+t2 x35 x21
+t2 x35 x22
+t2 x35 x23
+t2 x35 x24
+t2 x35 x25
+t2 x35 x26
+t2 x35 x27
+t2 x35 x28
+t2 x35 x29
+t2 x35 x30
+t2 x35 x31
+t2 x35 x32
+t2 x35 x33
+t2 x35 x34
+t2 x35 z0
+t2 z0 x0
+t2 z0 cin
+t3 cin x0 z0
+t2 z1 x1
+t2 z1 z0
+t3 z0 x1 z1
+t2 z2 x2
+t2 z2 z1
+t3 z1 x2 z2
+t2 z3 x3
+t2 z3 z2
+t3 z2 x3 z3
+t2 z4 x4
+t2 z4 z3
+t3 z3 x4 z4
+t2 z5 x5
+t2 z5 z4
+t3 z4 x5 z5
+t2 z6 x6
+t2 z6 z5
+t3 z5 x6 z6
+t2 z7 x7
+t2 z7 z6
+t3 z6 x7 z7
+t2 z8 x8
+t2 z8 z7
+t3 z7 x8 z8
+t2 z9 x9
+t2 z9 z8
+t3 z8 x9 z9
+t2 z10 x10
+t2 z10 z9
+t3 z9 x10 z10
+t2 z11 x11
+t2 z11 z10
+t3 z10 x11 z11
+t2 z12 x12
+t2 z12 z11
+t3 z11 x12 z12
+t2 z13 x13
+t2 z13 z12
+t3 z12 x13 z13
+t2 z14 x14
+t2 z14 z13
+t3 z13 x14 z14
+t2 z15 x15
+t2 z15 z14
+t3 z14 x15 z15
+t2 z16 x16
+t2 z16 z15
+t3 z15 x16 z16
+t2 z17 x17
+t2 z17 z16
+t3 z16 x17 z17
+t2 z18 x18
+t2 z18 z17
+t3 z17 x18 z18
+t2 z19 x19
+t2 z19 z18
+t3 z18 x19 z19
+t2 z20 x20
+t2 z20 z19
+t3 z19 x20 z20
+t2 z21 x21
+t2 z21 z20
+t3 z20 x21 z21
+t2 z22 x22
+t2 z22 z21
+t3 z21 x22 z22
+t2 z23 x23
+t2 z23 z22
+t3 z22 x23 z23
+t2 z24 x24
+t2 z24 z23
+t3 z23 x24 z24
+t2 z25 x25
+t2 z25 z24
+t3 z24 x25 z25
+t2 z26 x26
+t2 z26 z25
+t3 z25 x26 z26
+t2 z27 x27
+t2 z27 z26
+t3 z26 x27 z27
+t2 z28 x28
+t2 z28 z27
+t3 z27 x28 z28
+t2 z29 x29
+t2 z29 z28
+t3 z28 x29 z29
+t2 z30 x30
+t2 z30 z29
+t3 z29 x30 z30
+t2 z31 x31
+t2 z31 z30
+t3 z30 x31 z31
+t2 z32 x32
+t2 z32 z31
+t3 z31 x32 z32
+t2 z33 x33
+t2 z33 z32
+t3 z32 x33 z33
+t2 z34 x34
+t2 z33 x34
+t3 z32 x33 z33
+t2 z33 z32
+t2 z32 x33
+t3 z31 x32 z32
+t2 z32 z31
+t2 z31 x32
+t3 z30 x31 z31
+t2 z31 z30
+t2 z30 x31
+t3 z29 x30 z30
+t2 z30 z29
+t2 z29 x30
+t3 z28 x29 z29
+t2 z29 z28
+t2 z28 x29
+t3 z27 x28 z28
+t2 z28 z27
+t2 z27 x28
+t3 z26 x27 z27
+t2 z27 z26
+t2 z26 x27
+t3 z25 x26 z26
+t2 z26 z25
+t2 z25 x26
+t3 z24 x25 z25
+t2 z25 z24
+t2 z24 x25
+t3 z23 x24 z24
+t2 z24 z23
+t2 z23 x24
+t3 z22 x23 z23
+t2 z23 z22
+t2 z22 x23
+t3 z21 x22 z22
+t2 z22 z21
+t2 z21 x22
+t3 z20 x21 z21
+t2 z21 z20
+t2 z20 x21
+t3 z19 x20 z20
+t2 z20 z19
+t2 z19 x20
+t3 z18 x19 z19
+t2 z19 z18
+t2 z18 x19
+t3 z17 x18 z18
+t2 z18 z17
+t2 z17 x18
+t3 z16 x17 z17
+t2 z17 z16
+t2 z16 x17
+t3 z15 x16 z16
+t2 z16 z15
+t2 z15 x16
+t3 z14 x15 z15
+t2 z15 z14
+t2 z14 x15
+t3 z13 x14 z14
+t2 z14 z13
+t2 z13 x14
+t3 z12 x13 z13
+t2 z13 z12
+t2 z12 x13
+t3 z11 x12 z12
+t2 z12 z11
+t2 z11 x12
+t3 z10 x11 z11
+t2 z11 z10
+t2 z10 x11
+t3 z9 x10 z10
+t2 z10 z9
+t2 z9 x10
+t3 z8 x9 z9
+t2 z9 z8
+t2 z8 x9
+t3 z7 x8 z8
+t2 z8 z7
+t2 z7 x8
+t3 z6 x7 z7
+t2 z7 z6
+t2 z6 x7
+t3 z5 x6 z6
+t2 z6 z5
+t2 z5 x6
+t3 z4 x5 z5
+t2 z5 z4
+t2 z4 x5
+t3 z3 x4 z4
+t2 z4 z3
+t2 z3 x4
+t3 z2 x3 z3
+t2 z3 z2
+t2 z2 x3
+t3 z1 x2 z2
+t2 z2 z1
+t2 z1 x2
+t3 z0 x1 z1
+t2 z1 z0
+t2 z0 x1
+t3 cin x0 z0
+t2 z0 cin
+t2 cin x0
+t2 x35 z0
+.end

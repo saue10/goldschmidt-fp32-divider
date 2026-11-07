@@ -1,0 +1,9085 @@
+.version 2.0
+.numvars 172
+.variables a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a22 a23 a24 a25 a26 a27 a28 a29 a30 a31 a32 a33 b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58 p59 p60 p61 p62 p63 p64 p65 p66 p67 q0 q1 q2 q3 q4 q5 q6 q7 q8 q9 q10 q11 q12 q13 q14 q15 q16 q17 q18 q19 q20 q21 q22 q23 q24 q25 q26 q27 q28 q29 q30 q31 q32 q33 q34 cin
+.inputs a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a22 a23 a24 a25 a26 a27 a28 a29 a30 a31 a32 a33 b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58 p59 p60 p61 p62 p63 p64 p65 p66 p67 q0 q1 q2 q3 q4 q5 q6 q7 q8 q9 q10 q11 q12 q13 q14 q15 q16 q17 q18 q19 q20 q21 q22 q23 q24 q25 q26 q27 q28 q29 q30 q31 q32 q33 q34 cin
+.outputs a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a22 a23 a24 a25 a26 a27 a28 a29 a30 a31 a32 a33 b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 b32 b33 p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58 p59 p60 p61 p62 p63 p64 p65 p66 p67 q0 q1 q2 q3 q4 q5 q6 q7 q8 q9 q10 q11 q12 q13 q14 q15 q16 q17 q18 q19 q20 q21 q22 q23 q24 q25 q26 q27 q28 q29 q30 q31 q32 q33 q34 cin
+.constants --------------------------------------------------------------------00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+.garbage 11111111111111111111111111111111111111111111111111111111111111111111--------------------------------------------------------------------111111111111111111111111111111111111
+.begin
+t3 a0 b0 p0
+t3 a1 b0 p1
+t3 a2 b0 p2
+t3 a3 b0 p3
+t3 a4 b0 p4
+t3 a5 b0 p5
+t3 a6 b0 p6
+t3 a7 b0 p7
+t3 a8 b0 p8
+t3 a9 b0 p9
+t3 a10 b0 p10
+t3 a11 b0 p11
+t3 a12 b0 p12
+t3 a13 b0 p13
+t3 a14 b0 p14
+t3 a15 b0 p15
+t3 a16 b0 p16
+t3 a17 b0 p17
+t3 a18 b0 p18
+t3 a19 b0 p19
+t3 a20 b0 p20
+t3 a21 b0 p21
+t3 a22 b0 p22
+t3 a23 b0 p23
+t3 a24 b0 p24
+t3 a25 b0 p25
+t3 a26 b0 p26
+t3 a27 b0 p27
+t3 a28 b0 p28
+t3 a29 b0 p29
+t3 a30 b0 p30
+t3 a31 b0 p31
+t3 a32 b0 p32
+t3 a33 b0 p33
+t3 a0 b1 q0
+t3 a1 b1 q1
+t3 a2 b1 q2
+t3 a3 b1 q3
+t3 a4 b1 q4
+t3 a5 b1 q5
+t3 a6 b1 q6
+t3 a7 b1 q7
+t3 a8 b1 q8
+t3 a9 b1 q9
+t3 a10 b1 q10
+t3 a11 b1 q11
+t3 a12 b1 q12
+t3 a13 b1 q13
+t3 a14 b1 q14
+t3 a15 b1 q15
+t3 a16 b1 q16
+t3 a17 b1 q17
+t3 a18 b1 q18
+t3 a19 b1 q19
+t3 a20 b1 q20
+t3 a21 b1 q21
+t3 a22 b1 q22
+t3 a23 b1 q23
+t3 a24 b1 q24
+t3 a25 b1 q25
+t3 a26 b1 q26
+t3 a27 b1 q27
+t3 a28 b1 q28
+t3 a29 b1 q29
+t3 a30 b1 q30
+t3 a31 b1 q31
+t3 a32 b1 q32
+t3 a33 b1 q33
+t2 q0 p1
+t2 q0 cin
+t3 cin p1 q0
+t2 q1 p2
+t2 q1 q0
+t3 q0 p2 q1
+t2 q2 p3
+t2 q2 q1
+t3 q1 p3 q2
+t2 q3 p4
+t2 q3 q2
+t3 q2 p4 q3
+t2 q4 p5
+t2 q4 q3
+t3 q3 p5 q4
+t2 q5 p6
+t2 q5 q4
+t3 q4 p6 q5
+t2 q6 p7
+t2 q6 q5
+t3 q5 p7 q6
+t2 q7 p8
+t2 q7 q6
+t3 q6 p8 q7
+t2 q8 p9
+t2 q8 q7
+t3 q7 p9 q8
+t2 q9 p10
+t2 q9 q8
+t3 q8 p10 q9
+t2 q10 p11
+t2 q10 q9
+t3 q9 p11 q10
+t2 q11 p12
+t2 q11 q10
+t3 q10 p12 q11
+t2 q12 p13
+t2 q12 q11
+t3 q11 p13 q12
+t2 q13 p14
+t2 q13 q12
+t3 q12 p14 q13
+t2 q14 p15
+t2 q14 q13
+t3 q13 p15 q14
+t2 q15 p16
+t2 q15 q14
+t3 q14 p16 q15
+t2 q16 p17
+t2 q16 q15
+t3 q15 p17 q16
+t2 q17 p18
+t2 q17 q16
+t3 q16 p18 q17
+t2 q18 p19
+t2 q18 q17
+t3 q17 p19 q18
+t2 q19 p20
+t2 q19 q18
+t3 q18 p20 q19
+t2 q20 p21
+t2 q20 q19
+t3 q19 p21 q20
+t2 q21 p22
+t2 q21 q20
+t3 q20 p22 q21
+t2 q22 p23
+t2 q22 q21
+t3 q21 p23 q22
+t2 q23 p24
+t2 q23 q22
+t3 q22 p24 q23
+t2 q24 p25
+t2 q24 q23
+t3 q23 p25 q24
+t2 q25 p26
+t2 q25 q24
+t3 q24 p26 q25
+t2 q26 p27
+t2 q26 q25
+t3 q25 p27 q26
+t2 q27 p28
+t2 q27 q26
+t3 q26 p28 q27
+t2 q28 p29
+t2 q28 q27
+t3 q27 p29 q28
+t2 q29 p30
+t2 q29 q28
+t3 q28 p30 q29
+t2 q30 p31
+t2 q30 q29
+t3 q29 p31 q30
+t2 q31 p32
+t2 q31 q30
+t3 q30 p32 q31
+t2 q32 p33
+t2 q32 q31
+t3 q31 p33 q32
+t2 q33 p34
+t2 q33 q32
+t3 q32 p34 q33
+t2 q34 p35
+t2 q33 p35
+t3 q32 p34 q33
+t2 q33 q32
+t2 q32 p34
+t3 q31 p33 q32
+t2 q32 q31
+t2 q31 p33
+t3 q30 p32 q31
+t2 q31 q30
+t2 q30 p32
+t3 q29 p31 q30
+t2 q30 q29
+t2 q29 p31
+t3 q28 p30 q29
+t2 q29 q28
+t2 q28 p30
+t3 q27 p29 q28
+t2 q28 q27
+t2 q27 p29
+t3 q26 p28 q27
+t2 q27 q26
+t2 q26 p28
+t3 q25 p27 q26
+t2 q26 q25
+t2 q25 p27
+t3 q24 p26 q25
+t2 q25 q24
+t2 q24 p26
+t3 q23 p25 q24
+t2 q24 q23
+t2 q23 p25
+t3 q22 p24 q23
+t2 q23 q22
+t2 q22 p24
+t3 q21 p23 q22
+t2 q22 q21
+t2 q21 p23
+t3 q20 p22 q21
+t2 q21 q20
+t2 q20 p22
+t3 q19 p21 q20
+t2 q20 q19
+t2 q19 p21
+t3 q18 p20 q19
+t2 q19 q18
+t2 q18 p20
+t3 q17 p19 q18
+t2 q18 q17
+t2 q17 p19
+t3 q16 p18 q17
+t2 q17 q16
+t2 q16 p18
+t3 q15 p17 q16
+t2 q16 q15
+t2 q15 p17
+t3 q14 p16 q15
+t2 q15 q14
+t2 q14 p16
+t3 q13 p15 q14
+t2 q14 q13
+t2 q13 p15
+t3 q12 p14 q13
+t2 q13 q12
+t2 q12 p14
+t3 q11 p13 q12
+t2 q12 q11
+t2 q11 p13
+t3 q10 p12 q11
+t2 q11 q10
+t2 q10 p12
+t3 q9 p11 q10
+t2 q10 q9
+t2 q9 p11
+t3 q8 p10 q9
+t2 q9 q8
+t2 q8 p10
+t3 q7 p9 q8
+t2 q8 q7
+t2 q7 p9
+t3 q6 p8 q7
+t2 q7 q6
+t2 q6 p8
+t3 q5 p7 q6
+t2 q6 q5
+t2 q5 p7
+t3 q4 p6 q5
+t2 q5 q4
+t2 q4 p6
+t3 q3 p5 q4
+t2 q4 q3
+t2 q3 p5
+t3 q2 p4 q3
+t2 q3 q2
+t2 q2 p4
+t3 q1 p3 q2
+t2 q2 q1
+t2 q1 p3
+t3 q0 p2 q1
+t2 q1 q0
+t2 q0 p2
+t3 cin p1 q0
+t2 q0 cin
+t2 cin p1
+t3 a0 b1 q0
+t3 a1 b1 q1
+t3 a2 b1 q2
+t3 a3 b1 q3
+t3 a4 b1 q4
+t3 a5 b1 q5
+t3 a6 b1 q6
+t3 a7 b1 q7
+t3 a8 b1 q8
+t3 a9 b1 q9
+t3 a10 b1 q10
+t3 a11 b1 q11
+t3 a12 b1 q12
+t3 a13 b1 q13
+t3 a14 b1 q14
+t3 a15 b1 q15
+t3 a16 b1 q16
+t3 a17 b1 q17
+t3 a18 b1 q18
+t3 a19 b1 q19
+t3 a20 b1 q20
+t3 a21 b1 q21
+t3 a22 b1 q22
+t3 a23 b1 q23
+t3 a24 b1 q24
+t3 a25 b1 q25
+t3 a26 b1 q26
+t3 a27 b1 q27
+t3 a28 b1 q28
+t3 a29 b1 q29
+t3 a30 b1 q30
+t3 a31 b1 q31
+t3 a32 b1 q32
+t3 a33 b1 q33
+t3 a0 b2 q0
+t3 a1 b2 q1
+t3 a2 b2 q2
+t3 a3 b2 q3
+t3 a4 b2 q4
+t3 a5 b2 q5
+t3 a6 b2 q6
+t3 a7 b2 q7
+t3 a8 b2 q8
+t3 a9 b2 q9
+t3 a10 b2 q10
+t3 a11 b2 q11
+t3 a12 b2 q12
+t3 a13 b2 q13
+t3 a14 b2 q14
+t3 a15 b2 q15
+t3 a16 b2 q16
+t3 a17 b2 q17
+t3 a18 b2 q18
+t3 a19 b2 q19
+t3 a20 b2 q20
+t3 a21 b2 q21
+t3 a22 b2 q22
+t3 a23 b2 q23
+t3 a24 b2 q24
+t3 a25 b2 q25
+t3 a26 b2 q26
+t3 a27 b2 q27
+t3 a28 b2 q28
+t3 a29 b2 q29
+t3 a30 b2 q30
+t3 a31 b2 q31
+t3 a32 b2 q32
+t3 a33 b2 q33
+t2 q0 p2
+t2 q0 cin
+t3 cin p2 q0
+t2 q1 p3
+t2 q1 q0
+t3 q0 p3 q1
+t2 q2 p4
+t2 q2 q1
+t3 q1 p4 q2
+t2 q3 p5
+t2 q3 q2
+t3 q2 p5 q3
+t2 q4 p6
+t2 q4 q3
+t3 q3 p6 q4
+t2 q5 p7
+t2 q5 q4
+t3 q4 p7 q5
+t2 q6 p8
+t2 q6 q5
+t3 q5 p8 q6
+t2 q7 p9
+t2 q7 q6
+t3 q6 p9 q7
+t2 q8 p10
+t2 q8 q7
+t3 q7 p10 q8
+t2 q9 p11
+t2 q9 q8
+t3 q8 p11 q9
+t2 q10 p12
+t2 q10 q9
+t3 q9 p12 q10
+t2 q11 p13
+t2 q11 q10
+t3 q10 p13 q11
+t2 q12 p14
+t2 q12 q11
+t3 q11 p14 q12
+t2 q13 p15
+t2 q13 q12
+t3 q12 p15 q13
+t2 q14 p16
+t2 q14 q13
+t3 q13 p16 q14
+t2 q15 p17
+t2 q15 q14
+t3 q14 p17 q15
+t2 q16 p18
+t2 q16 q15
+t3 q15 p18 q16
+t2 q17 p19
+t2 q17 q16
+t3 q16 p19 q17
+t2 q18 p20
+t2 q18 q17
+t3 q17 p20 q18
+t2 q19 p21
+t2 q19 q18
+t3 q18 p21 q19
+t2 q20 p22
+t2 q20 q19
+t3 q19 p22 q20
+t2 q21 p23
+t2 q21 q20
+t3 q20 p23 q21
+t2 q22 p24
+t2 q22 q21
+t3 q21 p24 q22
+t2 q23 p25
+t2 q23 q22
+t3 q22 p25 q23
+t2 q24 p26
+t2 q24 q23
+t3 q23 p26 q24
+t2 q25 p27
+t2 q25 q24
+t3 q24 p27 q25
+t2 q26 p28
+t2 q26 q25
+t3 q25 p28 q26
+t2 q27 p29
+t2 q27 q26
+t3 q26 p29 q27
+t2 q28 p30
+t2 q28 q27
+t3 q27 p30 q28
+t2 q29 p31
+t2 q29 q28
+t3 q28 p31 q29
+t2 q30 p32
+t2 q30 q29
+t3 q29 p32 q30
+t2 q31 p33
+t2 q31 q30
+t3 q30 p33 q31
+t2 q32 p34
+t2 q32 q31
+t3 q31 p34 q32
+t2 q33 p35
+t2 q33 q32
+t3 q32 p35 q33
+t2 q34 p36
+t2 q33 p36
+t3 q32 p35 q33
+t2 q33 q32
+t2 q32 p35
+t3 q31 p34 q32
+t2 q32 q31
+t2 q31 p34
+t3 q30 p33 q31
+t2 q31 q30
+t2 q30 p33
+t3 q29 p32 q30
+t2 q30 q29
+t2 q29 p32
+t3 q28 p31 q29
+t2 q29 q28
+t2 q28 p31
+t3 q27 p30 q28
+t2 q28 q27
+t2 q27 p30
+t3 q26 p29 q27
+t2 q27 q26
+t2 q26 p29
+t3 q25 p28 q26
+t2 q26 q25
+t2 q25 p28
+t3 q24 p27 q25
+t2 q25 q24
+t2 q24 p27
+t3 q23 p26 q24
+t2 q24 q23
+t2 q23 p26
+t3 q22 p25 q23
+t2 q23 q22
+t2 q22 p25
+t3 q21 p24 q22
+t2 q22 q21
+t2 q21 p24
+t3 q20 p23 q21
+t2 q21 q20
+t2 q20 p23
+t3 q19 p22 q20
+t2 q20 q19
+t2 q19 p22
+t3 q18 p21 q19
+t2 q19 q18
+t2 q18 p21
+t3 q17 p20 q18
+t2 q18 q17
+t2 q17 p20
+t3 q16 p19 q17
+t2 q17 q16
+t2 q16 p19
+t3 q15 p18 q16
+t2 q16 q15
+t2 q15 p18
+t3 q14 p17 q15
+t2 q15 q14
+t2 q14 p17
+t3 q13 p16 q14
+t2 q14 q13
+t2 q13 p16
+t3 q12 p15 q13
+t2 q13 q12
+t2 q12 p15
+t3 q11 p14 q12
+t2 q12 q11
+t2 q11 p14
+t3 q10 p13 q11
+t2 q11 q10
+t2 q10 p13
+t3 q9 p12 q10
+t2 q10 q9
+t2 q9 p12
+t3 q8 p11 q9
+t2 q9 q8
+t2 q8 p11
+t3 q7 p10 q8
+t2 q8 q7
+t2 q7 p10
+t3 q6 p9 q7
+t2 q7 q6
+t2 q6 p9
+t3 q5 p8 q6
+t2 q6 q5
+t2 q5 p8
+t3 q4 p7 q5
+t2 q5 q4
+t2 q4 p7
+t3 q3 p6 q4
+t2 q4 q3
+t2 q3 p6
+t3 q2 p5 q3
+t2 q3 q2
+t2 q2 p5
+t3 q1 p4 q2
+t2 q2 q1
+t2 q1 p4
+t3 q0 p3 q1
+t2 q1 q0
+t2 q0 p3
+t3 cin p2 q0
+t2 q0 cin
+t2 cin p2
+t3 a0 b2 q0
+t3 a1 b2 q1
+t3 a2 b2 q2
+t3 a3 b2 q3
+t3 a4 b2 q4
+t3 a5 b2 q5
+t3 a6 b2 q6
+t3 a7 b2 q7
+t3 a8 b2 q8
+t3 a9 b2 q9
+t3 a10 b2 q10
+t3 a11 b2 q11
+t3 a12 b2 q12
+t3 a13 b2 q13
+t3 a14 b2 q14
+t3 a15 b2 q15
+t3 a16 b2 q16
+t3 a17 b2 q17
+t3 a18 b2 q18
+t3 a19 b2 q19
+t3 a20 b2 q20
+t3 a21 b2 q21
+t3 a22 b2 q22
+t3 a23 b2 q23
+t3 a24 b2 q24
+t3 a25 b2 q25
+t3 a26 b2 q26
+t3 a27 b2 q27
+t3 a28 b2 q28
+t3 a29 b2 q29
+t3 a30 b2 q30
+t3 a31 b2 q31
+t3 a32 b2 q32
+t3 a33 b2 q33
+t3 a0 b3 q0
+t3 a1 b3 q1
+t3 a2 b3 q2
+t3 a3 b3 q3
+t3 a4 b3 q4
+t3 a5 b3 q5
+t3 a6 b3 q6
+t3 a7 b3 q7
+t3 a8 b3 q8
+t3 a9 b3 q9
+t3 a10 b3 q10
+t3 a11 b3 q11
+t3 a12 b3 q12
+t3 a13 b3 q13
+t3 a14 b3 q14
+t3 a15 b3 q15
+t3 a16 b3 q16
+t3 a17 b3 q17
+t3 a18 b3 q18
+t3 a19 b3 q19
+t3 a20 b3 q20
+t3 a21 b3 q21
+t3 a22 b3 q22
+t3 a23 b3 q23
+t3 a24 b3 q24
+t3 a25 b3 q25
+t3 a26 b3 q26
+t3 a27 b3 q27
+t3 a28 b3 q28
+t3 a29 b3 q29
+t3 a30 b3 q30
+t3 a31 b3 q31
+t3 a32 b3 q32
+t3 a33 b3 q33
+t2 q0 p3
+t2 q0 cin
+t3 cin p3 q0
+t2 q1 p4
+t2 q1 q0
+t3 q0 p4 q1
+t2 q2 p5
+t2 q2 q1
+t3 q1 p5 q2
+t2 q3 p6
+t2 q3 q2
+t3 q2 p6 q3
+t2 q4 p7
+t2 q4 q3
+t3 q3 p7 q4
+t2 q5 p8
+t2 q5 q4
+t3 q4 p8 q5
+t2 q6 p9
+t2 q6 q5
+t3 q5 p9 q6
+t2 q7 p10
+t2 q7 q6
+t3 q6 p10 q7
+t2 q8 p11
+t2 q8 q7
+t3 q7 p11 q8
+t2 q9 p12
+t2 q9 q8
+t3 q8 p12 q9
+t2 q10 p13
+t2 q10 q9
+t3 q9 p13 q10
+t2 q11 p14
+t2 q11 q10
+t3 q10 p14 q11
+t2 q12 p15
+t2 q12 q11
+t3 q11 p15 q12
+t2 q13 p16
+t2 q13 q12
+t3 q12 p16 q13
+t2 q14 p17
+t2 q14 q13
+t3 q13 p17 q14
+t2 q15 p18
+t2 q15 q14
+t3 q14 p18 q15
+t2 q16 p19
+t2 q16 q15
+t3 q15 p19 q16
+t2 q17 p20
+t2 q17 q16
+t3 q16 p20 q17
+t2 q18 p21
+t2 q18 q17
+t3 q17 p21 q18
+t2 q19 p22
+t2 q19 q18
+t3 q18 p22 q19
+t2 q20 p23
+t2 q20 q19
+t3 q19 p23 q20
+t2 q21 p24
+t2 q21 q20
+t3 q20 p24 q21
+t2 q22 p25
+t2 q22 q21
+t3 q21 p25 q22
+t2 q23 p26
+t2 q23 q22
+t3 q22 p26 q23
+t2 q24 p27
+t2 q24 q23
+t3 q23 p27 q24
+t2 q25 p28
+t2 q25 q24
+t3 q24 p28 q25
+t2 q26 p29
+t2 q26 q25
+t3 q25 p29 q26
+t2 q27 p30
+t2 q27 q26
+t3 q26 p30 q27
+t2 q28 p31
+t2 q28 q27
+t3 q27 p31 q28
+t2 q29 p32
+t2 q29 q28
+t3 q28 p32 q29
+t2 q30 p33
+t2 q30 q29
+t3 q29 p33 q30
+t2 q31 p34
+t2 q31 q30
+t3 q30 p34 q31
+t2 q32 p35
+t2 q32 q31
+t3 q31 p35 q32
+t2 q33 p36
+t2 q33 q32
+t3 q32 p36 q33
+t2 q34 p37
+t2 q33 p37
+t3 q32 p36 q33
+t2 q33 q32
+t2 q32 p36
+t3 q31 p35 q32
+t2 q32 q31
+t2 q31 p35
+t3 q30 p34 q31
+t2 q31 q30
+t2 q30 p34
+t3 q29 p33 q30
+t2 q30 q29
+t2 q29 p33
+t3 q28 p32 q29
+t2 q29 q28
+t2 q28 p32
+t3 q27 p31 q28
+t2 q28 q27
+t2 q27 p31
+t3 q26 p30 q27
+t2 q27 q26
+t2 q26 p30
+t3 q25 p29 q26
+t2 q26 q25
+t2 q25 p29
+t3 q24 p28 q25
+t2 q25 q24
+t2 q24 p28
+t3 q23 p27 q24
+t2 q24 q23
+t2 q23 p27
+t3 q22 p26 q23
+t2 q23 q22
+t2 q22 p26
+t3 q21 p25 q22
+t2 q22 q21
+t2 q21 p25
+t3 q20 p24 q21
+t2 q21 q20
+t2 q20 p24
+t3 q19 p23 q20
+t2 q20 q19
+t2 q19 p23
+t3 q18 p22 q19
+t2 q19 q18
+t2 q18 p22
+t3 q17 p21 q18
+t2 q18 q17
+t2 q17 p21
+t3 q16 p20 q17
+t2 q17 q16
+t2 q16 p20
+t3 q15 p19 q16
+t2 q16 q15
+t2 q15 p19
+t3 q14 p18 q15
+t2 q15 q14
+t2 q14 p18
+t3 q13 p17 q14
+t2 q14 q13
+t2 q13 p17
+t3 q12 p16 q13
+t2 q13 q12
+t2 q12 p16
+t3 q11 p15 q12
+t2 q12 q11
+t2 q11 p15
+t3 q10 p14 q11
+t2 q11 q10
+t2 q10 p14
+t3 q9 p13 q10
+t2 q10 q9
+t2 q9 p13
+t3 q8 p12 q9
+t2 q9 q8
+t2 q8 p12
+t3 q7 p11 q8
+t2 q8 q7
+t2 q7 p11
+t3 q6 p10 q7
+t2 q7 q6
+t2 q6 p10
+t3 q5 p9 q6
+t2 q6 q5
+t2 q5 p9
+t3 q4 p8 q5
+t2 q5 q4
+t2 q4 p8
+t3 q3 p7 q4
+t2 q4 q3
+t2 q3 p7
+t3 q2 p6 q3
+t2 q3 q2
+t2 q2 p6
+t3 q1 p5 q2
+t2 q2 q1
+t2 q1 p5
+t3 q0 p4 q1
+t2 q1 q0
+t2 q0 p4
+t3 cin p3 q0
+t2 q0 cin
+t2 cin p3
+t3 a0 b3 q0
+t3 a1 b3 q1
+t3 a2 b3 q2
+t3 a3 b3 q3
+t3 a4 b3 q4
+t3 a5 b3 q5
+t3 a6 b3 q6
+t3 a7 b3 q7
+t3 a8 b3 q8
+t3 a9 b3 q9
+t3 a10 b3 q10
+t3 a11 b3 q11
+t3 a12 b3 q12
+t3 a13 b3 q13
+t3 a14 b3 q14
+t3 a15 b3 q15
+t3 a16 b3 q16
+t3 a17 b3 q17
+t3 a18 b3 q18
+t3 a19 b3 q19
+t3 a20 b3 q20
+t3 a21 b3 q21
+t3 a22 b3 q22
+t3 a23 b3 q23
+t3 a24 b3 q24
+t3 a25 b3 q25
+t3 a26 b3 q26
+t3 a27 b3 q27
+t3 a28 b3 q28
+t3 a29 b3 q29
+t3 a30 b3 q30
+t3 a31 b3 q31
+t3 a32 b3 q32
+t3 a33 b3 q33
+t3 a0 b4 q0
+t3 a1 b4 q1
+t3 a2 b4 q2
+t3 a3 b4 q3
+t3 a4 b4 q4
+t3 a5 b4 q5
+t3 a6 b4 q6
+t3 a7 b4 q7
+t3 a8 b4 q8
+t3 a9 b4 q9
+t3 a10 b4 q10
+t3 a11 b4 q11
+t3 a12 b4 q12
+t3 a13 b4 q13
+t3 a14 b4 q14
+t3 a15 b4 q15
+t3 a16 b4 q16
+t3 a17 b4 q17
+t3 a18 b4 q18
+t3 a19 b4 q19
+t3 a20 b4 q20
+t3 a21 b4 q21
+t3 a22 b4 q22
+t3 a23 b4 q23
+t3 a24 b4 q24
+t3 a25 b4 q25
+t3 a26 b4 q26
+t3 a27 b4 q27
+t3 a28 b4 q28
+t3 a29 b4 q29
+t3 a30 b4 q30
+t3 a31 b4 q31
+t3 a32 b4 q32
+t3 a33 b4 q33
+t2 q0 p4
+t2 q0 cin
+t3 cin p4 q0
+t2 q1 p5
+t2 q1 q0
+t3 q0 p5 q1
+t2 q2 p6
+t2 q2 q1
+t3 q1 p6 q2
+t2 q3 p7
+t2 q3 q2
+t3 q2 p7 q3
+t2 q4 p8
+t2 q4 q3
+t3 q3 p8 q4
+t2 q5 p9
+t2 q5 q4
+t3 q4 p9 q5
+t2 q6 p10
+t2 q6 q5
+t3 q5 p10 q6
+t2 q7 p11
+t2 q7 q6
+t3 q6 p11 q7
+t2 q8 p12
+t2 q8 q7
+t3 q7 p12 q8
+t2 q9 p13
+t2 q9 q8
+t3 q8 p13 q9
+t2 q10 p14
+t2 q10 q9
+t3 q9 p14 q10
+t2 q11 p15
+t2 q11 q10
+t3 q10 p15 q11
+t2 q12 p16
+t2 q12 q11
+t3 q11 p16 q12
+t2 q13 p17
+t2 q13 q12
+t3 q12 p17 q13
+t2 q14 p18
+t2 q14 q13
+t3 q13 p18 q14
+t2 q15 p19
+t2 q15 q14
+t3 q14 p19 q15
+t2 q16 p20
+t2 q16 q15
+t3 q15 p20 q16
+t2 q17 p21
+t2 q17 q16
+t3 q16 p21 q17
+t2 q18 p22
+t2 q18 q17
+t3 q17 p22 q18
+t2 q19 p23
+t2 q19 q18
+t3 q18 p23 q19
+t2 q20 p24
+t2 q20 q19
+t3 q19 p24 q20
+t2 q21 p25
+t2 q21 q20
+t3 q20 p25 q21
+t2 q22 p26
+t2 q22 q21
+t3 q21 p26 q22
+t2 q23 p27
+t2 q23 q22
+t3 q22 p27 q23
+t2 q24 p28
+t2 q24 q23
+t3 q23 p28 q24
+t2 q25 p29
+t2 q25 q24
+t3 q24 p29 q25
+t2 q26 p30
+t2 q26 q25
+t3 q25 p30 q26
+t2 q27 p31
+t2 q27 q26
+t3 q26 p31 q27
+t2 q28 p32
+t2 q28 q27
+t3 q27 p32 q28
+t2 q29 p33
+t2 q29 q28
+t3 q28 p33 q29
+t2 q30 p34
+t2 q30 q29
+t3 q29 p34 q30
+t2 q31 p35
+t2 q31 q30
+t3 q30 p35 q31
+t2 q32 p36
+t2 q32 q31
+t3 q31 p36 q32
+t2 q33 p37
+t2 q33 q32
+t3 q32 p37 q33
+t2 q34 p38
+t2 q33 p38
+t3 q32 p37 q33
+t2 q33 q32
+t2 q32 p37
+t3 q31 p36 q32
+t2 q32 q31
+t2 q31 p36
+t3 q30 p35 q31
+t2 q31 q30
+t2 q30 p35
+t3 q29 p34 q30
+t2 q30 q29
+t2 q29 p34
+t3 q28 p33 q29
+t2 q29 q28
+t2 q28 p33
+t3 q27 p32 q28
+t2 q28 q27
+t2 q27 p32
+t3 q26 p31 q27
+t2 q27 q26
+t2 q26 p31
+t3 q25 p30 q26
+t2 q26 q25
+t2 q25 p30
+t3 q24 p29 q25
+t2 q25 q24
+t2 q24 p29
+t3 q23 p28 q24
+t2 q24 q23
+t2 q23 p28
+t3 q22 p27 q23
+t2 q23 q22
+t2 q22 p27
+t3 q21 p26 q22
+t2 q22 q21
+t2 q21 p26
+t3 q20 p25 q21
+t2 q21 q20
+t2 q20 p25
+t3 q19 p24 q20
+t2 q20 q19
+t2 q19 p24
+t3 q18 p23 q19
+t2 q19 q18
+t2 q18 p23
+t3 q17 p22 q18
+t2 q18 q17
+t2 q17 p22
+t3 q16 p21 q17
+t2 q17 q16
+t2 q16 p21
+t3 q15 p20 q16
+t2 q16 q15
+t2 q15 p20
+t3 q14 p19 q15
+t2 q15 q14
+t2 q14 p19
+t3 q13 p18 q14
+t2 q14 q13
+t2 q13 p18
+t3 q12 p17 q13
+t2 q13 q12
+t2 q12 p17
+t3 q11 p16 q12
+t2 q12 q11
+t2 q11 p16
+t3 q10 p15 q11
+t2 q11 q10
+t2 q10 p15
+t3 q9 p14 q10
+t2 q10 q9
+t2 q9 p14
+t3 q8 p13 q9
+t2 q9 q8
+t2 q8 p13
+t3 q7 p12 q8
+t2 q8 q7
+t2 q7 p12
+t3 q6 p11 q7
+t2 q7 q6
+t2 q6 p11
+t3 q5 p10 q6
+t2 q6 q5
+t2 q5 p10
+t3 q4 p9 q5
+t2 q5 q4
+t2 q4 p9
+t3 q3 p8 q4
+t2 q4 q3
+t2 q3 p8
+t3 q2 p7 q3
+t2 q3 q2
+t2 q2 p7
+t3 q1 p6 q2
+t2 q2 q1
+t2 q1 p6
+t3 q0 p5 q1
+t2 q1 q0
+t2 q0 p5
+t3 cin p4 q0
+t2 q0 cin
+t2 cin p4
+t3 a0 b4 q0
+t3 a1 b4 q1
+t3 a2 b4 q2
+t3 a3 b4 q3
+t3 a4 b4 q4
+t3 a5 b4 q5
+t3 a6 b4 q6
+t3 a7 b4 q7
+t3 a8 b4 q8
+t3 a9 b4 q9
+t3 a10 b4 q10
+t3 a11 b4 q11
+t3 a12 b4 q12
+t3 a13 b4 q13
+t3 a14 b4 q14
+t3 a15 b4 q15
+t3 a16 b4 q16
+t3 a17 b4 q17
+t3 a18 b4 q18
+t3 a19 b4 q19
+t3 a20 b4 q20
+t3 a21 b4 q21
+t3 a22 b4 q22
+t3 a23 b4 q23
+t3 a24 b4 q24
+t3 a25 b4 q25
+t3 a26 b4 q26
+t3 a27 b4 q27
+t3 a28 b4 q28
+t3 a29 b4 q29
+t3 a30 b4 q30
+t3 a31 b4 q31
+t3 a32 b4 q32
+t3 a33 b4 q33
+t3 a0 b5 q0
+t3 a1 b5 q1
+t3 a2 b5 q2
+t3 a3 b5 q3
+t3 a4 b5 q4
+t3 a5 b5 q5
+t3 a6 b5 q6
+t3 a7 b5 q7
+t3 a8 b5 q8
+t3 a9 b5 q9
+t3 a10 b5 q10
+t3 a11 b5 q11
+t3 a12 b5 q12
+t3 a13 b5 q13
+t3 a14 b5 q14
+t3 a15 b5 q15
+t3 a16 b5 q16
+t3 a17 b5 q17
+t3 a18 b5 q18
+t3 a19 b5 q19
+t3 a20 b5 q20
+t3 a21 b5 q21
+t3 a22 b5 q22
+t3 a23 b5 q23
+t3 a24 b5 q24
+t3 a25 b5 q25
+t3 a26 b5 q26
+t3 a27 b5 q27
+t3 a28 b5 q28
+t3 a29 b5 q29
+t3 a30 b5 q30
+t3 a31 b5 q31
+t3 a32 b5 q32
+t3 a33 b5 q33
+t2 q0 p5
+t2 q0 cin
+t3 cin p5 q0
+t2 q1 p6
+t2 q1 q0
+t3 q0 p6 q1
+t2 q2 p7
+t2 q2 q1
+t3 q1 p7 q2
+t2 q3 p8
+t2 q3 q2
+t3 q2 p8 q3
+t2 q4 p9
+t2 q4 q3
+t3 q3 p9 q4
+t2 q5 p10
+t2 q5 q4
+t3 q4 p10 q5
+t2 q6 p11
+t2 q6 q5
+t3 q5 p11 q6
+t2 q7 p12
+t2 q7 q6
+t3 q6 p12 q7
+t2 q8 p13
+t2 q8 q7
+t3 q7 p13 q8
+t2 q9 p14
+t2 q9 q8
+t3 q8 p14 q9
+t2 q10 p15
+t2 q10 q9
+t3 q9 p15 q10
+t2 q11 p16
+t2 q11 q10
+t3 q10 p16 q11
+t2 q12 p17
+t2 q12 q11
+t3 q11 p17 q12
+t2 q13 p18
+t2 q13 q12
+t3 q12 p18 q13
+t2 q14 p19
+t2 q14 q13
+t3 q13 p19 q14
+t2 q15 p20
+t2 q15 q14
+t3 q14 p20 q15
+t2 q16 p21
+t2 q16 q15
+t3 q15 p21 q16
+t2 q17 p22
+t2 q17 q16
+t3 q16 p22 q17
+t2 q18 p23
+t2 q18 q17
+t3 q17 p23 q18
+t2 q19 p24
+t2 q19 q18
+t3 q18 p24 q19
+t2 q20 p25
+t2 q20 q19
+t3 q19 p25 q20
+t2 q21 p26
+t2 q21 q20
+t3 q20 p26 q21
+t2 q22 p27
+t2 q22 q21
+t3 q21 p27 q22
+t2 q23 p28
+t2 q23 q22
+t3 q22 p28 q23
+t2 q24 p29
+t2 q24 q23
+t3 q23 p29 q24
+t2 q25 p30
+t2 q25 q24
+t3 q24 p30 q25
+t2 q26 p31
+t2 q26 q25
+t3 q25 p31 q26
+t2 q27 p32
+t2 q27 q26
+t3 q26 p32 q27
+t2 q28 p33
+t2 q28 q27
+t3 q27 p33 q28
+t2 q29 p34
+t2 q29 q28
+t3 q28 p34 q29
+t2 q30 p35
+t2 q30 q29
+t3 q29 p35 q30
+t2 q31 p36
+t2 q31 q30
+t3 q30 p36 q31
+t2 q32 p37
+t2 q32 q31
+t3 q31 p37 q32
+t2 q33 p38
+t2 q33 q32
+t3 q32 p38 q33
+t2 q34 p39
+t2 q33 p39
+t3 q32 p38 q33
+t2 q33 q32
+t2 q32 p38
+t3 q31 p37 q32
+t2 q32 q31
+t2 q31 p37
+t3 q30 p36 q31
+t2 q31 q30
+t2 q30 p36
+t3 q29 p35 q30
+t2 q30 q29
+t2 q29 p35
+t3 q28 p34 q29
+t2 q29 q28
+t2 q28 p34
+t3 q27 p33 q28
+t2 q28 q27
+t2 q27 p33
+t3 q26 p32 q27
+t2 q27 q26
+t2 q26 p32
+t3 q25 p31 q26
+t2 q26 q25
+t2 q25 p31
+t3 q24 p30 q25
+t2 q25 q24
+t2 q24 p30
+t3 q23 p29 q24
+t2 q24 q23
+t2 q23 p29
+t3 q22 p28 q23
+t2 q23 q22
+t2 q22 p28
+t3 q21 p27 q22
+t2 q22 q21
+t2 q21 p27
+t3 q20 p26 q21
+t2 q21 q20
+t2 q20 p26
+t3 q19 p25 q20
+t2 q20 q19
+t2 q19 p25
+t3 q18 p24 q19
+t2 q19 q18
+t2 q18 p24
+t3 q17 p23 q18
+t2 q18 q17
+t2 q17 p23
+t3 q16 p22 q17
+t2 q17 q16
+t2 q16 p22
+t3 q15 p21 q16
+t2 q16 q15
+t2 q15 p21
+t3 q14 p20 q15
+t2 q15 q14
+t2 q14 p20
+t3 q13 p19 q14
+t2 q14 q13
+t2 q13 p19
+t3 q12 p18 q13
+t2 q13 q12
+t2 q12 p18
+t3 q11 p17 q12
+t2 q12 q11
+t2 q11 p17
+t3 q10 p16 q11
+t2 q11 q10
+t2 q10 p16
+t3 q9 p15 q10
+t2 q10 q9
+t2 q9 p15
+t3 q8 p14 q9
+t2 q9 q8
+t2 q8 p14
+t3 q7 p13 q8
+t2 q8 q7
+t2 q7 p13
+t3 q6 p12 q7
+t2 q7 q6
+t2 q6 p12
+t3 q5 p11 q6
+t2 q6 q5
+t2 q5 p11
+t3 q4 p10 q5
+t2 q5 q4
+t2 q4 p10
+t3 q3 p9 q4
+t2 q4 q3
+t2 q3 p9
+t3 q2 p8 q3
+t2 q3 q2
+t2 q2 p8
+t3 q1 p7 q2
+t2 q2 q1
+t2 q1 p7
+t3 q0 p6 q1
+t2 q1 q0
+t2 q0 p6
+t3 cin p5 q0
+t2 q0 cin
+t2 cin p5
+t3 a0 b5 q0
+t3 a1 b5 q1
+t3 a2 b5 q2
+t3 a3 b5 q3
+t3 a4 b5 q4
+t3 a5 b5 q5
+t3 a6 b5 q6
+t3 a7 b5 q7
+t3 a8 b5 q8
+t3 a9 b5 q9
+t3 a10 b5 q10
+t3 a11 b5 q11
+t3 a12 b5 q12
+t3 a13 b5 q13
+t3 a14 b5 q14
+t3 a15 b5 q15
+t3 a16 b5 q16
+t3 a17 b5 q17
+t3 a18 b5 q18
+t3 a19 b5 q19
+t3 a20 b5 q20
+t3 a21 b5 q21
+t3 a22 b5 q22
+t3 a23 b5 q23
+t3 a24 b5 q24
+t3 a25 b5 q25
+t3 a26 b5 q26
+t3 a27 b5 q27
+t3 a28 b5 q28
+t3 a29 b5 q29
+t3 a30 b5 q30
+t3 a31 b5 q31
+t3 a32 b5 q32
+t3 a33 b5 q33
+t3 a0 b6 q0
+t3 a1 b6 q1
+t3 a2 b6 q2
+t3 a3 b6 q3
+t3 a4 b6 q4
+t3 a5 b6 q5
+t3 a6 b6 q6
+t3 a7 b6 q7
+t3 a8 b6 q8
+t3 a9 b6 q9
+t3 a10 b6 q10
+t3 a11 b6 q11
+t3 a12 b6 q12
+t3 a13 b6 q13
+t3 a14 b6 q14
+t3 a15 b6 q15
+t3 a16 b6 q16
+t3 a17 b6 q17
+t3 a18 b6 q18
+t3 a19 b6 q19
+t3 a20 b6 q20
+t3 a21 b6 q21
+t3 a22 b6 q22
+t3 a23 b6 q23
+t3 a24 b6 q24
+t3 a25 b6 q25
+t3 a26 b6 q26
+t3 a27 b6 q27
+t3 a28 b6 q28
+t3 a29 b6 q29
+t3 a30 b6 q30
+t3 a31 b6 q31
+t3 a32 b6 q32
+t3 a33 b6 q33
+t2 q0 p6
+t2 q0 cin
+t3 cin p6 q0
+t2 q1 p7
+t2 q1 q0
+t3 q0 p7 q1
+t2 q2 p8
+t2 q2 q1
+t3 q1 p8 q2
+t2 q3 p9
+t2 q3 q2
+t3 q2 p9 q3
+t2 q4 p10
+t2 q4 q3
+t3 q3 p10 q4
+t2 q5 p11
+t2 q5 q4
+t3 q4 p11 q5
+t2 q6 p12
+t2 q6 q5
+t3 q5 p12 q6
+t2 q7 p13
+t2 q7 q6
+t3 q6 p13 q7
+t2 q8 p14
+t2 q8 q7
+t3 q7 p14 q8
+t2 q9 p15
+t2 q9 q8
+t3 q8 p15 q9
+t2 q10 p16
+t2 q10 q9
+t3 q9 p16 q10
+t2 q11 p17
+t2 q11 q10
+t3 q10 p17 q11
+t2 q12 p18
+t2 q12 q11
+t3 q11 p18 q12
+t2 q13 p19
+t2 q13 q12
+t3 q12 p19 q13
+t2 q14 p20
+t2 q14 q13
+t3 q13 p20 q14
+t2 q15 p21
+t2 q15 q14
+t3 q14 p21 q15
+t2 q16 p22
+t2 q16 q15
+t3 q15 p22 q16
+t2 q17 p23
+t2 q17 q16
+t3 q16 p23 q17
+t2 q18 p24
+t2 q18 q17
+t3 q17 p24 q18
+t2 q19 p25
+t2 q19 q18
+t3 q18 p25 q19
+t2 q20 p26
+t2 q20 q19
+t3 q19 p26 q20
+t2 q21 p27
+t2 q21 q20
+t3 q20 p27 q21
+t2 q22 p28
+t2 q22 q21
+t3 q21 p28 q22
+t2 q23 p29
+t2 q23 q22
+t3 q22 p29 q23
+t2 q24 p30
+t2 q24 q23
+t3 q23 p30 q24
+t2 q25 p31
+t2 q25 q24
+t3 q24 p31 q25
+t2 q26 p32
+t2 q26 q25
+t3 q25 p32 q26
+t2 q27 p33
+t2 q27 q26
+t3 q26 p33 q27
+t2 q28 p34
+t2 q28 q27
+t3 q27 p34 q28
+t2 q29 p35
+t2 q29 q28
+t3 q28 p35 q29
+t2 q30 p36
+t2 q30 q29
+t3 q29 p36 q30
+t2 q31 p37
+t2 q31 q30
+t3 q30 p37 q31
+t2 q32 p38
+t2 q32 q31
+t3 q31 p38 q32
+t2 q33 p39
+t2 q33 q32
+t3 q32 p39 q33
+t2 q34 p40
+t2 q33 p40
+t3 q32 p39 q33
+t2 q33 q32
+t2 q32 p39
+t3 q31 p38 q32
+t2 q32 q31
+t2 q31 p38
+t3 q30 p37 q31
+t2 q31 q30
+t2 q30 p37
+t3 q29 p36 q30
+t2 q30 q29
+t2 q29 p36
+t3 q28 p35 q29
+t2 q29 q28
+t2 q28 p35
+t3 q27 p34 q28
+t2 q28 q27
+t2 q27 p34
+t3 q26 p33 q27
+t2 q27 q26
+t2 q26 p33
+t3 q25 p32 q26
+t2 q26 q25
+t2 q25 p32
+t3 q24 p31 q25
+t2 q25 q24
+t2 q24 p31
+t3 q23 p30 q24
+t2 q24 q23
+t2 q23 p30
+t3 q22 p29 q23
+t2 q23 q22
+t2 q22 p29
+t3 q21 p28 q22
+t2 q22 q21
+t2 q21 p28
+t3 q20 p27 q21
+t2 q21 q20
+t2 q20 p27
+t3 q19 p26 q20
+t2 q20 q19
+t2 q19 p26
+t3 q18 p25 q19
+t2 q19 q18
+t2 q18 p25
+t3 q17 p24 q18
+t2 q18 q17
+t2 q17 p24
+t3 q16 p23 q17
+t2 q17 q16
+t2 q16 p23
+t3 q15 p22 q16
+t2 q16 q15
+t2 q15 p22
+t3 q14 p21 q15
+t2 q15 q14
+t2 q14 p21
+t3 q13 p20 q14
+t2 q14 q13
+t2 q13 p20
+t3 q12 p19 q13
+t2 q13 q12
+t2 q12 p19
+t3 q11 p18 q12
+t2 q12 q11
+t2 q11 p18
+t3 q10 p17 q11
+t2 q11 q10
+t2 q10 p17
+t3 q9 p16 q10
+t2 q10 q9
+t2 q9 p16
+t3 q8 p15 q9
+t2 q9 q8
+t2 q8 p15
+t3 q7 p14 q8
+t2 q8 q7
+t2 q7 p14
+t3 q6 p13 q7
+t2 q7 q6
+t2 q6 p13
+t3 q5 p12 q6
+t2 q6 q5
+t2 q5 p12
+t3 q4 p11 q5
+t2 q5 q4
+t2 q4 p11
+t3 q3 p10 q4
+t2 q4 q3
+t2 q3 p10
+t3 q2 p9 q3
+t2 q3 q2
+t2 q2 p9
+t3 q1 p8 q2
+t2 q2 q1
+t2 q1 p8
+t3 q0 p7 q1
+t2 q1 q0
+t2 q0 p7
+t3 cin p6 q0
+t2 q0 cin
+t2 cin p6
+t3 a0 b6 q0
+t3 a1 b6 q1
+t3 a2 b6 q2
+t3 a3 b6 q3
+t3 a4 b6 q4
+t3 a5 b6 q5
+t3 a6 b6 q6
+t3 a7 b6 q7
+t3 a8 b6 q8
+t3 a9 b6 q9
+t3 a10 b6 q10
+t3 a11 b6 q11
+t3 a12 b6 q12
+t3 a13 b6 q13
+t3 a14 b6 q14
+t3 a15 b6 q15
+t3 a16 b6 q16
+t3 a17 b6 q17
+t3 a18 b6 q18
+t3 a19 b6 q19
+t3 a20 b6 q20
+t3 a21 b6 q21
+t3 a22 b6 q22
+t3 a23 b6 q23
+t3 a24 b6 q24
+t3 a25 b6 q25
+t3 a26 b6 q26
+t3 a27 b6 q27
+t3 a28 b6 q28
+t3 a29 b6 q29
+t3 a30 b6 q30
+t3 a31 b6 q31
+t3 a32 b6 q32
+t3 a33 b6 q33
+t3 a0 b7 q0
+t3 a1 b7 q1
+t3 a2 b7 q2
+t3 a3 b7 q3
+t3 a4 b7 q4
+t3 a5 b7 q5
+t3 a6 b7 q6
+t3 a7 b7 q7
+t3 a8 b7 q8
+t3 a9 b7 q9
+t3 a10 b7 q10
+t3 a11 b7 q11
+t3 a12 b7 q12
+t3 a13 b7 q13
+t3 a14 b7 q14
+t3 a15 b7 q15
+t3 a16 b7 q16
+t3 a17 b7 q17
+t3 a18 b7 q18
+t3 a19 b7 q19
+t3 a20 b7 q20
+t3 a21 b7 q21
+t3 a22 b7 q22
+t3 a23 b7 q23
+t3 a24 b7 q24
+t3 a25 b7 q25
+t3 a26 b7 q26
+t3 a27 b7 q27
+t3 a28 b7 q28
+t3 a29 b7 q29
+t3 a30 b7 q30
+t3 a31 b7 q31
+t3 a32 b7 q32
+t3 a33 b7 q33
+t2 q0 p7
+t2 q0 cin
+t3 cin p7 q0
+t2 q1 p8
+t2 q1 q0
+t3 q0 p8 q1
+t2 q2 p9
+t2 q2 q1
+t3 q1 p9 q2
+t2 q3 p10
+t2 q3 q2
+t3 q2 p10 q3
+t2 q4 p11
+t2 q4 q3
+t3 q3 p11 q4
+t2 q5 p12
+t2 q5 q4
+t3 q4 p12 q5
+t2 q6 p13
+t2 q6 q5
+t3 q5 p13 q6
+t2 q7 p14
+t2 q7 q6
+t3 q6 p14 q7
+t2 q8 p15
+t2 q8 q7
+t3 q7 p15 q8
+t2 q9 p16
+t2 q9 q8
+t3 q8 p16 q9
+t2 q10 p17
+t2 q10 q9
+t3 q9 p17 q10
+t2 q11 p18
+t2 q11 q10
+t3 q10 p18 q11
+t2 q12 p19
+t2 q12 q11
+t3 q11 p19 q12
+t2 q13 p20
+t2 q13 q12
+t3 q12 p20 q13
+t2 q14 p21
+t2 q14 q13
+t3 q13 p21 q14
+t2 q15 p22
+t2 q15 q14
+t3 q14 p22 q15
+t2 q16 p23
+t2 q16 q15
+t3 q15 p23 q16
+t2 q17 p24
+t2 q17 q16
+t3 q16 p24 q17
+t2 q18 p25
+t2 q18 q17
+t3 q17 p25 q18
+t2 q19 p26
+t2 q19 q18
+t3 q18 p26 q19
+t2 q20 p27
+t2 q20 q19
+t3 q19 p27 q20
+t2 q21 p28
+t2 q21 q20
+t3 q20 p28 q21
+t2 q22 p29
+t2 q22 q21
+t3 q21 p29 q22
+t2 q23 p30
+t2 q23 q22
+t3 q22 p30 q23
+t2 q24 p31
+t2 q24 q23
+t3 q23 p31 q24
+t2 q25 p32
+t2 q25 q24
+t3 q24 p32 q25
+t2 q26 p33
+t2 q26 q25
+t3 q25 p33 q26
+t2 q27 p34
+t2 q27 q26
+t3 q26 p34 q27
+t2 q28 p35
+t2 q28 q27
+t3 q27 p35 q28
+t2 q29 p36
+t2 q29 q28
+t3 q28 p36 q29
+t2 q30 p37
+t2 q30 q29
+t3 q29 p37 q30
+t2 q31 p38
+t2 q31 q30
+t3 q30 p38 q31
+t2 q32 p39
+t2 q32 q31
+t3 q31 p39 q32
+t2 q33 p40
+t2 q33 q32
+t3 q32 p40 q33
+t2 q34 p41
+t2 q33 p41
+t3 q32 p40 q33
+t2 q33 q32
+t2 q32 p40
+t3 q31 p39 q32
+t2 q32 q31
+t2 q31 p39
+t3 q30 p38 q31
+t2 q31 q30
+t2 q30 p38
+t3 q29 p37 q30
+t2 q30 q29
+t2 q29 p37
+t3 q28 p36 q29
+t2 q29 q28
+t2 q28 p36
+t3 q27 p35 q28
+t2 q28 q27
+t2 q27 p35
+t3 q26 p34 q27
+t2 q27 q26
+t2 q26 p34
+t3 q25 p33 q26
+t2 q26 q25
+t2 q25 p33
+t3 q24 p32 q25
+t2 q25 q24
+t2 q24 p32
+t3 q23 p31 q24
+t2 q24 q23
+t2 q23 p31
+t3 q22 p30 q23
+t2 q23 q22
+t2 q22 p30
+t3 q21 p29 q22
+t2 q22 q21
+t2 q21 p29
+t3 q20 p28 q21
+t2 q21 q20
+t2 q20 p28
+t3 q19 p27 q20
+t2 q20 q19
+t2 q19 p27
+t3 q18 p26 q19
+t2 q19 q18
+t2 q18 p26
+t3 q17 p25 q18
+t2 q18 q17
+t2 q17 p25
+t3 q16 p24 q17
+t2 q17 q16
+t2 q16 p24
+t3 q15 p23 q16
+t2 q16 q15
+t2 q15 p23
+t3 q14 p22 q15
+t2 q15 q14
+t2 q14 p22
+t3 q13 p21 q14
+t2 q14 q13
+t2 q13 p21
+t3 q12 p20 q13
+t2 q13 q12
+t2 q12 p20
+t3 q11 p19 q12
+t2 q12 q11
+t2 q11 p19
+t3 q10 p18 q11
+t2 q11 q10
+t2 q10 p18
+t3 q9 p17 q10
+t2 q10 q9
+t2 q9 p17
+t3 q8 p16 q9
+t2 q9 q8
+t2 q8 p16
+t3 q7 p15 q8
+t2 q8 q7
+t2 q7 p15
+t3 q6 p14 q7
+t2 q7 q6
+t2 q6 p14
+t3 q5 p13 q6
+t2 q6 q5
+t2 q5 p13
+t3 q4 p12 q5
+t2 q5 q4
+t2 q4 p12
+t3 q3 p11 q4
+t2 q4 q3
+t2 q3 p11
+t3 q2 p10 q3
+t2 q3 q2
+t2 q2 p10
+t3 q1 p9 q2
+t2 q2 q1
+t2 q1 p9
+t3 q0 p8 q1
+t2 q1 q0
+t2 q0 p8
+t3 cin p7 q0
+t2 q0 cin
+t2 cin p7
+t3 a0 b7 q0
+t3 a1 b7 q1
+t3 a2 b7 q2
+t3 a3 b7 q3
+t3 a4 b7 q4
+t3 a5 b7 q5
+t3 a6 b7 q6
+t3 a7 b7 q7
+t3 a8 b7 q8
+t3 a9 b7 q9
+t3 a10 b7 q10
+t3 a11 b7 q11
+t3 a12 b7 q12
+t3 a13 b7 q13
+t3 a14 b7 q14
+t3 a15 b7 q15
+t3 a16 b7 q16
+t3 a17 b7 q17
+t3 a18 b7 q18
+t3 a19 b7 q19
+t3 a20 b7 q20
+t3 a21 b7 q21
+t3 a22 b7 q22
+t3 a23 b7 q23
+t3 a24 b7 q24
+t3 a25 b7 q25
+t3 a26 b7 q26
+t3 a27 b7 q27
+t3 a28 b7 q28
+t3 a29 b7 q29
+t3 a30 b7 q30
+t3 a31 b7 q31
+t3 a32 b7 q32
+t3 a33 b7 q33
+t3 a0 b8 q0
+t3 a1 b8 q1
+t3 a2 b8 q2
+t3 a3 b8 q3
+t3 a4 b8 q4
+t3 a5 b8 q5
+t3 a6 b8 q6
+t3 a7 b8 q7
+t3 a8 b8 q8
+t3 a9 b8 q9
+t3 a10 b8 q10
+t3 a11 b8 q11
+t3 a12 b8 q12
+t3 a13 b8 q13
+t3 a14 b8 q14
+t3 a15 b8 q15
+t3 a16 b8 q16
+t3 a17 b8 q17
+t3 a18 b8 q18
+t3 a19 b8 q19
+t3 a20 b8 q20
+t3 a21 b8 q21
+t3 a22 b8 q22
+t3 a23 b8 q23
+t3 a24 b8 q24
+t3 a25 b8 q25
+t3 a26 b8 q26
+t3 a27 b8 q27
+t3 a28 b8 q28
+t3 a29 b8 q29
+t3 a30 b8 q30
+t3 a31 b8 q31
+t3 a32 b8 q32
+t3 a33 b8 q33
+t2 q0 p8
+t2 q0 cin
+t3 cin p8 q0
+t2 q1 p9
+t2 q1 q0
+t3 q0 p9 q1
+t2 q2 p10
+t2 q2 q1
+t3 q1 p10 q2
+t2 q3 p11
+t2 q3 q2
+t3 q2 p11 q3
+t2 q4 p12
+t2 q4 q3
+t3 q3 p12 q4
+t2 q5 p13
+t2 q5 q4
+t3 q4 p13 q5
+t2 q6 p14
+t2 q6 q5
+t3 q5 p14 q6
+t2 q7 p15
+t2 q7 q6
+t3 q6 p15 q7
+t2 q8 p16
+t2 q8 q7
+t3 q7 p16 q8
+t2 q9 p17
+t2 q9 q8
+t3 q8 p17 q9
+t2 q10 p18
+t2 q10 q9
+t3 q9 p18 q10
+t2 q11 p19
+t2 q11 q10
+t3 q10 p19 q11
+t2 q12 p20
+t2 q12 q11
+t3 q11 p20 q12
+t2 q13 p21
+t2 q13 q12
+t3 q12 p21 q13
+t2 q14 p22
+t2 q14 q13
+t3 q13 p22 q14
+t2 q15 p23
+t2 q15 q14
+t3 q14 p23 q15
+t2 q16 p24
+t2 q16 q15
+t3 q15 p24 q16
+t2 q17 p25
+t2 q17 q16
+t3 q16 p25 q17
+t2 q18 p26
+t2 q18 q17
+t3 q17 p26 q18
+t2 q19 p27
+t2 q19 q18
+t3 q18 p27 q19
+t2 q20 p28
+t2 q20 q19
+t3 q19 p28 q20
+t2 q21 p29
+t2 q21 q20
+t3 q20 p29 q21
+t2 q22 p30
+t2 q22 q21
+t3 q21 p30 q22
+t2 q23 p31
+t2 q23 q22
+t3 q22 p31 q23
+t2 q24 p32
+t2 q24 q23
+t3 q23 p32 q24
+t2 q25 p33
+t2 q25 q24
+t3 q24 p33 q25
+t2 q26 p34
+t2 q26 q25
+t3 q25 p34 q26
+t2 q27 p35
+t2 q27 q26
+t3 q26 p35 q27
+t2 q28 p36
+t2 q28 q27
+t3 q27 p36 q28
+t2 q29 p37
+t2 q29 q28
+t3 q28 p37 q29
+t2 q30 p38
+t2 q30 q29
+t3 q29 p38 q30
+t2 q31 p39
+t2 q31 q30
+t3 q30 p39 q31
+t2 q32 p40
+t2 q32 q31
+t3 q31 p40 q32
+t2 q33 p41
+t2 q33 q32
+t3 q32 p41 q33
+t2 q34 p42
+t2 q33 p42
+t3 q32 p41 q33
+t2 q33 q32
+t2 q32 p41
+t3 q31 p40 q32
+t2 q32 q31
+t2 q31 p40
+t3 q30 p39 q31
+t2 q31 q30
+t2 q30 p39
+t3 q29 p38 q30
+t2 q30 q29
+t2 q29 p38
+t3 q28 p37 q29
+t2 q29 q28
+t2 q28 p37
+t3 q27 p36 q28
+t2 q28 q27
+t2 q27 p36
+t3 q26 p35 q27
+t2 q27 q26
+t2 q26 p35
+t3 q25 p34 q26
+t2 q26 q25
+t2 q25 p34
+t3 q24 p33 q25
+t2 q25 q24
+t2 q24 p33
+t3 q23 p32 q24
+t2 q24 q23
+t2 q23 p32
+t3 q22 p31 q23
+t2 q23 q22
+t2 q22 p31
+t3 q21 p30 q22
+t2 q22 q21
+t2 q21 p30
+t3 q20 p29 q21
+t2 q21 q20
+t2 q20 p29
+t3 q19 p28 q20
+t2 q20 q19
+t2 q19 p28
+t3 q18 p27 q19
+t2 q19 q18
+t2 q18 p27
+t3 q17 p26 q18
+t2 q18 q17
+t2 q17 p26
+t3 q16 p25 q17
+t2 q17 q16
+t2 q16 p25
+t3 q15 p24 q16
+t2 q16 q15
+t2 q15 p24
+t3 q14 p23 q15
+t2 q15 q14
+t2 q14 p23
+t3 q13 p22 q14
+t2 q14 q13
+t2 q13 p22
+t3 q12 p21 q13
+t2 q13 q12
+t2 q12 p21
+t3 q11 p20 q12
+t2 q12 q11
+t2 q11 p20
+t3 q10 p19 q11
+t2 q11 q10
+t2 q10 p19
+t3 q9 p18 q10
+t2 q10 q9
+t2 q9 p18
+t3 q8 p17 q9
+t2 q9 q8
+t2 q8 p17
+t3 q7 p16 q8
+t2 q8 q7
+t2 q7 p16
+t3 q6 p15 q7
+t2 q7 q6
+t2 q6 p15
+t3 q5 p14 q6
+t2 q6 q5
+t2 q5 p14
+t3 q4 p13 q5
+t2 q5 q4
+t2 q4 p13
+t3 q3 p12 q4
+t2 q4 q3
+t2 q3 p12
+t3 q2 p11 q3
+t2 q3 q2
+t2 q2 p11
+t3 q1 p10 q2
+t2 q2 q1
+t2 q1 p10
+t3 q0 p9 q1
+t2 q1 q0
+t2 q0 p9
+t3 cin p8 q0
+t2 q0 cin
+t2 cin p8
+t3 a0 b8 q0
+t3 a1 b8 q1
+t3 a2 b8 q2
+t3 a3 b8 q3
+t3 a4 b8 q4
+t3 a5 b8 q5
+t3 a6 b8 q6
+t3 a7 b8 q7
+t3 a8 b8 q8
+t3 a9 b8 q9
+t3 a10 b8 q10
+t3 a11 b8 q11
+t3 a12 b8 q12
+t3 a13 b8 q13
+t3 a14 b8 q14
+t3 a15 b8 q15
+t3 a16 b8 q16
+t3 a17 b8 q17
+t3 a18 b8 q18
+t3 a19 b8 q19
+t3 a20 b8 q20
+t3 a21 b8 q21
+t3 a22 b8 q22
+t3 a23 b8 q23
+t3 a24 b8 q24
+t3 a25 b8 q25
+t3 a26 b8 q26
+t3 a27 b8 q27
+t3 a28 b8 q28
+t3 a29 b8 q29
+t3 a30 b8 q30
+t3 a31 b8 q31
+t3 a32 b8 q32
+t3 a33 b8 q33
+t3 a0 b9 q0
+t3 a1 b9 q1
+t3 a2 b9 q2
+t3 a3 b9 q3
+t3 a4 b9 q4
+t3 a5 b9 q5
+t3 a6 b9 q6
+t3 a7 b9 q7
+t3 a8 b9 q8
+t3 a9 b9 q9
+t3 a10 b9 q10
+t3 a11 b9 q11
+t3 a12 b9 q12
+t3 a13 b9 q13
+t3 a14 b9 q14
+t3 a15 b9 q15
+t3 a16 b9 q16
+t3 a17 b9 q17
+t3 a18 b9 q18
+t3 a19 b9 q19
+t3 a20 b9 q20
+t3 a21 b9 q21
+t3 a22 b9 q22
+t3 a23 b9 q23
+t3 a24 b9 q24
+t3 a25 b9 q25
+t3 a26 b9 q26
+t3 a27 b9 q27
+t3 a28 b9 q28
+t3 a29 b9 q29
+t3 a30 b9 q30
+t3 a31 b9 q31
+t3 a32 b9 q32
+t3 a33 b9 q33
+t2 q0 p9
+t2 q0 cin
+t3 cin p9 q0
+t2 q1 p10
+t2 q1 q0
+t3 q0 p10 q1
+t2 q2 p11
+t2 q2 q1
+t3 q1 p11 q2
+t2 q3 p12
+t2 q3 q2
+t3 q2 p12 q3
+t2 q4 p13
+t2 q4 q3
+t3 q3 p13 q4
+t2 q5 p14
+t2 q5 q4
+t3 q4 p14 q5
+t2 q6 p15
+t2 q6 q5
+t3 q5 p15 q6
+t2 q7 p16
+t2 q7 q6
+t3 q6 p16 q7
+t2 q8 p17
+t2 q8 q7
+t3 q7 p17 q8
+t2 q9 p18
+t2 q9 q8
+t3 q8 p18 q9
+t2 q10 p19
+t2 q10 q9
+t3 q9 p19 q10
+t2 q11 p20
+t2 q11 q10
+t3 q10 p20 q11
+t2 q12 p21
+t2 q12 q11
+t3 q11 p21 q12
+t2 q13 p22
+t2 q13 q12
+t3 q12 p22 q13
+t2 q14 p23
+t2 q14 q13
+t3 q13 p23 q14
+t2 q15 p24
+t2 q15 q14
+t3 q14 p24 q15
+t2 q16 p25
+t2 q16 q15
+t3 q15 p25 q16
+t2 q17 p26
+t2 q17 q16
+t3 q16 p26 q17
+t2 q18 p27
+t2 q18 q17
+t3 q17 p27 q18
+t2 q19 p28
+t2 q19 q18
+t3 q18 p28 q19
+t2 q20 p29
+t2 q20 q19
+t3 q19 p29 q20
+t2 q21 p30
+t2 q21 q20
+t3 q20 p30 q21
+t2 q22 p31
+t2 q22 q21
+t3 q21 p31 q22
+t2 q23 p32
+t2 q23 q22
+t3 q22 p32 q23
+t2 q24 p33
+t2 q24 q23
+t3 q23 p33 q24
+t2 q25 p34
+t2 q25 q24
+t3 q24 p34 q25
+t2 q26 p35
+t2 q26 q25
+t3 q25 p35 q26
+t2 q27 p36
+t2 q27 q26
+t3 q26 p36 q27
+t2 q28 p37
+t2 q28 q27
+t3 q27 p37 q28
+t2 q29 p38
+t2 q29 q28
+t3 q28 p38 q29
+t2 q30 p39
+t2 q30 q29
+t3 q29 p39 q30
+t2 q31 p40
+t2 q31 q30
+t3 q30 p40 q31
+t2 q32 p41
+t2 q32 q31
+t3 q31 p41 q32
+t2 q33 p42
+t2 q33 q32
+t3 q32 p42 q33
+t2 q34 p43
+t2 q33 p43
+t3 q32 p42 q33
+t2 q33 q32
+t2 q32 p42
+t3 q31 p41 q32
+t2 q32 q31
+t2 q31 p41
+t3 q30 p40 q31
+t2 q31 q30
+t2 q30 p40
+t3 q29 p39 q30
+t2 q30 q29
+t2 q29 p39
+t3 q28 p38 q29
+t2 q29 q28
+t2 q28 p38
+t3 q27 p37 q28
+t2 q28 q27
+t2 q27 p37
+t3 q26 p36 q27
+t2 q27 q26
+t2 q26 p36
+t3 q25 p35 q26
+t2 q26 q25
+t2 q25 p35
+t3 q24 p34 q25
+t2 q25 q24
+t2 q24 p34
+t3 q23 p33 q24
+t2 q24 q23
+t2 q23 p33
+t3 q22 p32 q23
+t2 q23 q22
+t2 q22 p32
+t3 q21 p31 q22
+t2 q22 q21
+t2 q21 p31
+t3 q20 p30 q21
+t2 q21 q20
+t2 q20 p30
+t3 q19 p29 q20
+t2 q20 q19
+t2 q19 p29
+t3 q18 p28 q19
+t2 q19 q18
+t2 q18 p28
+t3 q17 p27 q18
+t2 q18 q17
+t2 q17 p27
+t3 q16 p26 q17
+t2 q17 q16
+t2 q16 p26
+t3 q15 p25 q16
+t2 q16 q15
+t2 q15 p25
+t3 q14 p24 q15
+t2 q15 q14
+t2 q14 p24
+t3 q13 p23 q14
+t2 q14 q13
+t2 q13 p23
+t3 q12 p22 q13
+t2 q13 q12
+t2 q12 p22
+t3 q11 p21 q12
+t2 q12 q11
+t2 q11 p21
+t3 q10 p20 q11
+t2 q11 q10
+t2 q10 p20
+t3 q9 p19 q10
+t2 q10 q9
+t2 q9 p19
+t3 q8 p18 q9
+t2 q9 q8
+t2 q8 p18
+t3 q7 p17 q8
+t2 q8 q7
+t2 q7 p17
+t3 q6 p16 q7
+t2 q7 q6
+t2 q6 p16
+t3 q5 p15 q6
+t2 q6 q5
+t2 q5 p15
+t3 q4 p14 q5
+t2 q5 q4
+t2 q4 p14
+t3 q3 p13 q4
+t2 q4 q3
+t2 q3 p13
+t3 q2 p12 q3
+t2 q3 q2
+t2 q2 p12
+t3 q1 p11 q2
+t2 q2 q1
+t2 q1 p11
+t3 q0 p10 q1
+t2 q1 q0
+t2 q0 p10
+t3 cin p9 q0
+t2 q0 cin
+t2 cin p9
+t3 a0 b9 q0
+t3 a1 b9 q1
+t3 a2 b9 q2
+t3 a3 b9 q3
+t3 a4 b9 q4
+t3 a5 b9 q5
+t3 a6 b9 q6
+t3 a7 b9 q7
+t3 a8 b9 q8
+t3 a9 b9 q9
+t3 a10 b9 q10
+t3 a11 b9 q11
+t3 a12 b9 q12
+t3 a13 b9 q13
+t3 a14 b9 q14
+t3 a15 b9 q15
+t3 a16 b9 q16
+t3 a17 b9 q17
+t3 a18 b9 q18
+t3 a19 b9 q19
+t3 a20 b9 q20
+t3 a21 b9 q21
+t3 a22 b9 q22
+t3 a23 b9 q23
+t3 a24 b9 q24
+t3 a25 b9 q25
+t3 a26 b9 q26
+t3 a27 b9 q27
+t3 a28 b9 q28
+t3 a29 b9 q29
+t3 a30 b9 q30
+t3 a31 b9 q31
+t3 a32 b9 q32
+t3 a33 b9 q33
+t3 a0 b10 q0
+t3 a1 b10 q1
+t3 a2 b10 q2
+t3 a3 b10 q3
+t3 a4 b10 q4
+t3 a5 b10 q5
+t3 a6 b10 q6
+t3 a7 b10 q7
+t3 a8 b10 q8
+t3 a9 b10 q9
+t3 a10 b10 q10
+t3 a11 b10 q11
+t3 a12 b10 q12
+t3 a13 b10 q13
+t3 a14 b10 q14
+t3 a15 b10 q15
+t3 a16 b10 q16
+t3 a17 b10 q17
+t3 a18 b10 q18
+t3 a19 b10 q19
+t3 a20 b10 q20
+t3 a21 b10 q21
+t3 a22 b10 q22
+t3 a23 b10 q23
+t3 a24 b10 q24
+t3 a25 b10 q25
+t3 a26 b10 q26
+t3 a27 b10 q27
+t3 a28 b10 q28
+t3 a29 b10 q29
+t3 a30 b10 q30
+t3 a31 b10 q31
+t3 a32 b10 q32
+t3 a33 b10 q33
+t2 q0 p10
+t2 q0 cin
+t3 cin p10 q0
+t2 q1 p11
+t2 q1 q0
+t3 q0 p11 q1
+t2 q2 p12
+t2 q2 q1
+t3 q1 p12 q2
+t2 q3 p13
+t2 q3 q2
+t3 q2 p13 q3
+t2 q4 p14
+t2 q4 q3
+t3 q3 p14 q4
+t2 q5 p15
+t2 q5 q4
+t3 q4 p15 q5
+t2 q6 p16
+t2 q6 q5
+t3 q5 p16 q6
+t2 q7 p17
+t2 q7 q6
+t3 q6 p17 q7
+t2 q8 p18
+t2 q8 q7
+t3 q7 p18 q8
+t2 q9 p19
+t2 q9 q8
+t3 q8 p19 q9
+t2 q10 p20
+t2 q10 q9
+t3 q9 p20 q10
+t2 q11 p21
+t2 q11 q10
+t3 q10 p21 q11
+t2 q12 p22
+t2 q12 q11
+t3 q11 p22 q12
+t2 q13 p23
+t2 q13 q12
+t3 q12 p23 q13
+t2 q14 p24
+t2 q14 q13
+t3 q13 p24 q14
+t2 q15 p25
+t2 q15 q14
+t3 q14 p25 q15
+t2 q16 p26
+t2 q16 q15
+t3 q15 p26 q16
+t2 q17 p27
+t2 q17 q16
+t3 q16 p27 q17
+t2 q18 p28
+t2 q18 q17
+t3 q17 p28 q18
+t2 q19 p29
+t2 q19 q18
+t3 q18 p29 q19
+t2 q20 p30
+t2 q20 q19
+t3 q19 p30 q20
+t2 q21 p31
+t2 q21 q20
+t3 q20 p31 q21
+t2 q22 p32
+t2 q22 q21
+t3 q21 p32 q22
+t2 q23 p33
+t2 q23 q22
+t3 q22 p33 q23
+t2 q24 p34
+t2 q24 q23
+t3 q23 p34 q24
+t2 q25 p35
+t2 q25 q24
+t3 q24 p35 q25
+t2 q26 p36
+t2 q26 q25
+t3 q25 p36 q26
+t2 q27 p37
+t2 q27 q26
+t3 q26 p37 q27
+t2 q28 p38
+t2 q28 q27
+t3 q27 p38 q28
+t2 q29 p39
+t2 q29 q28
+t3 q28 p39 q29
+t2 q30 p40
+t2 q30 q29
+t3 q29 p40 q30
+t2 q31 p41
+t2 q31 q30
+t3 q30 p41 q31
+t2 q32 p42
+t2 q32 q31
+t3 q31 p42 q32
+t2 q33 p43
+t2 q33 q32
+t3 q32 p43 q33
+t2 q34 p44
+t2 q33 p44
+t3 q32 p43 q33
+t2 q33 q32
+t2 q32 p43
+t3 q31 p42 q32
+t2 q32 q31
+t2 q31 p42
+t3 q30 p41 q31
+t2 q31 q30
+t2 q30 p41
+t3 q29 p40 q30
+t2 q30 q29
+t2 q29 p40
+t3 q28 p39 q29
+t2 q29 q28
+t2 q28 p39
+t3 q27 p38 q28
+t2 q28 q27
+t2 q27 p38
+t3 q26 p37 q27
+t2 q27 q26
+t2 q26 p37
+t3 q25 p36 q26
+t2 q26 q25
+t2 q25 p36
+t3 q24 p35 q25
+t2 q25 q24
+t2 q24 p35
+t3 q23 p34 q24
+t2 q24 q23
+t2 q23 p34
+t3 q22 p33 q23
+t2 q23 q22
+t2 q22 p33
+t3 q21 p32 q22
+t2 q22 q21
+t2 q21 p32
+t3 q20 p31 q21
+t2 q21 q20
+t2 q20 p31
+t3 q19 p30 q20
+t2 q20 q19
+t2 q19 p30
+t3 q18 p29 q19
+t2 q19 q18
+t2 q18 p29
+t3 q17 p28 q18
+t2 q18 q17
+t2 q17 p28
+t3 q16 p27 q17
+t2 q17 q16
+t2 q16 p27
+t3 q15 p26 q16
+t2 q16 q15
+t2 q15 p26
+t3 q14 p25 q15
+t2 q15 q14
+t2 q14 p25
+t3 q13 p24 q14
+t2 q14 q13
+t2 q13 p24
+t3 q12 p23 q13
+t2 q13 q12
+t2 q12 p23
+t3 q11 p22 q12
+t2 q12 q11
+t2 q11 p22
+t3 q10 p21 q11
+t2 q11 q10
+t2 q10 p21
+t3 q9 p20 q10
+t2 q10 q9
+t2 q9 p20
+t3 q8 p19 q9
+t2 q9 q8
+t2 q8 p19
+t3 q7 p18 q8
+t2 q8 q7
+t2 q7 p18
+t3 q6 p17 q7
+t2 q7 q6
+t2 q6 p17
+t3 q5 p16 q6
+t2 q6 q5
+t2 q5 p16
+t3 q4 p15 q5
+t2 q5 q4
+t2 q4 p15
+t3 q3 p14 q4
+t2 q4 q3
+t2 q3 p14
+t3 q2 p13 q3
+t2 q3 q2
+t2 q2 p13
+t3 q1 p12 q2
+t2 q2 q1
+t2 q1 p12
+t3 q0 p11 q1
+t2 q1 q0
+t2 q0 p11
+t3 cin p10 q0
+t2 q0 cin
+t2 cin p10
+t3 a0 b10 q0
+t3 a1 b10 q1
+t3 a2 b10 q2
+t3 a3 b10 q3
+t3 a4 b10 q4
+t3 a5 b10 q5
+t3 a6 b10 q6
+t3 a7 b10 q7
+t3 a8 b10 q8
+t3 a9 b10 q9
+t3 a10 b10 q10
+t3 a11 b10 q11
+t3 a12 b10 q12
+t3 a13 b10 q13
+t3 a14 b10 q14
+t3 a15 b10 q15
+t3 a16 b10 q16
+t3 a17 b10 q17
+t3 a18 b10 q18
+t3 a19 b10 q19
+t3 a20 b10 q20
+t3 a21 b10 q21
+t3 a22 b10 q22
+t3 a23 b10 q23
+t3 a24 b10 q24
+t3 a25 b10 q25
+t3 a26 b10 q26
+t3 a27 b10 q27
+t3 a28 b10 q28
+t3 a29 b10 q29
+t3 a30 b10 q30
+t3 a31 b10 q31
+t3 a32 b10 q32
+t3 a33 b10 q33
+t3 a0 b11 q0
+t3 a1 b11 q1
+t3 a2 b11 q2
+t3 a3 b11 q3
+t3 a4 b11 q4
+t3 a5 b11 q5
+t3 a6 b11 q6
+t3 a7 b11 q7
+t3 a8 b11 q8
+t3 a9 b11 q9
+t3 a10 b11 q10
+t3 a11 b11 q11
+t3 a12 b11 q12
+t3 a13 b11 q13
+t3 a14 b11 q14
+t3 a15 b11 q15
+t3 a16 b11 q16
+t3 a17 b11 q17
+t3 a18 b11 q18
+t3 a19 b11 q19
+t3 a20 b11 q20
+t3 a21 b11 q21
+t3 a22 b11 q22
+t3 a23 b11 q23
+t3 a24 b11 q24
+t3 a25 b11 q25
+t3 a26 b11 q26
+t3 a27 b11 q27
+t3 a28 b11 q28
+t3 a29 b11 q29
+t3 a30 b11 q30
+t3 a31 b11 q31
+t3 a32 b11 q32
+t3 a33 b11 q33
+t2 q0 p11
+t2 q0 cin
+t3 cin p11 q0
+t2 q1 p12
+t2 q1 q0
+t3 q0 p12 q1
+t2 q2 p13
+t2 q2 q1
+t3 q1 p13 q2
+t2 q3 p14
+t2 q3 q2
+t3 q2 p14 q3
+t2 q4 p15
+t2 q4 q3
+t3 q3 p15 q4
+t2 q5 p16
+t2 q5 q4
+t3 q4 p16 q5
+t2 q6 p17
+t2 q6 q5
+t3 q5 p17 q6
+t2 q7 p18
+t2 q7 q6
+t3 q6 p18 q7
+t2 q8 p19
+t2 q8 q7
+t3 q7 p19 q8
+t2 q9 p20
+t2 q9 q8
+t3 q8 p20 q9
+t2 q10 p21
+t2 q10 q9
+t3 q9 p21 q10
+t2 q11 p22
+t2 q11 q10
+t3 q10 p22 q11
+t2 q12 p23
+t2 q12 q11
+t3 q11 p23 q12
+t2 q13 p24
+t2 q13 q12
+t3 q12 p24 q13
+t2 q14 p25
+t2 q14 q13
+t3 q13 p25 q14
+t2 q15 p26
+t2 q15 q14
+t3 q14 p26 q15
+t2 q16 p27
+t2 q16 q15
+t3 q15 p27 q16
+t2 q17 p28
+t2 q17 q16
+t3 q16 p28 q17
+t2 q18 p29
+t2 q18 q17
+t3 q17 p29 q18
+t2 q19 p30
+t2 q19 q18
+t3 q18 p30 q19
+t2 q20 p31
+t2 q20 q19
+t3 q19 p31 q20
+t2 q21 p32
+t2 q21 q20
+t3 q20 p32 q21
+t2 q22 p33
+t2 q22 q21
+t3 q21 p33 q22
+t2 q23 p34
+t2 q23 q22
+t3 q22 p34 q23
+t2 q24 p35
+t2 q24 q23
+t3 q23 p35 q24
+t2 q25 p36
+t2 q25 q24
+t3 q24 p36 q25
+t2 q26 p37
+t2 q26 q25
+t3 q25 p37 q26
+t2 q27 p38
+t2 q27 q26
+t3 q26 p38 q27
+t2 q28 p39
+t2 q28 q27
+t3 q27 p39 q28
+t2 q29 p40
+t2 q29 q28
+t3 q28 p40 q29
+t2 q30 p41
+t2 q30 q29
+t3 q29 p41 q30
+t2 q31 p42
+t2 q31 q30
+t3 q30 p42 q31
+t2 q32 p43
+t2 q32 q31
+t3 q31 p43 q32
+t2 q33 p44
+t2 q33 q32
+t3 q32 p44 q33
+t2 q34 p45
+t2 q33 p45
+t3 q32 p44 q33
+t2 q33 q32
+t2 q32 p44
+t3 q31 p43 q32
+t2 q32 q31
+t2 q31 p43
+t3 q30 p42 q31
+t2 q31 q30
+t2 q30 p42
+t3 q29 p41 q30
+t2 q30 q29
+t2 q29 p41
+t3 q28 p40 q29
+t2 q29 q28
+t2 q28 p40
+t3 q27 p39 q28
+t2 q28 q27
+t2 q27 p39
+t3 q26 p38 q27
+t2 q27 q26
+t2 q26 p38
+t3 q25 p37 q26
+t2 q26 q25
+t2 q25 p37
+t3 q24 p36 q25
+t2 q25 q24
+t2 q24 p36
+t3 q23 p35 q24
+t2 q24 q23
+t2 q23 p35
+t3 q22 p34 q23
+t2 q23 q22
+t2 q22 p34
+t3 q21 p33 q22
+t2 q22 q21
+t2 q21 p33
+t3 q20 p32 q21
+t2 q21 q20
+t2 q20 p32
+t3 q19 p31 q20
+t2 q20 q19
+t2 q19 p31
+t3 q18 p30 q19
+t2 q19 q18
+t2 q18 p30
+t3 q17 p29 q18
+t2 q18 q17
+t2 q17 p29
+t3 q16 p28 q17
+t2 q17 q16
+t2 q16 p28
+t3 q15 p27 q16
+t2 q16 q15
+t2 q15 p27
+t3 q14 p26 q15
+t2 q15 q14
+t2 q14 p26
+t3 q13 p25 q14
+t2 q14 q13
+t2 q13 p25
+t3 q12 p24 q13
+t2 q13 q12
+t2 q12 p24
+t3 q11 p23 q12
+t2 q12 q11
+t2 q11 p23
+t3 q10 p22 q11
+t2 q11 q10
+t2 q10 p22
+t3 q9 p21 q10
+t2 q10 q9
+t2 q9 p21
+t3 q8 p20 q9
+t2 q9 q8
+t2 q8 p20
+t3 q7 p19 q8
+t2 q8 q7
+t2 q7 p19
+t3 q6 p18 q7
+t2 q7 q6
+t2 q6 p18
+t3 q5 p17 q6
+t2 q6 q5
+t2 q5 p17
+t3 q4 p16 q5
+t2 q5 q4
+t2 q4 p16
+t3 q3 p15 q4
+t2 q4 q3
+t2 q3 p15
+t3 q2 p14 q3
+t2 q3 q2
+t2 q2 p14
+t3 q1 p13 q2
+t2 q2 q1
+t2 q1 p13
+t3 q0 p12 q1
+t2 q1 q0
+t2 q0 p12
+t3 cin p11 q0
+t2 q0 cin
+t2 cin p11
+t3 a0 b11 q0
+t3 a1 b11 q1
+t3 a2 b11 q2
+t3 a3 b11 q3
+t3 a4 b11 q4
+t3 a5 b11 q5
+t3 a6 b11 q6
+t3 a7 b11 q7
+t3 a8 b11 q8
+t3 a9 b11 q9
+t3 a10 b11 q10
+t3 a11 b11 q11
+t3 a12 b11 q12
+t3 a13 b11 q13
+t3 a14 b11 q14
+t3 a15 b11 q15
+t3 a16 b11 q16
+t3 a17 b11 q17
+t3 a18 b11 q18
+t3 a19 b11 q19
+t3 a20 b11 q20
+t3 a21 b11 q21
+t3 a22 b11 q22
+t3 a23 b11 q23
+t3 a24 b11 q24
+t3 a25 b11 q25
+t3 a26 b11 q26
+t3 a27 b11 q27
+t3 a28 b11 q28
+t3 a29 b11 q29
+t3 a30 b11 q30
+t3 a31 b11 q31
+t3 a32 b11 q32
+t3 a33 b11 q33
+t3 a0 b12 q0
+t3 a1 b12 q1
+t3 a2 b12 q2
+t3 a3 b12 q3
+t3 a4 b12 q4
+t3 a5 b12 q5
+t3 a6 b12 q6
+t3 a7 b12 q7
+t3 a8 b12 q8
+t3 a9 b12 q9
+t3 a10 b12 q10
+t3 a11 b12 q11
+t3 a12 b12 q12
+t3 a13 b12 q13
+t3 a14 b12 q14
+t3 a15 b12 q15
+t3 a16 b12 q16
+t3 a17 b12 q17
+t3 a18 b12 q18
+t3 a19 b12 q19
+t3 a20 b12 q20
+t3 a21 b12 q21
+t3 a22 b12 q22
+t3 a23 b12 q23
+t3 a24 b12 q24
+t3 a25 b12 q25
+t3 a26 b12 q26
+t3 a27 b12 q27
+t3 a28 b12 q28
+t3 a29 b12 q29
+t3 a30 b12 q30
+t3 a31 b12 q31
+t3 a32 b12 q32
+t3 a33 b12 q33
+t2 q0 p12
+t2 q0 cin
+t3 cin p12 q0
+t2 q1 p13
+t2 q1 q0
+t3 q0 p13 q1
+t2 q2 p14
+t2 q2 q1
+t3 q1 p14 q2
+t2 q3 p15
+t2 q3 q2
+t3 q2 p15 q3
+t2 q4 p16
+t2 q4 q3
+t3 q3 p16 q4
+t2 q5 p17
+t2 q5 q4
+t3 q4 p17 q5
+t2 q6 p18
+t2 q6 q5
+t3 q5 p18 q6
+t2 q7 p19
+t2 q7 q6
+t3 q6 p19 q7
+t2 q8 p20
+t2 q8 q7
+t3 q7 p20 q8
+t2 q9 p21
+t2 q9 q8
+t3 q8 p21 q9
+t2 q10 p22
+t2 q10 q9
+t3 q9 p22 q10
+t2 q11 p23
+t2 q11 q10
+t3 q10 p23 q11
+t2 q12 p24
+t2 q12 q11
+t3 q11 p24 q12
+t2 q13 p25
+t2 q13 q12
+t3 q12 p25 q13
+t2 q14 p26
+t2 q14 q13
+t3 q13 p26 q14
+t2 q15 p27
+t2 q15 q14
+t3 q14 p27 q15
+t2 q16 p28
+t2 q16 q15
+t3 q15 p28 q16
+t2 q17 p29
+t2 q17 q16
+t3 q16 p29 q17
+t2 q18 p30
+t2 q18 q17
+t3 q17 p30 q18
+t2 q19 p31
+t2 q19 q18
+t3 q18 p31 q19
+t2 q20 p32
+t2 q20 q19
+t3 q19 p32 q20
+t2 q21 p33
+t2 q21 q20
+t3 q20 p33 q21
+t2 q22 p34
+t2 q22 q21
+t3 q21 p34 q22
+t2 q23 p35
+t2 q23 q22
+t3 q22 p35 q23
+t2 q24 p36
+t2 q24 q23
+t3 q23 p36 q24
+t2 q25 p37
+t2 q25 q24
+t3 q24 p37 q25
+t2 q26 p38
+t2 q26 q25
+t3 q25 p38 q26
+t2 q27 p39
+t2 q27 q26
+t3 q26 p39 q27
+t2 q28 p40
+t2 q28 q27
+t3 q27 p40 q28
+t2 q29 p41
+t2 q29 q28
+t3 q28 p41 q29
+t2 q30 p42
+t2 q30 q29
+t3 q29 p42 q30
+t2 q31 p43
+t2 q31 q30
+t3 q30 p43 q31
+t2 q32 p44
+t2 q32 q31
+t3 q31 p44 q32
+t2 q33 p45
+t2 q33 q32
+t3 q32 p45 q33
+t2 q34 p46
+t2 q33 p46
+t3 q32 p45 q33
+t2 q33 q32
+t2 q32 p45
+t3 q31 p44 q32
+t2 q32 q31
+t2 q31 p44
+t3 q30 p43 q31
+t2 q31 q30
+t2 q30 p43
+t3 q29 p42 q30
+t2 q30 q29
+t2 q29 p42
+t3 q28 p41 q29
+t2 q29 q28
+t2 q28 p41
+t3 q27 p40 q28
+t2 q28 q27
+t2 q27 p40
+t3 q26 p39 q27
+t2 q27 q26
+t2 q26 p39
+t3 q25 p38 q26
+t2 q26 q25
+t2 q25 p38
+t3 q24 p37 q25
+t2 q25 q24
+t2 q24 p37
+t3 q23 p36 q24
+t2 q24 q23
+t2 q23 p36
+t3 q22 p35 q23
+t2 q23 q22
+t2 q22 p35
+t3 q21 p34 q22
+t2 q22 q21
+t2 q21 p34
+t3 q20 p33 q21
+t2 q21 q20
+t2 q20 p33
+t3 q19 p32 q20
+t2 q20 q19
+t2 q19 p32
+t3 q18 p31 q19
+t2 q19 q18
+t2 q18 p31
+t3 q17 p30 q18
+t2 q18 q17
+t2 q17 p30
+t3 q16 p29 q17
+t2 q17 q16
+t2 q16 p29
+t3 q15 p28 q16
+t2 q16 q15
+t2 q15 p28
+t3 q14 p27 q15
+t2 q15 q14
+t2 q14 p27
+t3 q13 p26 q14
+t2 q14 q13
+t2 q13 p26
+t3 q12 p25 q13
+t2 q13 q12
+t2 q12 p25
+t3 q11 p24 q12
+t2 q12 q11
+t2 q11 p24
+t3 q10 p23 q11
+t2 q11 q10
+t2 q10 p23
+t3 q9 p22 q10
+t2 q10 q9
+t2 q9 p22
+t3 q8 p21 q9
+t2 q9 q8
+t2 q8 p21
+t3 q7 p20 q8
+t2 q8 q7
+t2 q7 p20
+t3 q6 p19 q7
+t2 q7 q6
+t2 q6 p19
+t3 q5 p18 q6
+t2 q6 q5
+t2 q5 p18
+t3 q4 p17 q5
+t2 q5 q4
+t2 q4 p17
+t3 q3 p16 q4
+t2 q4 q3
+t2 q3 p16
+t3 q2 p15 q3
+t2 q3 q2
+t2 q2 p15
+t3 q1 p14 q2
+t2 q2 q1
+t2 q1 p14
+t3 q0 p13 q1
+t2 q1 q0
+t2 q0 p13
+t3 cin p12 q0
+t2 q0 cin
+t2 cin p12
+t3 a0 b12 q0
+t3 a1 b12 q1
+t3 a2 b12 q2
+t3 a3 b12 q3
+t3 a4 b12 q4
+t3 a5 b12 q5
+t3 a6 b12 q6
+t3 a7 b12 q7
+t3 a8 b12 q8
+t3 a9 b12 q9
+t3 a10 b12 q10
+t3 a11 b12 q11
+t3 a12 b12 q12
+t3 a13 b12 q13
+t3 a14 b12 q14
+t3 a15 b12 q15
+t3 a16 b12 q16
+t3 a17 b12 q17
+t3 a18 b12 q18
+t3 a19 b12 q19
+t3 a20 b12 q20
+t3 a21 b12 q21
+t3 a22 b12 q22
+t3 a23 b12 q23
+t3 a24 b12 q24
+t3 a25 b12 q25
+t3 a26 b12 q26
+t3 a27 b12 q27
+t3 a28 b12 q28
+t3 a29 b12 q29
+t3 a30 b12 q30
+t3 a31 b12 q31
+t3 a32 b12 q32
+t3 a33 b12 q33
+t3 a0 b13 q0
+t3 a1 b13 q1
+t3 a2 b13 q2
+t3 a3 b13 q3
+t3 a4 b13 q4
+t3 a5 b13 q5
+t3 a6 b13 q6
+t3 a7 b13 q7
+t3 a8 b13 q8
+t3 a9 b13 q9
+t3 a10 b13 q10
+t3 a11 b13 q11
+t3 a12 b13 q12
+t3 a13 b13 q13
+t3 a14 b13 q14
+t3 a15 b13 q15
+t3 a16 b13 q16
+t3 a17 b13 q17
+t3 a18 b13 q18
+t3 a19 b13 q19
+t3 a20 b13 q20
+t3 a21 b13 q21
+t3 a22 b13 q22
+t3 a23 b13 q23
+t3 a24 b13 q24
+t3 a25 b13 q25
+t3 a26 b13 q26
+t3 a27 b13 q27
+t3 a28 b13 q28
+t3 a29 b13 q29
+t3 a30 b13 q30
+t3 a31 b13 q31
+t3 a32 b13 q32
+t3 a33 b13 q33
+t2 q0 p13
+t2 q0 cin
+t3 cin p13 q0
+t2 q1 p14
+t2 q1 q0
+t3 q0 p14 q1
+t2 q2 p15
+t2 q2 q1
+t3 q1 p15 q2
+t2 q3 p16
+t2 q3 q2
+t3 q2 p16 q3
+t2 q4 p17
+t2 q4 q3
+t3 q3 p17 q4
+t2 q5 p18
+t2 q5 q4
+t3 q4 p18 q5
+t2 q6 p19
+t2 q6 q5
+t3 q5 p19 q6
+t2 q7 p20
+t2 q7 q6
+t3 q6 p20 q7
+t2 q8 p21
+t2 q8 q7
+t3 q7 p21 q8
+t2 q9 p22
+t2 q9 q8
+t3 q8 p22 q9
+t2 q10 p23
+t2 q10 q9
+t3 q9 p23 q10
+t2 q11 p24
+t2 q11 q10
+t3 q10 p24 q11
+t2 q12 p25
+t2 q12 q11
+t3 q11 p25 q12
+t2 q13 p26
+t2 q13 q12
+t3 q12 p26 q13
+t2 q14 p27
+t2 q14 q13
+t3 q13 p27 q14
+t2 q15 p28
+t2 q15 q14
+t3 q14 p28 q15
+t2 q16 p29
+t2 q16 q15
+t3 q15 p29 q16
+t2 q17 p30
+t2 q17 q16
+t3 q16 p30 q17
+t2 q18 p31
+t2 q18 q17
+t3 q17 p31 q18
+t2 q19 p32
+t2 q19 q18
+t3 q18 p32 q19
+t2 q20 p33
+t2 q20 q19
+t3 q19 p33 q20
+t2 q21 p34
+t2 q21 q20
+t3 q20 p34 q21
+t2 q22 p35
+t2 q22 q21
+t3 q21 p35 q22
+t2 q23 p36
+t2 q23 q22
+t3 q22 p36 q23
+t2 q24 p37
+t2 q24 q23
+t3 q23 p37 q24
+t2 q25 p38
+t2 q25 q24
+t3 q24 p38 q25
+t2 q26 p39
+t2 q26 q25
+t3 q25 p39 q26
+t2 q27 p40
+t2 q27 q26
+t3 q26 p40 q27
+t2 q28 p41
+t2 q28 q27
+t3 q27 p41 q28
+t2 q29 p42
+t2 q29 q28
+t3 q28 p42 q29
+t2 q30 p43
+t2 q30 q29
+t3 q29 p43 q30
+t2 q31 p44
+t2 q31 q30
+t3 q30 p44 q31
+t2 q32 p45
+t2 q32 q31
+t3 q31 p45 q32
+t2 q33 p46
+t2 q33 q32
+t3 q32 p46 q33
+t2 q34 p47
+t2 q33 p47
+t3 q32 p46 q33
+t2 q33 q32
+t2 q32 p46
+t3 q31 p45 q32
+t2 q32 q31
+t2 q31 p45
+t3 q30 p44 q31
+t2 q31 q30
+t2 q30 p44
+t3 q29 p43 q30
+t2 q30 q29
+t2 q29 p43
+t3 q28 p42 q29
+t2 q29 q28
+t2 q28 p42
+t3 q27 p41 q28
+t2 q28 q27
+t2 q27 p41
+t3 q26 p40 q27
+t2 q27 q26
+t2 q26 p40
+t3 q25 p39 q26
+t2 q26 q25
+t2 q25 p39
+t3 q24 p38 q25
+t2 q25 q24
+t2 q24 p38
+t3 q23 p37 q24
+t2 q24 q23
+t2 q23 p37
+t3 q22 p36 q23
+t2 q23 q22
+t2 q22 p36
+t3 q21 p35 q22
+t2 q22 q21
+t2 q21 p35
+t3 q20 p34 q21
+t2 q21 q20
+t2 q20 p34
+t3 q19 p33 q20
+t2 q20 q19
+t2 q19 p33
+t3 q18 p32 q19
+t2 q19 q18
+t2 q18 p32
+t3 q17 p31 q18
+t2 q18 q17
+t2 q17 p31
+t3 q16 p30 q17
+t2 q17 q16
+t2 q16 p30
+t3 q15 p29 q16
+t2 q16 q15
+t2 q15 p29
+t3 q14 p28 q15
+t2 q15 q14
+t2 q14 p28
+t3 q13 p27 q14
+t2 q14 q13
+t2 q13 p27
+t3 q12 p26 q13
+t2 q13 q12
+t2 q12 p26
+t3 q11 p25 q12
+t2 q12 q11
+t2 q11 p25
+t3 q10 p24 q11
+t2 q11 q10
+t2 q10 p24
+t3 q9 p23 q10
+t2 q10 q9
+t2 q9 p23
+t3 q8 p22 q9
+t2 q9 q8
+t2 q8 p22
+t3 q7 p21 q8
+t2 q8 q7
+t2 q7 p21
+t3 q6 p20 q7
+t2 q7 q6
+t2 q6 p20
+t3 q5 p19 q6
+t2 q6 q5
+t2 q5 p19
+t3 q4 p18 q5
+t2 q5 q4
+t2 q4 p18
+t3 q3 p17 q4
+t2 q4 q3
+t2 q3 p17
+t3 q2 p16 q3
+t2 q3 q2
+t2 q2 p16
+t3 q1 p15 q2
+t2 q2 q1
+t2 q1 p15
+t3 q0 p14 q1
+t2 q1 q0
+t2 q0 p14
+t3 cin p13 q0
+t2 q0 cin
+t2 cin p13
+t3 a0 b13 q0
+t3 a1 b13 q1
+t3 a2 b13 q2
+t3 a3 b13 q3
+t3 a4 b13 q4
+t3 a5 b13 q5
+t3 a6 b13 q6
+t3 a7 b13 q7
+t3 a8 b13 q8
+t3 a9 b13 q9
+t3 a10 b13 q10
+t3 a11 b13 q11
+t3 a12 b13 q12
+t3 a13 b13 q13
+t3 a14 b13 q14
+t3 a15 b13 q15
+t3 a16 b13 q16
+t3 a17 b13 q17
+t3 a18 b13 q18
+t3 a19 b13 q19
+t3 a20 b13 q20
+t3 a21 b13 q21
+t3 a22 b13 q22
+t3 a23 b13 q23
+t3 a24 b13 q24
+t3 a25 b13 q25
+t3 a26 b13 q26
+t3 a27 b13 q27
+t3 a28 b13 q28
+t3 a29 b13 q29
+t3 a30 b13 q30
+t3 a31 b13 q31
+t3 a32 b13 q32
+t3 a33 b13 q33
+t3 a0 b14 q0
+t3 a1 b14 q1
+t3 a2 b14 q2
+t3 a3 b14 q3
+t3 a4 b14 q4
+t3 a5 b14 q5
+t3 a6 b14 q6
+t3 a7 b14 q7
+t3 a8 b14 q8
+t3 a9 b14 q9
+t3 a10 b14 q10
+t3 a11 b14 q11
+t3 a12 b14 q12
+t3 a13 b14 q13
+t3 a14 b14 q14
+t3 a15 b14 q15
+t3 a16 b14 q16
+t3 a17 b14 q17
+t3 a18 b14 q18
+t3 a19 b14 q19
+t3 a20 b14 q20
+t3 a21 b14 q21
+t3 a22 b14 q22
+t3 a23 b14 q23
+t3 a24 b14 q24
+t3 a25 b14 q25
+t3 a26 b14 q26
+t3 a27 b14 q27
+t3 a28 b14 q28
+t3 a29 b14 q29
+t3 a30 b14 q30
+t3 a31 b14 q31
+t3 a32 b14 q32
+t3 a33 b14 q33
+t2 q0 p14
+t2 q0 cin
+t3 cin p14 q0
+t2 q1 p15
+t2 q1 q0
+t3 q0 p15 q1
+t2 q2 p16
+t2 q2 q1
+t3 q1 p16 q2
+t2 q3 p17
+t2 q3 q2
+t3 q2 p17 q3
+t2 q4 p18
+t2 q4 q3
+t3 q3 p18 q4
+t2 q5 p19
+t2 q5 q4
+t3 q4 p19 q5
+t2 q6 p20
+t2 q6 q5
+t3 q5 p20 q6
+t2 q7 p21
+t2 q7 q6
+t3 q6 p21 q7
+t2 q8 p22
+t2 q8 q7
+t3 q7 p22 q8
+t2 q9 p23
+t2 q9 q8
+t3 q8 p23 q9
+t2 q10 p24
+t2 q10 q9
+t3 q9 p24 q10
+t2 q11 p25
+t2 q11 q10
+t3 q10 p25 q11
+t2 q12 p26
+t2 q12 q11
+t3 q11 p26 q12
+t2 q13 p27
+t2 q13 q12
+t3 q12 p27 q13
+t2 q14 p28
+t2 q14 q13
+t3 q13 p28 q14
+t2 q15 p29
+t2 q15 q14
+t3 q14 p29 q15
+t2 q16 p30
+t2 q16 q15
+t3 q15 p30 q16
+t2 q17 p31
+t2 q17 q16
+t3 q16 p31 q17
+t2 q18 p32
+t2 q18 q17
+t3 q17 p32 q18
+t2 q19 p33
+t2 q19 q18
+t3 q18 p33 q19
+t2 q20 p34
+t2 q20 q19
+t3 q19 p34 q20
+t2 q21 p35
+t2 q21 q20
+t3 q20 p35 q21
+t2 q22 p36
+t2 q22 q21
+t3 q21 p36 q22
+t2 q23 p37
+t2 q23 q22
+t3 q22 p37 q23
+t2 q24 p38
+t2 q24 q23
+t3 q23 p38 q24
+t2 q25 p39
+t2 q25 q24
+t3 q24 p39 q25
+t2 q26 p40
+t2 q26 q25
+t3 q25 p40 q26
+t2 q27 p41
+t2 q27 q26
+t3 q26 p41 q27
+t2 q28 p42
+t2 q28 q27
+t3 q27 p42 q28
+t2 q29 p43
+t2 q29 q28
+t3 q28 p43 q29
+t2 q30 p44
+t2 q30 q29
+t3 q29 p44 q30
+t2 q31 p45
+t2 q31 q30
+t3 q30 p45 q31
+t2 q32 p46
+t2 q32 q31
+t3 q31 p46 q32
+t2 q33 p47
+t2 q33 q32
+t3 q32 p47 q33
+t2 q34 p48
+t2 q33 p48
+t3 q32 p47 q33
+t2 q33 q32
+t2 q32 p47
+t3 q31 p46 q32
+t2 q32 q31
+t2 q31 p46
+t3 q30 p45 q31
+t2 q31 q30
+t2 q30 p45
+t3 q29 p44 q30
+t2 q30 q29
+t2 q29 p44
+t3 q28 p43 q29
+t2 q29 q28
+t2 q28 p43
+t3 q27 p42 q28
+t2 q28 q27
+t2 q27 p42
+t3 q26 p41 q27
+t2 q27 q26
+t2 q26 p41
+t3 q25 p40 q26
+t2 q26 q25
+t2 q25 p40
+t3 q24 p39 q25
+t2 q25 q24
+t2 q24 p39
+t3 q23 p38 q24
+t2 q24 q23
+t2 q23 p38
+t3 q22 p37 q23
+t2 q23 q22
+t2 q22 p37
+t3 q21 p36 q22
+t2 q22 q21
+t2 q21 p36
+t3 q20 p35 q21
+t2 q21 q20
+t2 q20 p35
+t3 q19 p34 q20
+t2 q20 q19
+t2 q19 p34
+t3 q18 p33 q19
+t2 q19 q18
+t2 q18 p33
+t3 q17 p32 q18
+t2 q18 q17
+t2 q17 p32
+t3 q16 p31 q17
+t2 q17 q16
+t2 q16 p31
+t3 q15 p30 q16
+t2 q16 q15
+t2 q15 p30
+t3 q14 p29 q15
+t2 q15 q14
+t2 q14 p29
+t3 q13 p28 q14
+t2 q14 q13
+t2 q13 p28
+t3 q12 p27 q13
+t2 q13 q12
+t2 q12 p27
+t3 q11 p26 q12
+t2 q12 q11
+t2 q11 p26
+t3 q10 p25 q11
+t2 q11 q10
+t2 q10 p25
+t3 q9 p24 q10
+t2 q10 q9
+t2 q9 p24
+t3 q8 p23 q9
+t2 q9 q8
+t2 q8 p23
+t3 q7 p22 q8
+t2 q8 q7
+t2 q7 p22
+t3 q6 p21 q7
+t2 q7 q6
+t2 q6 p21
+t3 q5 p20 q6
+t2 q6 q5
+t2 q5 p20
+t3 q4 p19 q5
+t2 q5 q4
+t2 q4 p19
+t3 q3 p18 q4
+t2 q4 q3
+t2 q3 p18
+t3 q2 p17 q3
+t2 q3 q2
+t2 q2 p17
+t3 q1 p16 q2
+t2 q2 q1
+t2 q1 p16
+t3 q0 p15 q1
+t2 q1 q0
+t2 q0 p15
+t3 cin p14 q0
+t2 q0 cin
+t2 cin p14
+t3 a0 b14 q0
+t3 a1 b14 q1
+t3 a2 b14 q2
+t3 a3 b14 q3
+t3 a4 b14 q4
+t3 a5 b14 q5
+t3 a6 b14 q6
+t3 a7 b14 q7
+t3 a8 b14 q8
+t3 a9 b14 q9
+t3 a10 b14 q10
+t3 a11 b14 q11
+t3 a12 b14 q12
+t3 a13 b14 q13
+t3 a14 b14 q14
+t3 a15 b14 q15
+t3 a16 b14 q16
+t3 a17 b14 q17
+t3 a18 b14 q18
+t3 a19 b14 q19
+t3 a20 b14 q20
+t3 a21 b14 q21
+t3 a22 b14 q22
+t3 a23 b14 q23
+t3 a24 b14 q24
+t3 a25 b14 q25
+t3 a26 b14 q26
+t3 a27 b14 q27
+t3 a28 b14 q28
+t3 a29 b14 q29
+t3 a30 b14 q30
+t3 a31 b14 q31
+t3 a32 b14 q32
+t3 a33 b14 q33
+t3 a0 b15 q0
+t3 a1 b15 q1
+t3 a2 b15 q2
+t3 a3 b15 q3
+t3 a4 b15 q4
+t3 a5 b15 q5
+t3 a6 b15 q6
+t3 a7 b15 q7
+t3 a8 b15 q8
+t3 a9 b15 q9
+t3 a10 b15 q10
+t3 a11 b15 q11
+t3 a12 b15 q12
+t3 a13 b15 q13
+t3 a14 b15 q14
+t3 a15 b15 q15
+t3 a16 b15 q16
+t3 a17 b15 q17
+t3 a18 b15 q18
+t3 a19 b15 q19
+t3 a20 b15 q20
+t3 a21 b15 q21
+t3 a22 b15 q22
+t3 a23 b15 q23
+t3 a24 b15 q24
+t3 a25 b15 q25
+t3 a26 b15 q26
+t3 a27 b15 q27
+t3 a28 b15 q28
+t3 a29 b15 q29
+t3 a30 b15 q30
+t3 a31 b15 q31
+t3 a32 b15 q32
+t3 a33 b15 q33
+t2 q0 p15
+t2 q0 cin
+t3 cin p15 q0
+t2 q1 p16
+t2 q1 q0
+t3 q0 p16 q1
+t2 q2 p17
+t2 q2 q1
+t3 q1 p17 q2
+t2 q3 p18
+t2 q3 q2
+t3 q2 p18 q3
+t2 q4 p19
+t2 q4 q3
+t3 q3 p19 q4
+t2 q5 p20
+t2 q5 q4
+t3 q4 p20 q5
+t2 q6 p21
+t2 q6 q5
+t3 q5 p21 q6
+t2 q7 p22
+t2 q7 q6
+t3 q6 p22 q7
+t2 q8 p23
+t2 q8 q7
+t3 q7 p23 q8
+t2 q9 p24
+t2 q9 q8
+t3 q8 p24 q9
+t2 q10 p25
+t2 q10 q9
+t3 q9 p25 q10
+t2 q11 p26
+t2 q11 q10
+t3 q10 p26 q11
+t2 q12 p27
+t2 q12 q11
+t3 q11 p27 q12
+t2 q13 p28
+t2 q13 q12
+t3 q12 p28 q13
+t2 q14 p29
+t2 q14 q13
+t3 q13 p29 q14
+t2 q15 p30
+t2 q15 q14
+t3 q14 p30 q15
+t2 q16 p31
+t2 q16 q15
+t3 q15 p31 q16
+t2 q17 p32
+t2 q17 q16
+t3 q16 p32 q17
+t2 q18 p33
+t2 q18 q17
+t3 q17 p33 q18
+t2 q19 p34
+t2 q19 q18
+t3 q18 p34 q19
+t2 q20 p35
+t2 q20 q19
+t3 q19 p35 q20
+t2 q21 p36
+t2 q21 q20
+t3 q20 p36 q21
+t2 q22 p37
+t2 q22 q21
+t3 q21 p37 q22
+t2 q23 p38
+t2 q23 q22
+t3 q22 p38 q23
+t2 q24 p39
+t2 q24 q23
+t3 q23 p39 q24
+t2 q25 p40
+t2 q25 q24
+t3 q24 p40 q25
+t2 q26 p41
+t2 q26 q25
+t3 q25 p41 q26
+t2 q27 p42
+t2 q27 q26
+t3 q26 p42 q27
+t2 q28 p43
+t2 q28 q27
+t3 q27 p43 q28
+t2 q29 p44
+t2 q29 q28
+t3 q28 p44 q29
+t2 q30 p45
+t2 q30 q29
+t3 q29 p45 q30
+t2 q31 p46
+t2 q31 q30
+t3 q30 p46 q31
+t2 q32 p47
+t2 q32 q31
+t3 q31 p47 q32
+t2 q33 p48
+t2 q33 q32
+t3 q32 p48 q33
+t2 q34 p49
+t2 q33 p49
+t3 q32 p48 q33
+t2 q33 q32
+t2 q32 p48
+t3 q31 p47 q32
+t2 q32 q31
+t2 q31 p47
+t3 q30 p46 q31
+t2 q31 q30
+t2 q30 p46
+t3 q29 p45 q30
+t2 q30 q29
+t2 q29 p45
+t3 q28 p44 q29
+t2 q29 q28
+t2 q28 p44
+t3 q27 p43 q28
+t2 q28 q27
+t2 q27 p43
+t3 q26 p42 q27
+t2 q27 q26
+t2 q26 p42
+t3 q25 p41 q26
+t2 q26 q25
+t2 q25 p41
+t3 q24 p40 q25
+t2 q25 q24
+t2 q24 p40
+t3 q23 p39 q24
+t2 q24 q23
+t2 q23 p39
+t3 q22 p38 q23
+t2 q23 q22
+t2 q22 p38
+t3 q21 p37 q22
+t2 q22 q21
+t2 q21 p37
+t3 q20 p36 q21
+t2 q21 q20
+t2 q20 p36
+t3 q19 p35 q20
+t2 q20 q19
+t2 q19 p35
+t3 q18 p34 q19
+t2 q19 q18
+t2 q18 p34
+t3 q17 p33 q18
+t2 q18 q17
+t2 q17 p33
+t3 q16 p32 q17
+t2 q17 q16
+t2 q16 p32
+t3 q15 p31 q16
+t2 q16 q15
+t2 q15 p31
+t3 q14 p30 q15
+t2 q15 q14
+t2 q14 p30
+t3 q13 p29 q14
+t2 q14 q13
+t2 q13 p29
+t3 q12 p28 q13
+t2 q13 q12
+t2 q12 p28
+t3 q11 p27 q12
+t2 q12 q11
+t2 q11 p27
+t3 q10 p26 q11
+t2 q11 q10
+t2 q10 p26
+t3 q9 p25 q10
+t2 q10 q9
+t2 q9 p25
+t3 q8 p24 q9
+t2 q9 q8
+t2 q8 p24
+t3 q7 p23 q8
+t2 q8 q7
+t2 q7 p23
+t3 q6 p22 q7
+t2 q7 q6
+t2 q6 p22
+t3 q5 p21 q6
+t2 q6 q5
+t2 q5 p21
+t3 q4 p20 q5
+t2 q5 q4
+t2 q4 p20
+t3 q3 p19 q4
+t2 q4 q3
+t2 q3 p19
+t3 q2 p18 q3
+t2 q3 q2
+t2 q2 p18
+t3 q1 p17 q2
+t2 q2 q1
+t2 q1 p17
+t3 q0 p16 q1
+t2 q1 q0
+t2 q0 p16
+t3 cin p15 q0
+t2 q0 cin
+t2 cin p15
+t3 a0 b15 q0
+t3 a1 b15 q1
+t3 a2 b15 q2
+t3 a3 b15 q3
+t3 a4 b15 q4
+t3 a5 b15 q5
+t3 a6 b15 q6
+t3 a7 b15 q7
+t3 a8 b15 q8
+t3 a9 b15 q9
+t3 a10 b15 q10
+t3 a11 b15 q11
+t3 a12 b15 q12
+t3 a13 b15 q13
+t3 a14 b15 q14
+t3 a15 b15 q15
+t3 a16 b15 q16
+t3 a17 b15 q17
+t3 a18 b15 q18
+t3 a19 b15 q19
+t3 a20 b15 q20
+t3 a21 b15 q21
+t3 a22 b15 q22
+t3 a23 b15 q23
+t3 a24 b15 q24
+t3 a25 b15 q25
+t3 a26 b15 q26
+t3 a27 b15 q27
+t3 a28 b15 q28
+t3 a29 b15 q29
+t3 a30 b15 q30
+t3 a31 b15 q31
+t3 a32 b15 q32
+t3 a33 b15 q33
+t3 a0 b16 q0
+t3 a1 b16 q1
+t3 a2 b16 q2
+t3 a3 b16 q3
+t3 a4 b16 q4
+t3 a5 b16 q5
+t3 a6 b16 q6
+t3 a7 b16 q7
+t3 a8 b16 q8
+t3 a9 b16 q9
+t3 a10 b16 q10
+t3 a11 b16 q11
+t3 a12 b16 q12
+t3 a13 b16 q13
+t3 a14 b16 q14
+t3 a15 b16 q15
+t3 a16 b16 q16
+t3 a17 b16 q17
+t3 a18 b16 q18
+t3 a19 b16 q19
+t3 a20 b16 q20
+t3 a21 b16 q21
+t3 a22 b16 q22
+t3 a23 b16 q23
+t3 a24 b16 q24
+t3 a25 b16 q25
+t3 a26 b16 q26
+t3 a27 b16 q27
+t3 a28 b16 q28
+t3 a29 b16 q29
+t3 a30 b16 q30
+t3 a31 b16 q31
+t3 a32 b16 q32
+t3 a33 b16 q33
+t2 q0 p16
+t2 q0 cin
+t3 cin p16 q0
+t2 q1 p17
+t2 q1 q0
+t3 q0 p17 q1
+t2 q2 p18
+t2 q2 q1
+t3 q1 p18 q2
+t2 q3 p19
+t2 q3 q2
+t3 q2 p19 q3
+t2 q4 p20
+t2 q4 q3
+t3 q3 p20 q4
+t2 q5 p21
+t2 q5 q4
+t3 q4 p21 q5
+t2 q6 p22
+t2 q6 q5
+t3 q5 p22 q6
+t2 q7 p23
+t2 q7 q6
+t3 q6 p23 q7
+t2 q8 p24
+t2 q8 q7
+t3 q7 p24 q8
+t2 q9 p25
+t2 q9 q8
+t3 q8 p25 q9
+t2 q10 p26
+t2 q10 q9
+t3 q9 p26 q10
+t2 q11 p27
+t2 q11 q10
+t3 q10 p27 q11
+t2 q12 p28
+t2 q12 q11
+t3 q11 p28 q12
+t2 q13 p29
+t2 q13 q12
+t3 q12 p29 q13
+t2 q14 p30
+t2 q14 q13
+t3 q13 p30 q14
+t2 q15 p31
+t2 q15 q14
+t3 q14 p31 q15
+t2 q16 p32
+t2 q16 q15
+t3 q15 p32 q16
+t2 q17 p33
+t2 q17 q16
+t3 q16 p33 q17
+t2 q18 p34
+t2 q18 q17
+t3 q17 p34 q18
+t2 q19 p35
+t2 q19 q18
+t3 q18 p35 q19
+t2 q20 p36
+t2 q20 q19
+t3 q19 p36 q20
+t2 q21 p37
+t2 q21 q20
+t3 q20 p37 q21
+t2 q22 p38
+t2 q22 q21
+t3 q21 p38 q22
+t2 q23 p39
+t2 q23 q22
+t3 q22 p39 q23
+t2 q24 p40
+t2 q24 q23
+t3 q23 p40 q24
+t2 q25 p41
+t2 q25 q24
+t3 q24 p41 q25
+t2 q26 p42
+t2 q26 q25
+t3 q25 p42 q26
+t2 q27 p43
+t2 q27 q26
+t3 q26 p43 q27
+t2 q28 p44
+t2 q28 q27
+t3 q27 p44 q28
+t2 q29 p45
+t2 q29 q28
+t3 q28 p45 q29
+t2 q30 p46
+t2 q30 q29
+t3 q29 p46 q30
+t2 q31 p47
+t2 q31 q30
+t3 q30 p47 q31
+t2 q32 p48
+t2 q32 q31
+t3 q31 p48 q32
+t2 q33 p49
+t2 q33 q32
+t3 q32 p49 q33
+t2 q34 p50
+t2 q33 p50
+t3 q32 p49 q33
+t2 q33 q32
+t2 q32 p49
+t3 q31 p48 q32
+t2 q32 q31
+t2 q31 p48
+t3 q30 p47 q31
+t2 q31 q30
+t2 q30 p47
+t3 q29 p46 q30
+t2 q30 q29
+t2 q29 p46
+t3 q28 p45 q29
+t2 q29 q28
+t2 q28 p45
+t3 q27 p44 q28
+t2 q28 q27
+t2 q27 p44
+t3 q26 p43 q27
+t2 q27 q26
+t2 q26 p43
+t3 q25 p42 q26
+t2 q26 q25
+t2 q25 p42
+t3 q24 p41 q25
+t2 q25 q24
+t2 q24 p41
+t3 q23 p40 q24
+t2 q24 q23
+t2 q23 p40
+t3 q22 p39 q23
+t2 q23 q22
+t2 q22 p39
+t3 q21 p38 q22
+t2 q22 q21
+t2 q21 p38
+t3 q20 p37 q21
+t2 q21 q20
+t2 q20 p37
+t3 q19 p36 q20
+t2 q20 q19
+t2 q19 p36
+t3 q18 p35 q19
+t2 q19 q18
+t2 q18 p35
+t3 q17 p34 q18
+t2 q18 q17
+t2 q17 p34
+t3 q16 p33 q17
+t2 q17 q16
+t2 q16 p33
+t3 q15 p32 q16
+t2 q16 q15
+t2 q15 p32
+t3 q14 p31 q15
+t2 q15 q14
+t2 q14 p31
+t3 q13 p30 q14
+t2 q14 q13
+t2 q13 p30
+t3 q12 p29 q13
+t2 q13 q12
+t2 q12 p29
+t3 q11 p28 q12
+t2 q12 q11
+t2 q11 p28
+t3 q10 p27 q11
+t2 q11 q10
+t2 q10 p27
+t3 q9 p26 q10
+t2 q10 q9
+t2 q9 p26
+t3 q8 p25 q9
+t2 q9 q8
+t2 q8 p25
+t3 q7 p24 q8
+t2 q8 q7
+t2 q7 p24
+t3 q6 p23 q7
+t2 q7 q6
+t2 q6 p23
+t3 q5 p22 q6
+t2 q6 q5
+t2 q5 p22
+t3 q4 p21 q5
+t2 q5 q4
+t2 q4 p21
+t3 q3 p20 q4
+t2 q4 q3
+t2 q3 p20
+t3 q2 p19 q3
+t2 q3 q2
+t2 q2 p19
+t3 q1 p18 q2
+t2 q2 q1
+t2 q1 p18
+t3 q0 p17 q1
+t2 q1 q0
+t2 q0 p17
+t3 cin p16 q0
+t2 q0 cin
+t2 cin p16
+t3 a0 b16 q0
+t3 a1 b16 q1
+t3 a2 b16 q2
+t3 a3 b16 q3
+t3 a4 b16 q4
+t3 a5 b16 q5
+t3 a6 b16 q6
+t3 a7 b16 q7
+t3 a8 b16 q8
+t3 a9 b16 q9
+t3 a10 b16 q10
+t3 a11 b16 q11
+t3 a12 b16 q12
+t3 a13 b16 q13
+t3 a14 b16 q14
+t3 a15 b16 q15
+t3 a16 b16 q16
+t3 a17 b16 q17
+t3 a18 b16 q18
+t3 a19 b16 q19
+t3 a20 b16 q20
+t3 a21 b16 q21
+t3 a22 b16 q22
+t3 a23 b16 q23
+t3 a24 b16 q24
+t3 a25 b16 q25
+t3 a26 b16 q26
+t3 a27 b16 q27
+t3 a28 b16 q28
+t3 a29 b16 q29
+t3 a30 b16 q30
+t3 a31 b16 q31
+t3 a32 b16 q32
+t3 a33 b16 q33
+t3 a0 b17 q0
+t3 a1 b17 q1
+t3 a2 b17 q2
+t3 a3 b17 q3
+t3 a4 b17 q4
+t3 a5 b17 q5
+t3 a6 b17 q6
+t3 a7 b17 q7
+t3 a8 b17 q8
+t3 a9 b17 q9
+t3 a10 b17 q10
+t3 a11 b17 q11
+t3 a12 b17 q12
+t3 a13 b17 q13
+t3 a14 b17 q14
+t3 a15 b17 q15
+t3 a16 b17 q16
+t3 a17 b17 q17
+t3 a18 b17 q18
+t3 a19 b17 q19
+t3 a20 b17 q20
+t3 a21 b17 q21
+t3 a22 b17 q22
+t3 a23 b17 q23
+t3 a24 b17 q24
+t3 a25 b17 q25
+t3 a26 b17 q26
+t3 a27 b17 q27
+t3 a28 b17 q28
+t3 a29 b17 q29
+t3 a30 b17 q30
+t3 a31 b17 q31
+t3 a32 b17 q32
+t3 a33 b17 q33
+t2 q0 p17
+t2 q0 cin
+t3 cin p17 q0
+t2 q1 p18
+t2 q1 q0
+t3 q0 p18 q1
+t2 q2 p19
+t2 q2 q1
+t3 q1 p19 q2
+t2 q3 p20
+t2 q3 q2
+t3 q2 p20 q3
+t2 q4 p21
+t2 q4 q3
+t3 q3 p21 q4
+t2 q5 p22
+t2 q5 q4
+t3 q4 p22 q5
+t2 q6 p23
+t2 q6 q5
+t3 q5 p23 q6
+t2 q7 p24
+t2 q7 q6
+t3 q6 p24 q7
+t2 q8 p25
+t2 q8 q7
+t3 q7 p25 q8
+t2 q9 p26
+t2 q9 q8
+t3 q8 p26 q9
+t2 q10 p27
+t2 q10 q9
+t3 q9 p27 q10
+t2 q11 p28
+t2 q11 q10
+t3 q10 p28 q11
+t2 q12 p29
+t2 q12 q11
+t3 q11 p29 q12
+t2 q13 p30
+t2 q13 q12
+t3 q12 p30 q13
+t2 q14 p31
+t2 q14 q13
+t3 q13 p31 q14
+t2 q15 p32
+t2 q15 q14
+t3 q14 p32 q15
+t2 q16 p33
+t2 q16 q15
+t3 q15 p33 q16
+t2 q17 p34
+t2 q17 q16
+t3 q16 p34 q17
+t2 q18 p35
+t2 q18 q17
+t3 q17 p35 q18
+t2 q19 p36
+t2 q19 q18
+t3 q18 p36 q19
+t2 q20 p37
+t2 q20 q19
+t3 q19 p37 q20
+t2 q21 p38
+t2 q21 q20
+t3 q20 p38 q21
+t2 q22 p39
+t2 q22 q21
+t3 q21 p39 q22
+t2 q23 p40
+t2 q23 q22
+t3 q22 p40 q23
+t2 q24 p41
+t2 q24 q23
+t3 q23 p41 q24
+t2 q25 p42
+t2 q25 q24
+t3 q24 p42 q25
+t2 q26 p43
+t2 q26 q25
+t3 q25 p43 q26
+t2 q27 p44
+t2 q27 q26
+t3 q26 p44 q27
+t2 q28 p45
+t2 q28 q27
+t3 q27 p45 q28
+t2 q29 p46
+t2 q29 q28
+t3 q28 p46 q29
+t2 q30 p47
+t2 q30 q29
+t3 q29 p47 q30
+t2 q31 p48
+t2 q31 q30
+t3 q30 p48 q31
+t2 q32 p49
+t2 q32 q31
+t3 q31 p49 q32
+t2 q33 p50
+t2 q33 q32
+t3 q32 p50 q33
+t2 q34 p51
+t2 q33 p51
+t3 q32 p50 q33
+t2 q33 q32
+t2 q32 p50
+t3 q31 p49 q32
+t2 q32 q31
+t2 q31 p49
+t3 q30 p48 q31
+t2 q31 q30
+t2 q30 p48
+t3 q29 p47 q30
+t2 q30 q29
+t2 q29 p47
+t3 q28 p46 q29
+t2 q29 q28
+t2 q28 p46
+t3 q27 p45 q28
+t2 q28 q27
+t2 q27 p45
+t3 q26 p44 q27
+t2 q27 q26
+t2 q26 p44
+t3 q25 p43 q26
+t2 q26 q25
+t2 q25 p43
+t3 q24 p42 q25
+t2 q25 q24
+t2 q24 p42
+t3 q23 p41 q24
+t2 q24 q23
+t2 q23 p41
+t3 q22 p40 q23
+t2 q23 q22
+t2 q22 p40
+t3 q21 p39 q22
+t2 q22 q21
+t2 q21 p39
+t3 q20 p38 q21
+t2 q21 q20
+t2 q20 p38
+t3 q19 p37 q20
+t2 q20 q19
+t2 q19 p37
+t3 q18 p36 q19
+t2 q19 q18
+t2 q18 p36
+t3 q17 p35 q18
+t2 q18 q17
+t2 q17 p35
+t3 q16 p34 q17
+t2 q17 q16
+t2 q16 p34
+t3 q15 p33 q16
+t2 q16 q15
+t2 q15 p33
+t3 q14 p32 q15
+t2 q15 q14
+t2 q14 p32
+t3 q13 p31 q14
+t2 q14 q13
+t2 q13 p31
+t3 q12 p30 q13
+t2 q13 q12
+t2 q12 p30
+t3 q11 p29 q12
+t2 q12 q11
+t2 q11 p29
+t3 q10 p28 q11
+t2 q11 q10
+t2 q10 p28
+t3 q9 p27 q10
+t2 q10 q9
+t2 q9 p27
+t3 q8 p26 q9
+t2 q9 q8
+t2 q8 p26
+t3 q7 p25 q8
+t2 q8 q7
+t2 q7 p25
+t3 q6 p24 q7
+t2 q7 q6
+t2 q6 p24
+t3 q5 p23 q6
+t2 q6 q5
+t2 q5 p23
+t3 q4 p22 q5
+t2 q5 q4
+t2 q4 p22
+t3 q3 p21 q4
+t2 q4 q3
+t2 q3 p21
+t3 q2 p20 q3
+t2 q3 q2
+t2 q2 p20
+t3 q1 p19 q2
+t2 q2 q1
+t2 q1 p19
+t3 q0 p18 q1
+t2 q1 q0
+t2 q0 p18
+t3 cin p17 q0
+t2 q0 cin
+t2 cin p17
+t3 a0 b17 q0
+t3 a1 b17 q1
+t3 a2 b17 q2
+t3 a3 b17 q3
+t3 a4 b17 q4
+t3 a5 b17 q5
+t3 a6 b17 q6
+t3 a7 b17 q7
+t3 a8 b17 q8
+t3 a9 b17 q9
+t3 a10 b17 q10
+t3 a11 b17 q11
+t3 a12 b17 q12
+t3 a13 b17 q13
+t3 a14 b17 q14
+t3 a15 b17 q15
+t3 a16 b17 q16
+t3 a17 b17 q17
+t3 a18 b17 q18
+t3 a19 b17 q19
+t3 a20 b17 q20
+t3 a21 b17 q21
+t3 a22 b17 q22
+t3 a23 b17 q23
+t3 a24 b17 q24
+t3 a25 b17 q25
+t3 a26 b17 q26
+t3 a27 b17 q27
+t3 a28 b17 q28
+t3 a29 b17 q29
+t3 a30 b17 q30
+t3 a31 b17 q31
+t3 a32 b17 q32
+t3 a33 b17 q33
+t3 a0 b18 q0
+t3 a1 b18 q1
+t3 a2 b18 q2
+t3 a3 b18 q3
+t3 a4 b18 q4
+t3 a5 b18 q5
+t3 a6 b18 q6
+t3 a7 b18 q7
+t3 a8 b18 q8
+t3 a9 b18 q9
+t3 a10 b18 q10
+t3 a11 b18 q11
+t3 a12 b18 q12
+t3 a13 b18 q13
+t3 a14 b18 q14
+t3 a15 b18 q15
+t3 a16 b18 q16
+t3 a17 b18 q17
+t3 a18 b18 q18
+t3 a19 b18 q19
+t3 a20 b18 q20
+t3 a21 b18 q21
+t3 a22 b18 q22
+t3 a23 b18 q23
+t3 a24 b18 q24
+t3 a25 b18 q25
+t3 a26 b18 q26
+t3 a27 b18 q27
+t3 a28 b18 q28
+t3 a29 b18 q29
+t3 a30 b18 q30
+t3 a31 b18 q31
+t3 a32 b18 q32
+t3 a33 b18 q33
+t2 q0 p18
+t2 q0 cin
+t3 cin p18 q0
+t2 q1 p19
+t2 q1 q0
+t3 q0 p19 q1
+t2 q2 p20
+t2 q2 q1
+t3 q1 p20 q2
+t2 q3 p21
+t2 q3 q2
+t3 q2 p21 q3
+t2 q4 p22
+t2 q4 q3
+t3 q3 p22 q4
+t2 q5 p23
+t2 q5 q4
+t3 q4 p23 q5
+t2 q6 p24
+t2 q6 q5
+t3 q5 p24 q6
+t2 q7 p25
+t2 q7 q6
+t3 q6 p25 q7
+t2 q8 p26
+t2 q8 q7
+t3 q7 p26 q8
+t2 q9 p27
+t2 q9 q8
+t3 q8 p27 q9
+t2 q10 p28
+t2 q10 q9
+t3 q9 p28 q10
+t2 q11 p29
+t2 q11 q10
+t3 q10 p29 q11
+t2 q12 p30
+t2 q12 q11
+t3 q11 p30 q12
+t2 q13 p31
+t2 q13 q12
+t3 q12 p31 q13
+t2 q14 p32
+t2 q14 q13
+t3 q13 p32 q14
+t2 q15 p33
+t2 q15 q14
+t3 q14 p33 q15
+t2 q16 p34
+t2 q16 q15
+t3 q15 p34 q16
+t2 q17 p35
+t2 q17 q16
+t3 q16 p35 q17
+t2 q18 p36
+t2 q18 q17
+t3 q17 p36 q18
+t2 q19 p37
+t2 q19 q18
+t3 q18 p37 q19
+t2 q20 p38
+t2 q20 q19
+t3 q19 p38 q20
+t2 q21 p39
+t2 q21 q20
+t3 q20 p39 q21
+t2 q22 p40
+t2 q22 q21
+t3 q21 p40 q22
+t2 q23 p41
+t2 q23 q22
+t3 q22 p41 q23
+t2 q24 p42
+t2 q24 q23
+t3 q23 p42 q24
+t2 q25 p43
+t2 q25 q24
+t3 q24 p43 q25
+t2 q26 p44
+t2 q26 q25
+t3 q25 p44 q26
+t2 q27 p45
+t2 q27 q26
+t3 q26 p45 q27
+t2 q28 p46
+t2 q28 q27
+t3 q27 p46 q28
+t2 q29 p47
+t2 q29 q28
+t3 q28 p47 q29
+t2 q30 p48
+t2 q30 q29
+t3 q29 p48 q30
+t2 q31 p49
+t2 q31 q30
+t3 q30 p49 q31
+t2 q32 p50
+t2 q32 q31
+t3 q31 p50 q32
+t2 q33 p51
+t2 q33 q32
+t3 q32 p51 q33
+t2 q34 p52
+t2 q33 p52
+t3 q32 p51 q33
+t2 q33 q32
+t2 q32 p51
+t3 q31 p50 q32
+t2 q32 q31
+t2 q31 p50
+t3 q30 p49 q31
+t2 q31 q30
+t2 q30 p49
+t3 q29 p48 q30
+t2 q30 q29
+t2 q29 p48
+t3 q28 p47 q29
+t2 q29 q28
+t2 q28 p47
+t3 q27 p46 q28
+t2 q28 q27
+t2 q27 p46
+t3 q26 p45 q27
+t2 q27 q26
+t2 q26 p45
+t3 q25 p44 q26
+t2 q26 q25
+t2 q25 p44
+t3 q24 p43 q25
+t2 q25 q24
+t2 q24 p43
+t3 q23 p42 q24
+t2 q24 q23
+t2 q23 p42
+t3 q22 p41 q23
+t2 q23 q22
+t2 q22 p41
+t3 q21 p40 q22
+t2 q22 q21
+t2 q21 p40
+t3 q20 p39 q21
+t2 q21 q20
+t2 q20 p39
+t3 q19 p38 q20
+t2 q20 q19
+t2 q19 p38
+t3 q18 p37 q19
+t2 q19 q18
+t2 q18 p37
+t3 q17 p36 q18
+t2 q18 q17
+t2 q17 p36
+t3 q16 p35 q17
+t2 q17 q16
+t2 q16 p35
+t3 q15 p34 q16
+t2 q16 q15
+t2 q15 p34
+t3 q14 p33 q15
+t2 q15 q14
+t2 q14 p33
+t3 q13 p32 q14
+t2 q14 q13
+t2 q13 p32
+t3 q12 p31 q13
+t2 q13 q12
+t2 q12 p31
+t3 q11 p30 q12
+t2 q12 q11
+t2 q11 p30
+t3 q10 p29 q11
+t2 q11 q10
+t2 q10 p29
+t3 q9 p28 q10
+t2 q10 q9
+t2 q9 p28
+t3 q8 p27 q9
+t2 q9 q8
+t2 q8 p27
+t3 q7 p26 q8
+t2 q8 q7
+t2 q7 p26
+t3 q6 p25 q7
+t2 q7 q6
+t2 q6 p25
+t3 q5 p24 q6
+t2 q6 q5
+t2 q5 p24
+t3 q4 p23 q5
+t2 q5 q4
+t2 q4 p23
+t3 q3 p22 q4
+t2 q4 q3
+t2 q3 p22
+t3 q2 p21 q3
+t2 q3 q2
+t2 q2 p21
+t3 q1 p20 q2
+t2 q2 q1
+t2 q1 p20
+t3 q0 p19 q1
+t2 q1 q0
+t2 q0 p19
+t3 cin p18 q0
+t2 q0 cin
+t2 cin p18
+t3 a0 b18 q0
+t3 a1 b18 q1
+t3 a2 b18 q2
+t3 a3 b18 q3
+t3 a4 b18 q4
+t3 a5 b18 q5
+t3 a6 b18 q6
+t3 a7 b18 q7
+t3 a8 b18 q8
+t3 a9 b18 q9
+t3 a10 b18 q10
+t3 a11 b18 q11
+t3 a12 b18 q12
+t3 a13 b18 q13
+t3 a14 b18 q14
+t3 a15 b18 q15
+t3 a16 b18 q16
+t3 a17 b18 q17
+t3 a18 b18 q18
+t3 a19 b18 q19
+t3 a20 b18 q20
+t3 a21 b18 q21
+t3 a22 b18 q22
+t3 a23 b18 q23
+t3 a24 b18 q24
+t3 a25 b18 q25
+t3 a26 b18 q26
+t3 a27 b18 q27
+t3 a28 b18 q28
+t3 a29 b18 q29
+t3 a30 b18 q30
+t3 a31 b18 q31
+t3 a32 b18 q32
+t3 a33 b18 q33
+t3 a0 b19 q0
+t3 a1 b19 q1
+t3 a2 b19 q2
+t3 a3 b19 q3
+t3 a4 b19 q4
+t3 a5 b19 q5
+t3 a6 b19 q6
+t3 a7 b19 q7
+t3 a8 b19 q8
+t3 a9 b19 q9
+t3 a10 b19 q10
+t3 a11 b19 q11
+t3 a12 b19 q12
+t3 a13 b19 q13
+t3 a14 b19 q14
+t3 a15 b19 q15
+t3 a16 b19 q16
+t3 a17 b19 q17
+t3 a18 b19 q18
+t3 a19 b19 q19
+t3 a20 b19 q20
+t3 a21 b19 q21
+t3 a22 b19 q22
+t3 a23 b19 q23
+t3 a24 b19 q24
+t3 a25 b19 q25
+t3 a26 b19 q26
+t3 a27 b19 q27
+t3 a28 b19 q28
+t3 a29 b19 q29
+t3 a30 b19 q30
+t3 a31 b19 q31
+t3 a32 b19 q32
+t3 a33 b19 q33
+t2 q0 p19
+t2 q0 cin
+t3 cin p19 q0
+t2 q1 p20
+t2 q1 q0
+t3 q0 p20 q1
+t2 q2 p21
+t2 q2 q1
+t3 q1 p21 q2
+t2 q3 p22
+t2 q3 q2
+t3 q2 p22 q3
+t2 q4 p23
+t2 q4 q3
+t3 q3 p23 q4
+t2 q5 p24
+t2 q5 q4
+t3 q4 p24 q5
+t2 q6 p25
+t2 q6 q5
+t3 q5 p25 q6
+t2 q7 p26
+t2 q7 q6
+t3 q6 p26 q7
+t2 q8 p27
+t2 q8 q7
+t3 q7 p27 q8
+t2 q9 p28
+t2 q9 q8
+t3 q8 p28 q9
+t2 q10 p29
+t2 q10 q9
+t3 q9 p29 q10
+t2 q11 p30
+t2 q11 q10
+t3 q10 p30 q11
+t2 q12 p31
+t2 q12 q11
+t3 q11 p31 q12
+t2 q13 p32
+t2 q13 q12
+t3 q12 p32 q13
+t2 q14 p33
+t2 q14 q13
+t3 q13 p33 q14
+t2 q15 p34
+t2 q15 q14
+t3 q14 p34 q15
+t2 q16 p35
+t2 q16 q15
+t3 q15 p35 q16
+t2 q17 p36
+t2 q17 q16
+t3 q16 p36 q17
+t2 q18 p37
+t2 q18 q17
+t3 q17 p37 q18
+t2 q19 p38
+t2 q19 q18
+t3 q18 p38 q19
+t2 q20 p39
+t2 q20 q19
+t3 q19 p39 q20
+t2 q21 p40
+t2 q21 q20
+t3 q20 p40 q21
+t2 q22 p41
+t2 q22 q21
+t3 q21 p41 q22
+t2 q23 p42
+t2 q23 q22
+t3 q22 p42 q23
+t2 q24 p43
+t2 q24 q23
+t3 q23 p43 q24
+t2 q25 p44
+t2 q25 q24
+t3 q24 p44 q25
+t2 q26 p45
+t2 q26 q25
+t3 q25 p45 q26
+t2 q27 p46
+t2 q27 q26
+t3 q26 p46 q27
+t2 q28 p47
+t2 q28 q27
+t3 q27 p47 q28
+t2 q29 p48
+t2 q29 q28
+t3 q28 p48 q29
+t2 q30 p49
+t2 q30 q29
+t3 q29 p49 q30
+t2 q31 p50
+t2 q31 q30
+t3 q30 p50 q31
+t2 q32 p51
+t2 q32 q31
+t3 q31 p51 q32
+t2 q33 p52
+t2 q33 q32
+t3 q32 p52 q33
+t2 q34 p53
+t2 q33 p53
+t3 q32 p52 q33
+t2 q33 q32
+t2 q32 p52
+t3 q31 p51 q32
+t2 q32 q31
+t2 q31 p51
+t3 q30 p50 q31
+t2 q31 q30
+t2 q30 p50
+t3 q29 p49 q30
+t2 q30 q29
+t2 q29 p49
+t3 q28 p48 q29
+t2 q29 q28
+t2 q28 p48
+t3 q27 p47 q28
+t2 q28 q27
+t2 q27 p47
+t3 q26 p46 q27
+t2 q27 q26
+t2 q26 p46
+t3 q25 p45 q26
+t2 q26 q25
+t2 q25 p45
+t3 q24 p44 q25
+t2 q25 q24
+t2 q24 p44
+t3 q23 p43 q24
+t2 q24 q23
+t2 q23 p43
+t3 q22 p42 q23
+t2 q23 q22
+t2 q22 p42
+t3 q21 p41 q22
+t2 q22 q21
+t2 q21 p41
+t3 q20 p40 q21
+t2 q21 q20
+t2 q20 p40
+t3 q19 p39 q20
+t2 q20 q19
+t2 q19 p39
+t3 q18 p38 q19
+t2 q19 q18
+t2 q18 p38
+t3 q17 p37 q18
+t2 q18 q17
+t2 q17 p37
+t3 q16 p36 q17
+t2 q17 q16
+t2 q16 p36
+t3 q15 p35 q16
+t2 q16 q15
+t2 q15 p35
+t3 q14 p34 q15
+t2 q15 q14
+t2 q14 p34
+t3 q13 p33 q14
+t2 q14 q13
+t2 q13 p33
+t3 q12 p32 q13
+t2 q13 q12
+t2 q12 p32
+t3 q11 p31 q12
+t2 q12 q11
+t2 q11 p31
+t3 q10 p30 q11
+t2 q11 q10
+t2 q10 p30
+t3 q9 p29 q10
+t2 q10 q9
+t2 q9 p29
+t3 q8 p28 q9
+t2 q9 q8
+t2 q8 p28
+t3 q7 p27 q8
+t2 q8 q7
+t2 q7 p27
+t3 q6 p26 q7
+t2 q7 q6
+t2 q6 p26
+t3 q5 p25 q6
+t2 q6 q5
+t2 q5 p25
+t3 q4 p24 q5
+t2 q5 q4
+t2 q4 p24
+t3 q3 p23 q4
+t2 q4 q3
+t2 q3 p23
+t3 q2 p22 q3
+t2 q3 q2
+t2 q2 p22
+t3 q1 p21 q2
+t2 q2 q1
+t2 q1 p21
+t3 q0 p20 q1
+t2 q1 q0
+t2 q0 p20
+t3 cin p19 q0
+t2 q0 cin
+t2 cin p19
+t3 a0 b19 q0
+t3 a1 b19 q1
+t3 a2 b19 q2
+t3 a3 b19 q3
+t3 a4 b19 q4
+t3 a5 b19 q5
+t3 a6 b19 q6
+t3 a7 b19 q7
+t3 a8 b19 q8
+t3 a9 b19 q9
+t3 a10 b19 q10
+t3 a11 b19 q11
+t3 a12 b19 q12
+t3 a13 b19 q13
+t3 a14 b19 q14
+t3 a15 b19 q15
+t3 a16 b19 q16
+t3 a17 b19 q17
+t3 a18 b19 q18
+t3 a19 b19 q19
+t3 a20 b19 q20
+t3 a21 b19 q21
+t3 a22 b19 q22
+t3 a23 b19 q23
+t3 a24 b19 q24
+t3 a25 b19 q25
+t3 a26 b19 q26
+t3 a27 b19 q27
+t3 a28 b19 q28
+t3 a29 b19 q29
+t3 a30 b19 q30
+t3 a31 b19 q31
+t3 a32 b19 q32
+t3 a33 b19 q33
+t3 a0 b20 q0
+t3 a1 b20 q1
+t3 a2 b20 q2
+t3 a3 b20 q3
+t3 a4 b20 q4
+t3 a5 b20 q5
+t3 a6 b20 q6
+t3 a7 b20 q7
+t3 a8 b20 q8
+t3 a9 b20 q9
+t3 a10 b20 q10
+t3 a11 b20 q11
+t3 a12 b20 q12
+t3 a13 b20 q13
+t3 a14 b20 q14
+t3 a15 b20 q15
+t3 a16 b20 q16
+t3 a17 b20 q17
+t3 a18 b20 q18
+t3 a19 b20 q19
+t3 a20 b20 q20
+t3 a21 b20 q21
+t3 a22 b20 q22
+t3 a23 b20 q23
+t3 a24 b20 q24
+t3 a25 b20 q25
+t3 a26 b20 q26
+t3 a27 b20 q27
+t3 a28 b20 q28
+t3 a29 b20 q29
+t3 a30 b20 q30
+t3 a31 b20 q31
+t3 a32 b20 q32
+t3 a33 b20 q33
+t2 q0 p20
+t2 q0 cin
+t3 cin p20 q0
+t2 q1 p21
+t2 q1 q0
+t3 q0 p21 q1
+t2 q2 p22
+t2 q2 q1
+t3 q1 p22 q2
+t2 q3 p23
+t2 q3 q2
+t3 q2 p23 q3
+t2 q4 p24
+t2 q4 q3
+t3 q3 p24 q4
+t2 q5 p25
+t2 q5 q4
+t3 q4 p25 q5
+t2 q6 p26
+t2 q6 q5
+t3 q5 p26 q6
+t2 q7 p27
+t2 q7 q6
+t3 q6 p27 q7
+t2 q8 p28
+t2 q8 q7
+t3 q7 p28 q8
+t2 q9 p29
+t2 q9 q8
+t3 q8 p29 q9
+t2 q10 p30
+t2 q10 q9
+t3 q9 p30 q10
+t2 q11 p31
+t2 q11 q10
+t3 q10 p31 q11
+t2 q12 p32
+t2 q12 q11
+t3 q11 p32 q12
+t2 q13 p33
+t2 q13 q12
+t3 q12 p33 q13
+t2 q14 p34
+t2 q14 q13
+t3 q13 p34 q14
+t2 q15 p35
+t2 q15 q14
+t3 q14 p35 q15
+t2 q16 p36
+t2 q16 q15
+t3 q15 p36 q16
+t2 q17 p37
+t2 q17 q16
+t3 q16 p37 q17
+t2 q18 p38
+t2 q18 q17
+t3 q17 p38 q18
+t2 q19 p39
+t2 q19 q18
+t3 q18 p39 q19
+t2 q20 p40
+t2 q20 q19
+t3 q19 p40 q20
+t2 q21 p41
+t2 q21 q20
+t3 q20 p41 q21
+t2 q22 p42
+t2 q22 q21
+t3 q21 p42 q22
+t2 q23 p43
+t2 q23 q22
+t3 q22 p43 q23
+t2 q24 p44
+t2 q24 q23
+t3 q23 p44 q24
+t2 q25 p45
+t2 q25 q24
+t3 q24 p45 q25
+t2 q26 p46
+t2 q26 q25
+t3 q25 p46 q26
+t2 q27 p47
+t2 q27 q26
+t3 q26 p47 q27
+t2 q28 p48
+t2 q28 q27
+t3 q27 p48 q28
+t2 q29 p49
+t2 q29 q28
+t3 q28 p49 q29
+t2 q30 p50
+t2 q30 q29
+t3 q29 p50 q30
+t2 q31 p51
+t2 q31 q30
+t3 q30 p51 q31
+t2 q32 p52
+t2 q32 q31
+t3 q31 p52 q32
+t2 q33 p53
+t2 q33 q32
+t3 q32 p53 q33
+t2 q34 p54
+t2 q33 p54
+t3 q32 p53 q33
+t2 q33 q32
+t2 q32 p53
+t3 q31 p52 q32
+t2 q32 q31
+t2 q31 p52
+t3 q30 p51 q31
+t2 q31 q30
+t2 q30 p51
+t3 q29 p50 q30
+t2 q30 q29
+t2 q29 p50
+t3 q28 p49 q29
+t2 q29 q28
+t2 q28 p49
+t3 q27 p48 q28
+t2 q28 q27
+t2 q27 p48
+t3 q26 p47 q27
+t2 q27 q26
+t2 q26 p47
+t3 q25 p46 q26
+t2 q26 q25
+t2 q25 p46
+t3 q24 p45 q25
+t2 q25 q24
+t2 q24 p45
+t3 q23 p44 q24
+t2 q24 q23
+t2 q23 p44
+t3 q22 p43 q23
+t2 q23 q22
+t2 q22 p43
+t3 q21 p42 q22
+t2 q22 q21
+t2 q21 p42
+t3 q20 p41 q21
+t2 q21 q20
+t2 q20 p41
+t3 q19 p40 q20
+t2 q20 q19
+t2 q19 p40
+t3 q18 p39 q19
+t2 q19 q18
+t2 q18 p39
+t3 q17 p38 q18
+t2 q18 q17
+t2 q17 p38
+t3 q16 p37 q17
+t2 q17 q16
+t2 q16 p37
+t3 q15 p36 q16
+t2 q16 q15
+t2 q15 p36
+t3 q14 p35 q15
+t2 q15 q14
+t2 q14 p35
+t3 q13 p34 q14
+t2 q14 q13
+t2 q13 p34
+t3 q12 p33 q13
+t2 q13 q12
+t2 q12 p33
+t3 q11 p32 q12
+t2 q12 q11
+t2 q11 p32
+t3 q10 p31 q11
+t2 q11 q10
+t2 q10 p31
+t3 q9 p30 q10
+t2 q10 q9
+t2 q9 p30
+t3 q8 p29 q9
+t2 q9 q8
+t2 q8 p29
+t3 q7 p28 q8
+t2 q8 q7
+t2 q7 p28
+t3 q6 p27 q7
+t2 q7 q6
+t2 q6 p27
+t3 q5 p26 q6
+t2 q6 q5
+t2 q5 p26
+t3 q4 p25 q5
+t2 q5 q4
+t2 q4 p25
+t3 q3 p24 q4
+t2 q4 q3
+t2 q3 p24
+t3 q2 p23 q3
+t2 q3 q2
+t2 q2 p23
+t3 q1 p22 q2
+t2 q2 q1
+t2 q1 p22
+t3 q0 p21 q1
+t2 q1 q0
+t2 q0 p21
+t3 cin p20 q0
+t2 q0 cin
+t2 cin p20
+t3 a0 b20 q0
+t3 a1 b20 q1
+t3 a2 b20 q2
+t3 a3 b20 q3
+t3 a4 b20 q4
+t3 a5 b20 q5
+t3 a6 b20 q6
+t3 a7 b20 q7
+t3 a8 b20 q8
+t3 a9 b20 q9
+t3 a10 b20 q10
+t3 a11 b20 q11
+t3 a12 b20 q12
+t3 a13 b20 q13
+t3 a14 b20 q14
+t3 a15 b20 q15
+t3 a16 b20 q16
+t3 a17 b20 q17
+t3 a18 b20 q18
+t3 a19 b20 q19
+t3 a20 b20 q20
+t3 a21 b20 q21
+t3 a22 b20 q22
+t3 a23 b20 q23
+t3 a24 b20 q24
+t3 a25 b20 q25
+t3 a26 b20 q26
+t3 a27 b20 q27
+t3 a28 b20 q28
+t3 a29 b20 q29
+t3 a30 b20 q30
+t3 a31 b20 q31
+t3 a32 b20 q32
+t3 a33 b20 q33
+t3 a0 b21 q0
+t3 a1 b21 q1
+t3 a2 b21 q2
+t3 a3 b21 q3
+t3 a4 b21 q4
+t3 a5 b21 q5
+t3 a6 b21 q6
+t3 a7 b21 q7
+t3 a8 b21 q8
+t3 a9 b21 q9
+t3 a10 b21 q10
+t3 a11 b21 q11
+t3 a12 b21 q12
+t3 a13 b21 q13
+t3 a14 b21 q14
+t3 a15 b21 q15
+t3 a16 b21 q16
+t3 a17 b21 q17
+t3 a18 b21 q18
+t3 a19 b21 q19
+t3 a20 b21 q20
+t3 a21 b21 q21
+t3 a22 b21 q22
+t3 a23 b21 q23
+t3 a24 b21 q24
+t3 a25 b21 q25
+t3 a26 b21 q26
+t3 a27 b21 q27
+t3 a28 b21 q28
+t3 a29 b21 q29
+t3 a30 b21 q30
+t3 a31 b21 q31
+t3 a32 b21 q32
+t3 a33 b21 q33
+t2 q0 p21
+t2 q0 cin
+t3 cin p21 q0
+t2 q1 p22
+t2 q1 q0
+t3 q0 p22 q1
+t2 q2 p23
+t2 q2 q1
+t3 q1 p23 q2
+t2 q3 p24
+t2 q3 q2
+t3 q2 p24 q3
+t2 q4 p25
+t2 q4 q3
+t3 q3 p25 q4
+t2 q5 p26
+t2 q5 q4
+t3 q4 p26 q5
+t2 q6 p27
+t2 q6 q5
+t3 q5 p27 q6
+t2 q7 p28
+t2 q7 q6
+t3 q6 p28 q7
+t2 q8 p29
+t2 q8 q7
+t3 q7 p29 q8
+t2 q9 p30
+t2 q9 q8
+t3 q8 p30 q9
+t2 q10 p31
+t2 q10 q9
+t3 q9 p31 q10
+t2 q11 p32
+t2 q11 q10
+t3 q10 p32 q11
+t2 q12 p33
+t2 q12 q11
+t3 q11 p33 q12
+t2 q13 p34
+t2 q13 q12
+t3 q12 p34 q13
+t2 q14 p35
+t2 q14 q13
+t3 q13 p35 q14
+t2 q15 p36
+t2 q15 q14
+t3 q14 p36 q15
+t2 q16 p37
+t2 q16 q15
+t3 q15 p37 q16
+t2 q17 p38
+t2 q17 q16
+t3 q16 p38 q17
+t2 q18 p39
+t2 q18 q17
+t3 q17 p39 q18
+t2 q19 p40
+t2 q19 q18
+t3 q18 p40 q19
+t2 q20 p41
+t2 q20 q19
+t3 q19 p41 q20
+t2 q21 p42
+t2 q21 q20
+t3 q20 p42 q21
+t2 q22 p43
+t2 q22 q21
+t3 q21 p43 q22
+t2 q23 p44
+t2 q23 q22
+t3 q22 p44 q23
+t2 q24 p45
+t2 q24 q23
+t3 q23 p45 q24
+t2 q25 p46
+t2 q25 q24
+t3 q24 p46 q25
+t2 q26 p47
+t2 q26 q25
+t3 q25 p47 q26
+t2 q27 p48
+t2 q27 q26
+t3 q26 p48 q27
+t2 q28 p49
+t2 q28 q27
+t3 q27 p49 q28
+t2 q29 p50
+t2 q29 q28
+t3 q28 p50 q29
+t2 q30 p51
+t2 q30 q29
+t3 q29 p51 q30
+t2 q31 p52
+t2 q31 q30
+t3 q30 p52 q31
+t2 q32 p53
+t2 q32 q31
+t3 q31 p53 q32
+t2 q33 p54
+t2 q33 q32
+t3 q32 p54 q33
+t2 q34 p55
+t2 q33 p55
+t3 q32 p54 q33
+t2 q33 q32
+t2 q32 p54
+t3 q31 p53 q32
+t2 q32 q31
+t2 q31 p53
+t3 q30 p52 q31
+t2 q31 q30
+t2 q30 p52
+t3 q29 p51 q30
+t2 q30 q29
+t2 q29 p51
+t3 q28 p50 q29
+t2 q29 q28
+t2 q28 p50
+t3 q27 p49 q28
+t2 q28 q27
+t2 q27 p49
+t3 q26 p48 q27
+t2 q27 q26
+t2 q26 p48
+t3 q25 p47 q26
+t2 q26 q25
+t2 q25 p47
+t3 q24 p46 q25
+t2 q25 q24
+t2 q24 p46
+t3 q23 p45 q24
+t2 q24 q23
+t2 q23 p45
+t3 q22 p44 q23
+t2 q23 q22
+t2 q22 p44
+t3 q21 p43 q22
+t2 q22 q21
+t2 q21 p43
+t3 q20 p42 q21
+t2 q21 q20
+t2 q20 p42
+t3 q19 p41 q20
+t2 q20 q19
+t2 q19 p41
+t3 q18 p40 q19
+t2 q19 q18
+t2 q18 p40
+t3 q17 p39 q18
+t2 q18 q17
+t2 q17 p39
+t3 q16 p38 q17
+t2 q17 q16
+t2 q16 p38
+t3 q15 p37 q16
+t2 q16 q15
+t2 q15 p37
+t3 q14 p36 q15
+t2 q15 q14
+t2 q14 p36
+t3 q13 p35 q14
+t2 q14 q13
+t2 q13 p35
+t3 q12 p34 q13
+t2 q13 q12
+t2 q12 p34
+t3 q11 p33 q12
+t2 q12 q11
+t2 q11 p33
+t3 q10 p32 q11
+t2 q11 q10
+t2 q10 p32
+t3 q9 p31 q10
+t2 q10 q9
+t2 q9 p31
+t3 q8 p30 q9
+t2 q9 q8
+t2 q8 p30
+t3 q7 p29 q8
+t2 q8 q7
+t2 q7 p29
+t3 q6 p28 q7
+t2 q7 q6
+t2 q6 p28
+t3 q5 p27 q6
+t2 q6 q5
+t2 q5 p27
+t3 q4 p26 q5
+t2 q5 q4
+t2 q4 p26
+t3 q3 p25 q4
+t2 q4 q3
+t2 q3 p25
+t3 q2 p24 q3
+t2 q3 q2
+t2 q2 p24
+t3 q1 p23 q2
+t2 q2 q1
+t2 q1 p23
+t3 q0 p22 q1
+t2 q1 q0
+t2 q0 p22
+t3 cin p21 q0
+t2 q0 cin
+t2 cin p21
+t3 a0 b21 q0
+t3 a1 b21 q1
+t3 a2 b21 q2
+t3 a3 b21 q3
+t3 a4 b21 q4
+t3 a5 b21 q5
+t3 a6 b21 q6
+t3 a7 b21 q7
+t3 a8 b21 q8
+t3 a9 b21 q9
+t3 a10 b21 q10
+t3 a11 b21 q11
+t3 a12 b21 q12
+t3 a13 b21 q13
+t3 a14 b21 q14
+t3 a15 b21 q15
+t3 a16 b21 q16
+t3 a17 b21 q17
+t3 a18 b21 q18
+t3 a19 b21 q19
+t3 a20 b21 q20
+t3 a21 b21 q21
+t3 a22 b21 q22
+t3 a23 b21 q23
+t3 a24 b21 q24
+t3 a25 b21 q25
+t3 a26 b21 q26
+t3 a27 b21 q27
+t3 a28 b21 q28
+t3 a29 b21 q29
+t3 a30 b21 q30
+t3 a31 b21 q31
+t3 a32 b21 q32
+t3 a33 b21 q33
+t3 a0 b22 q0
+t3 a1 b22 q1
+t3 a2 b22 q2
+t3 a3 b22 q3
+t3 a4 b22 q4
+t3 a5 b22 q5
+t3 a6 b22 q6
+t3 a7 b22 q7
+t3 a8 b22 q8
+t3 a9 b22 q9
+t3 a10 b22 q10
+t3 a11 b22 q11
+t3 a12 b22 q12
+t3 a13 b22 q13
+t3 a14 b22 q14
+t3 a15 b22 q15
+t3 a16 b22 q16
+t3 a17 b22 q17
+t3 a18 b22 q18
+t3 a19 b22 q19
+t3 a20 b22 q20
+t3 a21 b22 q21
+t3 a22 b22 q22
+t3 a23 b22 q23
+t3 a24 b22 q24
+t3 a25 b22 q25
+t3 a26 b22 q26
+t3 a27 b22 q27
+t3 a28 b22 q28
+t3 a29 b22 q29
+t3 a30 b22 q30
+t3 a31 b22 q31
+t3 a32 b22 q32
+t3 a33 b22 q33
+t2 q0 p22
+t2 q0 cin
+t3 cin p22 q0
+t2 q1 p23
+t2 q1 q0
+t3 q0 p23 q1
+t2 q2 p24
+t2 q2 q1
+t3 q1 p24 q2
+t2 q3 p25
+t2 q3 q2
+t3 q2 p25 q3
+t2 q4 p26
+t2 q4 q3
+t3 q3 p26 q4
+t2 q5 p27
+t2 q5 q4
+t3 q4 p27 q5
+t2 q6 p28
+t2 q6 q5
+t3 q5 p28 q6
+t2 q7 p29
+t2 q7 q6
+t3 q6 p29 q7
+t2 q8 p30
+t2 q8 q7
+t3 q7 p30 q8
+t2 q9 p31
+t2 q9 q8
+t3 q8 p31 q9
+t2 q10 p32
+t2 q10 q9
+t3 q9 p32 q10
+t2 q11 p33
+t2 q11 q10
+t3 q10 p33 q11
+t2 q12 p34
+t2 q12 q11
+t3 q11 p34 q12
+t2 q13 p35
+t2 q13 q12
+t3 q12 p35 q13
+t2 q14 p36
+t2 q14 q13
+t3 q13 p36 q14
+t2 q15 p37
+t2 q15 q14
+t3 q14 p37 q15
+t2 q16 p38
+t2 q16 q15
+t3 q15 p38 q16
+t2 q17 p39
+t2 q17 q16
+t3 q16 p39 q17
+t2 q18 p40
+t2 q18 q17
+t3 q17 p40 q18
+t2 q19 p41
+t2 q19 q18
+t3 q18 p41 q19
+t2 q20 p42
+t2 q20 q19
+t3 q19 p42 q20
+t2 q21 p43
+t2 q21 q20
+t3 q20 p43 q21
+t2 q22 p44
+t2 q22 q21
+t3 q21 p44 q22
+t2 q23 p45
+t2 q23 q22
+t3 q22 p45 q23
+t2 q24 p46
+t2 q24 q23
+t3 q23 p46 q24
+t2 q25 p47
+t2 q25 q24
+t3 q24 p47 q25
+t2 q26 p48
+t2 q26 q25
+t3 q25 p48 q26
+t2 q27 p49
+t2 q27 q26
+t3 q26 p49 q27
+t2 q28 p50
+t2 q28 q27
+t3 q27 p50 q28
+t2 q29 p51
+t2 q29 q28
+t3 q28 p51 q29
+t2 q30 p52
+t2 q30 q29
+t3 q29 p52 q30
+t2 q31 p53
+t2 q31 q30
+t3 q30 p53 q31
+t2 q32 p54
+t2 q32 q31
+t3 q31 p54 q32
+t2 q33 p55
+t2 q33 q32
+t3 q32 p55 q33
+t2 q34 p56
+t2 q33 p56
+t3 q32 p55 q33
+t2 q33 q32
+t2 q32 p55
+t3 q31 p54 q32
+t2 q32 q31
+t2 q31 p54
+t3 q30 p53 q31
+t2 q31 q30
+t2 q30 p53
+t3 q29 p52 q30
+t2 q30 q29
+t2 q29 p52
+t3 q28 p51 q29
+t2 q29 q28
+t2 q28 p51
+t3 q27 p50 q28
+t2 q28 q27
+t2 q27 p50
+t3 q26 p49 q27
+t2 q27 q26
+t2 q26 p49
+t3 q25 p48 q26
+t2 q26 q25
+t2 q25 p48
+t3 q24 p47 q25
+t2 q25 q24
+t2 q24 p47
+t3 q23 p46 q24
+t2 q24 q23
+t2 q23 p46
+t3 q22 p45 q23
+t2 q23 q22
+t2 q22 p45
+t3 q21 p44 q22
+t2 q22 q21
+t2 q21 p44
+t3 q20 p43 q21
+t2 q21 q20
+t2 q20 p43
+t3 q19 p42 q20
+t2 q20 q19
+t2 q19 p42
+t3 q18 p41 q19
+t2 q19 q18
+t2 q18 p41
+t3 q17 p40 q18
+t2 q18 q17
+t2 q17 p40
+t3 q16 p39 q17
+t2 q17 q16
+t2 q16 p39
+t3 q15 p38 q16
+t2 q16 q15
+t2 q15 p38
+t3 q14 p37 q15
+t2 q15 q14
+t2 q14 p37
+t3 q13 p36 q14
+t2 q14 q13
+t2 q13 p36
+t3 q12 p35 q13
+t2 q13 q12
+t2 q12 p35
+t3 q11 p34 q12
+t2 q12 q11
+t2 q11 p34
+t3 q10 p33 q11
+t2 q11 q10
+t2 q10 p33
+t3 q9 p32 q10
+t2 q10 q9
+t2 q9 p32
+t3 q8 p31 q9
+t2 q9 q8
+t2 q8 p31
+t3 q7 p30 q8
+t2 q8 q7
+t2 q7 p30
+t3 q6 p29 q7
+t2 q7 q6
+t2 q6 p29
+t3 q5 p28 q6
+t2 q6 q5
+t2 q5 p28
+t3 q4 p27 q5
+t2 q5 q4
+t2 q4 p27
+t3 q3 p26 q4
+t2 q4 q3
+t2 q3 p26
+t3 q2 p25 q3
+t2 q3 q2
+t2 q2 p25
+t3 q1 p24 q2
+t2 q2 q1
+t2 q1 p24
+t3 q0 p23 q1
+t2 q1 q0
+t2 q0 p23
+t3 cin p22 q0
+t2 q0 cin
+t2 cin p22
+t3 a0 b22 q0
+t3 a1 b22 q1
+t3 a2 b22 q2
+t3 a3 b22 q3
+t3 a4 b22 q4
+t3 a5 b22 q5
+t3 a6 b22 q6
+t3 a7 b22 q7
+t3 a8 b22 q8
+t3 a9 b22 q9
+t3 a10 b22 q10
+t3 a11 b22 q11
+t3 a12 b22 q12
+t3 a13 b22 q13
+t3 a14 b22 q14
+t3 a15 b22 q15
+t3 a16 b22 q16
+t3 a17 b22 q17
+t3 a18 b22 q18
+t3 a19 b22 q19
+t3 a20 b22 q20
+t3 a21 b22 q21
+t3 a22 b22 q22
+t3 a23 b22 q23
+t3 a24 b22 q24
+t3 a25 b22 q25
+t3 a26 b22 q26
+t3 a27 b22 q27
+t3 a28 b22 q28
+t3 a29 b22 q29
+t3 a30 b22 q30
+t3 a31 b22 q31
+t3 a32 b22 q32
+t3 a33 b22 q33
+t3 a0 b23 q0
+t3 a1 b23 q1
+t3 a2 b23 q2
+t3 a3 b23 q3
+t3 a4 b23 q4
+t3 a5 b23 q5
+t3 a6 b23 q6
+t3 a7 b23 q7
+t3 a8 b23 q8
+t3 a9 b23 q9
+t3 a10 b23 q10
+t3 a11 b23 q11
+t3 a12 b23 q12
+t3 a13 b23 q13
+t3 a14 b23 q14
+t3 a15 b23 q15
+t3 a16 b23 q16
+t3 a17 b23 q17
+t3 a18 b23 q18
+t3 a19 b23 q19
+t3 a20 b23 q20
+t3 a21 b23 q21
+t3 a22 b23 q22
+t3 a23 b23 q23
+t3 a24 b23 q24
+t3 a25 b23 q25
+t3 a26 b23 q26
+t3 a27 b23 q27
+t3 a28 b23 q28
+t3 a29 b23 q29
+t3 a30 b23 q30
+t3 a31 b23 q31
+t3 a32 b23 q32
+t3 a33 b23 q33
+t2 q0 p23
+t2 q0 cin
+t3 cin p23 q0
+t2 q1 p24
+t2 q1 q0
+t3 q0 p24 q1
+t2 q2 p25
+t2 q2 q1
+t3 q1 p25 q2
+t2 q3 p26
+t2 q3 q2
+t3 q2 p26 q3
+t2 q4 p27
+t2 q4 q3
+t3 q3 p27 q4
+t2 q5 p28
+t2 q5 q4
+t3 q4 p28 q5
+t2 q6 p29
+t2 q6 q5
+t3 q5 p29 q6
+t2 q7 p30
+t2 q7 q6
+t3 q6 p30 q7
+t2 q8 p31
+t2 q8 q7
+t3 q7 p31 q8
+t2 q9 p32
+t2 q9 q8
+t3 q8 p32 q9
+t2 q10 p33
+t2 q10 q9
+t3 q9 p33 q10
+t2 q11 p34
+t2 q11 q10
+t3 q10 p34 q11
+t2 q12 p35
+t2 q12 q11
+t3 q11 p35 q12
+t2 q13 p36
+t2 q13 q12
+t3 q12 p36 q13
+t2 q14 p37
+t2 q14 q13
+t3 q13 p37 q14
+t2 q15 p38
+t2 q15 q14
+t3 q14 p38 q15
+t2 q16 p39
+t2 q16 q15
+t3 q15 p39 q16
+t2 q17 p40
+t2 q17 q16
+t3 q16 p40 q17
+t2 q18 p41
+t2 q18 q17
+t3 q17 p41 q18
+t2 q19 p42
+t2 q19 q18
+t3 q18 p42 q19
+t2 q20 p43
+t2 q20 q19
+t3 q19 p43 q20
+t2 q21 p44
+t2 q21 q20
+t3 q20 p44 q21
+t2 q22 p45
+t2 q22 q21
+t3 q21 p45 q22
+t2 q23 p46
+t2 q23 q22
+t3 q22 p46 q23
+t2 q24 p47
+t2 q24 q23
+t3 q23 p47 q24
+t2 q25 p48
+t2 q25 q24
+t3 q24 p48 q25
+t2 q26 p49
+t2 q26 q25
+t3 q25 p49 q26
+t2 q27 p50
+t2 q27 q26
+t3 q26 p50 q27
+t2 q28 p51
+t2 q28 q27
+t3 q27 p51 q28
+t2 q29 p52
+t2 q29 q28
+t3 q28 p52 q29
+t2 q30 p53
+t2 q30 q29
+t3 q29 p53 q30
+t2 q31 p54
+t2 q31 q30
+t3 q30 p54 q31
+t2 q32 p55
+t2 q32 q31
+t3 q31 p55 q32
+t2 q33 p56
+t2 q33 q32
+t3 q32 p56 q33
+t2 q34 p57
+t2 q33 p57
+t3 q32 p56 q33
+t2 q33 q32
+t2 q32 p56
+t3 q31 p55 q32
+t2 q32 q31
+t2 q31 p55
+t3 q30 p54 q31
+t2 q31 q30
+t2 q30 p54
+t3 q29 p53 q30
+t2 q30 q29
+t2 q29 p53
+t3 q28 p52 q29
+t2 q29 q28
+t2 q28 p52
+t3 q27 p51 q28
+t2 q28 q27
+t2 q27 p51
+t3 q26 p50 q27
+t2 q27 q26
+t2 q26 p50
+t3 q25 p49 q26
+t2 q26 q25
+t2 q25 p49
+t3 q24 p48 q25
+t2 q25 q24
+t2 q24 p48
+t3 q23 p47 q24
+t2 q24 q23
+t2 q23 p47
+t3 q22 p46 q23
+t2 q23 q22
+t2 q22 p46
+t3 q21 p45 q22
+t2 q22 q21
+t2 q21 p45
+t3 q20 p44 q21
+t2 q21 q20
+t2 q20 p44
+t3 q19 p43 q20
+t2 q20 q19
+t2 q19 p43
+t3 q18 p42 q19
+t2 q19 q18
+t2 q18 p42
+t3 q17 p41 q18
+t2 q18 q17
+t2 q17 p41
+t3 q16 p40 q17
+t2 q17 q16
+t2 q16 p40
+t3 q15 p39 q16
+t2 q16 q15
+t2 q15 p39
+t3 q14 p38 q15
+t2 q15 q14
+t2 q14 p38
+t3 q13 p37 q14
+t2 q14 q13
+t2 q13 p37
+t3 q12 p36 q13
+t2 q13 q12
+t2 q12 p36
+t3 q11 p35 q12
+t2 q12 q11
+t2 q11 p35
+t3 q10 p34 q11
+t2 q11 q10
+t2 q10 p34
+t3 q9 p33 q10
+t2 q10 q9
+t2 q9 p33
+t3 q8 p32 q9
+t2 q9 q8
+t2 q8 p32
+t3 q7 p31 q8
+t2 q8 q7
+t2 q7 p31
+t3 q6 p30 q7
+t2 q7 q6
+t2 q6 p30
+t3 q5 p29 q6
+t2 q6 q5
+t2 q5 p29
+t3 q4 p28 q5
+t2 q5 q4
+t2 q4 p28
+t3 q3 p27 q4
+t2 q4 q3
+t2 q3 p27
+t3 q2 p26 q3
+t2 q3 q2
+t2 q2 p26
+t3 q1 p25 q2
+t2 q2 q1
+t2 q1 p25
+t3 q0 p24 q1
+t2 q1 q0
+t2 q0 p24
+t3 cin p23 q0
+t2 q0 cin
+t2 cin p23
+t3 a0 b23 q0
+t3 a1 b23 q1
+t3 a2 b23 q2
+t3 a3 b23 q3
+t3 a4 b23 q4
+t3 a5 b23 q5
+t3 a6 b23 q6
+t3 a7 b23 q7
+t3 a8 b23 q8
+t3 a9 b23 q9
+t3 a10 b23 q10
+t3 a11 b23 q11
+t3 a12 b23 q12
+t3 a13 b23 q13
+t3 a14 b23 q14
+t3 a15 b23 q15
+t3 a16 b23 q16
+t3 a17 b23 q17
+t3 a18 b23 q18
+t3 a19 b23 q19
+t3 a20 b23 q20
+t3 a21 b23 q21
+t3 a22 b23 q22
+t3 a23 b23 q23
+t3 a24 b23 q24
+t3 a25 b23 q25
+t3 a26 b23 q26
+t3 a27 b23 q27
+t3 a28 b23 q28
+t3 a29 b23 q29
+t3 a30 b23 q30
+t3 a31 b23 q31
+t3 a32 b23 q32
+t3 a33 b23 q33
+t3 a0 b24 q0
+t3 a1 b24 q1
+t3 a2 b24 q2
+t3 a3 b24 q3
+t3 a4 b24 q4
+t3 a5 b24 q5
+t3 a6 b24 q6
+t3 a7 b24 q7
+t3 a8 b24 q8
+t3 a9 b24 q9
+t3 a10 b24 q10
+t3 a11 b24 q11
+t3 a12 b24 q12
+t3 a13 b24 q13
+t3 a14 b24 q14
+t3 a15 b24 q15
+t3 a16 b24 q16
+t3 a17 b24 q17
+t3 a18 b24 q18
+t3 a19 b24 q19
+t3 a20 b24 q20
+t3 a21 b24 q21
+t3 a22 b24 q22
+t3 a23 b24 q23
+t3 a24 b24 q24
+t3 a25 b24 q25
+t3 a26 b24 q26
+t3 a27 b24 q27
+t3 a28 b24 q28
+t3 a29 b24 q29
+t3 a30 b24 q30
+t3 a31 b24 q31
+t3 a32 b24 q32
+t3 a33 b24 q33
+t2 q0 p24
+t2 q0 cin
+t3 cin p24 q0
+t2 q1 p25
+t2 q1 q0
+t3 q0 p25 q1
+t2 q2 p26
+t2 q2 q1
+t3 q1 p26 q2
+t2 q3 p27
+t2 q3 q2
+t3 q2 p27 q3
+t2 q4 p28
+t2 q4 q3
+t3 q3 p28 q4
+t2 q5 p29
+t2 q5 q4
+t3 q4 p29 q5
+t2 q6 p30
+t2 q6 q5
+t3 q5 p30 q6
+t2 q7 p31
+t2 q7 q6
+t3 q6 p31 q7
+t2 q8 p32
+t2 q8 q7
+t3 q7 p32 q8
+t2 q9 p33
+t2 q9 q8
+t3 q8 p33 q9
+t2 q10 p34
+t2 q10 q9
+t3 q9 p34 q10
+t2 q11 p35
+t2 q11 q10
+t3 q10 p35 q11
+t2 q12 p36
+t2 q12 q11
+t3 q11 p36 q12
+t2 q13 p37
+t2 q13 q12
+t3 q12 p37 q13
+t2 q14 p38
+t2 q14 q13
+t3 q13 p38 q14
+t2 q15 p39
+t2 q15 q14
+t3 q14 p39 q15
+t2 q16 p40
+t2 q16 q15
+t3 q15 p40 q16
+t2 q17 p41
+t2 q17 q16
+t3 q16 p41 q17
+t2 q18 p42
+t2 q18 q17
+t3 q17 p42 q18
+t2 q19 p43
+t2 q19 q18
+t3 q18 p43 q19
+t2 q20 p44
+t2 q20 q19
+t3 q19 p44 q20
+t2 q21 p45
+t2 q21 q20
+t3 q20 p45 q21
+t2 q22 p46
+t2 q22 q21
+t3 q21 p46 q22
+t2 q23 p47
+t2 q23 q22
+t3 q22 p47 q23
+t2 q24 p48
+t2 q24 q23
+t3 q23 p48 q24
+t2 q25 p49
+t2 q25 q24
+t3 q24 p49 q25
+t2 q26 p50
+t2 q26 q25
+t3 q25 p50 q26
+t2 q27 p51
+t2 q27 q26
+t3 q26 p51 q27
+t2 q28 p52
+t2 q28 q27
+t3 q27 p52 q28
+t2 q29 p53
+t2 q29 q28
+t3 q28 p53 q29
+t2 q30 p54
+t2 q30 q29
+t3 q29 p54 q30
+t2 q31 p55
+t2 q31 q30
+t3 q30 p55 q31
+t2 q32 p56
+t2 q32 q31
+t3 q31 p56 q32
+t2 q33 p57
+t2 q33 q32
+t3 q32 p57 q33
+t2 q34 p58
+t2 q33 p58
+t3 q32 p57 q33
+t2 q33 q32
+t2 q32 p57
+t3 q31 p56 q32
+t2 q32 q31
+t2 q31 p56
+t3 q30 p55 q31
+t2 q31 q30
+t2 q30 p55
+t3 q29 p54 q30
+t2 q30 q29
+t2 q29 p54
+t3 q28 p53 q29
+t2 q29 q28
+t2 q28 p53
+t3 q27 p52 q28
+t2 q28 q27
+t2 q27 p52
+t3 q26 p51 q27
+t2 q27 q26
+t2 q26 p51
+t3 q25 p50 q26
+t2 q26 q25
+t2 q25 p50
+t3 q24 p49 q25
+t2 q25 q24
+t2 q24 p49
+t3 q23 p48 q24
+t2 q24 q23
+t2 q23 p48
+t3 q22 p47 q23
+t2 q23 q22
+t2 q22 p47
+t3 q21 p46 q22
+t2 q22 q21
+t2 q21 p46
+t3 q20 p45 q21
+t2 q21 q20
+t2 q20 p45
+t3 q19 p44 q20
+t2 q20 q19
+t2 q19 p44
+t3 q18 p43 q19
+t2 q19 q18
+t2 q18 p43
+t3 q17 p42 q18
+t2 q18 q17
+t2 q17 p42
+t3 q16 p41 q17
+t2 q17 q16
+t2 q16 p41
+t3 q15 p40 q16
+t2 q16 q15
+t2 q15 p40
+t3 q14 p39 q15
+t2 q15 q14
+t2 q14 p39
+t3 q13 p38 q14
+t2 q14 q13
+t2 q13 p38
+t3 q12 p37 q13
+t2 q13 q12
+t2 q12 p37
+t3 q11 p36 q12
+t2 q12 q11
+t2 q11 p36
+t3 q10 p35 q11
+t2 q11 q10
+t2 q10 p35
+t3 q9 p34 q10
+t2 q10 q9
+t2 q9 p34
+t3 q8 p33 q9
+t2 q9 q8
+t2 q8 p33
+t3 q7 p32 q8
+t2 q8 q7
+t2 q7 p32
+t3 q6 p31 q7
+t2 q7 q6
+t2 q6 p31
+t3 q5 p30 q6
+t2 q6 q5
+t2 q5 p30
+t3 q4 p29 q5
+t2 q5 q4
+t2 q4 p29
+t3 q3 p28 q4
+t2 q4 q3
+t2 q3 p28
+t3 q2 p27 q3
+t2 q3 q2
+t2 q2 p27
+t3 q1 p26 q2
+t2 q2 q1
+t2 q1 p26
+t3 q0 p25 q1
+t2 q1 q0
+t2 q0 p25
+t3 cin p24 q0
+t2 q0 cin
+t2 cin p24
+t3 a0 b24 q0
+t3 a1 b24 q1
+t3 a2 b24 q2
+t3 a3 b24 q3
+t3 a4 b24 q4
+t3 a5 b24 q5
+t3 a6 b24 q6
+t3 a7 b24 q7
+t3 a8 b24 q8
+t3 a9 b24 q9
+t3 a10 b24 q10
+t3 a11 b24 q11
+t3 a12 b24 q12
+t3 a13 b24 q13
+t3 a14 b24 q14
+t3 a15 b24 q15
+t3 a16 b24 q16
+t3 a17 b24 q17
+t3 a18 b24 q18
+t3 a19 b24 q19
+t3 a20 b24 q20
+t3 a21 b24 q21
+t3 a22 b24 q22
+t3 a23 b24 q23
+t3 a24 b24 q24
+t3 a25 b24 q25
+t3 a26 b24 q26
+t3 a27 b24 q27
+t3 a28 b24 q28
+t3 a29 b24 q29
+t3 a30 b24 q30
+t3 a31 b24 q31
+t3 a32 b24 q32
+t3 a33 b24 q33
+t3 a0 b25 q0
+t3 a1 b25 q1
+t3 a2 b25 q2
+t3 a3 b25 q3
+t3 a4 b25 q4
+t3 a5 b25 q5
+t3 a6 b25 q6
+t3 a7 b25 q7
+t3 a8 b25 q8
+t3 a9 b25 q9
+t3 a10 b25 q10
+t3 a11 b25 q11
+t3 a12 b25 q12
+t3 a13 b25 q13
+t3 a14 b25 q14
+t3 a15 b25 q15
+t3 a16 b25 q16
+t3 a17 b25 q17
+t3 a18 b25 q18
+t3 a19 b25 q19
+t3 a20 b25 q20
+t3 a21 b25 q21
+t3 a22 b25 q22
+t3 a23 b25 q23
+t3 a24 b25 q24
+t3 a25 b25 q25
+t3 a26 b25 q26
+t3 a27 b25 q27
+t3 a28 b25 q28
+t3 a29 b25 q29
+t3 a30 b25 q30
+t3 a31 b25 q31
+t3 a32 b25 q32
+t3 a33 b25 q33
+t2 q0 p25
+t2 q0 cin
+t3 cin p25 q0
+t2 q1 p26
+t2 q1 q0
+t3 q0 p26 q1
+t2 q2 p27
+t2 q2 q1
+t3 q1 p27 q2
+t2 q3 p28
+t2 q3 q2
+t3 q2 p28 q3
+t2 q4 p29
+t2 q4 q3
+t3 q3 p29 q4
+t2 q5 p30
+t2 q5 q4
+t3 q4 p30 q5
+t2 q6 p31
+t2 q6 q5
+t3 q5 p31 q6
+t2 q7 p32
+t2 q7 q6
+t3 q6 p32 q7
+t2 q8 p33
+t2 q8 q7
+t3 q7 p33 q8
+t2 q9 p34
+t2 q9 q8
+t3 q8 p34 q9
+t2 q10 p35
+t2 q10 q9
+t3 q9 p35 q10
+t2 q11 p36
+t2 q11 q10
+t3 q10 p36 q11
+t2 q12 p37
+t2 q12 q11
+t3 q11 p37 q12
+t2 q13 p38
+t2 q13 q12
+t3 q12 p38 q13
+t2 q14 p39
+t2 q14 q13
+t3 q13 p39 q14
+t2 q15 p40
+t2 q15 q14
+t3 q14 p40 q15
+t2 q16 p41
+t2 q16 q15
+t3 q15 p41 q16
+t2 q17 p42
+t2 q17 q16
+t3 q16 p42 q17
+t2 q18 p43
+t2 q18 q17
+t3 q17 p43 q18
+t2 q19 p44
+t2 q19 q18
+t3 q18 p44 q19
+t2 q20 p45
+t2 q20 q19
+t3 q19 p45 q20
+t2 q21 p46
+t2 q21 q20
+t3 q20 p46 q21
+t2 q22 p47
+t2 q22 q21
+t3 q21 p47 q22
+t2 q23 p48
+t2 q23 q22
+t3 q22 p48 q23
+t2 q24 p49
+t2 q24 q23
+t3 q23 p49 q24
+t2 q25 p50
+t2 q25 q24
+t3 q24 p50 q25
+t2 q26 p51
+t2 q26 q25
+t3 q25 p51 q26
+t2 q27 p52
+t2 q27 q26
+t3 q26 p52 q27
+t2 q28 p53
+t2 q28 q27
+t3 q27 p53 q28
+t2 q29 p54
+t2 q29 q28
+t3 q28 p54 q29
+t2 q30 p55
+t2 q30 q29
+t3 q29 p55 q30
+t2 q31 p56
+t2 q31 q30
+t3 q30 p56 q31
+t2 q32 p57
+t2 q32 q31
+t3 q31 p57 q32
+t2 q33 p58
+t2 q33 q32
+t3 q32 p58 q33
+t2 q34 p59
+t2 q33 p59
+t3 q32 p58 q33
+t2 q33 q32
+t2 q32 p58
+t3 q31 p57 q32
+t2 q32 q31
+t2 q31 p57
+t3 q30 p56 q31
+t2 q31 q30
+t2 q30 p56
+t3 q29 p55 q30
+t2 q30 q29
+t2 q29 p55
+t3 q28 p54 q29
+t2 q29 q28
+t2 q28 p54
+t3 q27 p53 q28
+t2 q28 q27
+t2 q27 p53
+t3 q26 p52 q27
+t2 q27 q26
+t2 q26 p52
+t3 q25 p51 q26
+t2 q26 q25
+t2 q25 p51
+t3 q24 p50 q25
+t2 q25 q24
+t2 q24 p50
+t3 q23 p49 q24
+t2 q24 q23
+t2 q23 p49
+t3 q22 p48 q23
+t2 q23 q22
+t2 q22 p48
+t3 q21 p47 q22
+t2 q22 q21
+t2 q21 p47
+t3 q20 p46 q21
+t2 q21 q20
+t2 q20 p46
+t3 q19 p45 q20
+t2 q20 q19
+t2 q19 p45
+t3 q18 p44 q19
+t2 q19 q18
+t2 q18 p44
+t3 q17 p43 q18
+t2 q18 q17
+t2 q17 p43
+t3 q16 p42 q17
+t2 q17 q16
+t2 q16 p42
+t3 q15 p41 q16
+t2 q16 q15
+t2 q15 p41
+t3 q14 p40 q15
+t2 q15 q14
+t2 q14 p40
+t3 q13 p39 q14
+t2 q14 q13
+t2 q13 p39
+t3 q12 p38 q13
+t2 q13 q12
+t2 q12 p38
+t3 q11 p37 q12
+t2 q12 q11
+t2 q11 p37
+t3 q10 p36 q11
+t2 q11 q10
+t2 q10 p36
+t3 q9 p35 q10
+t2 q10 q9
+t2 q9 p35
+t3 q8 p34 q9
+t2 q9 q8
+t2 q8 p34
+t3 q7 p33 q8
+t2 q8 q7
+t2 q7 p33
+t3 q6 p32 q7
+t2 q7 q6
+t2 q6 p32
+t3 q5 p31 q6
+t2 q6 q5
+t2 q5 p31
+t3 q4 p30 q5
+t2 q5 q4
+t2 q4 p30
+t3 q3 p29 q4
+t2 q4 q3
+t2 q3 p29
+t3 q2 p28 q3
+t2 q3 q2
+t2 q2 p28
+t3 q1 p27 q2
+t2 q2 q1
+t2 q1 p27
+t3 q0 p26 q1
+t2 q1 q0
+t2 q0 p26
+t3 cin p25 q0
+t2 q0 cin
+t2 cin p25
+t3 a0 b25 q0
+t3 a1 b25 q1
+t3 a2 b25 q2
+t3 a3 b25 q3
+t3 a4 b25 q4
+t3 a5 b25 q5
+t3 a6 b25 q6
+t3 a7 b25 q7
+t3 a8 b25 q8
+t3 a9 b25 q9
+t3 a10 b25 q10
+t3 a11 b25 q11
+t3 a12 b25 q12
+t3 a13 b25 q13
+t3 a14 b25 q14
+t3 a15 b25 q15
+t3 a16 b25 q16
+t3 a17 b25 q17
+t3 a18 b25 q18
+t3 a19 b25 q19
+t3 a20 b25 q20
+t3 a21 b25 q21
+t3 a22 b25 q22
+t3 a23 b25 q23
+t3 a24 b25 q24
+t3 a25 b25 q25
+t3 a26 b25 q26
+t3 a27 b25 q27
+t3 a28 b25 q28
+t3 a29 b25 q29
+t3 a30 b25 q30
+t3 a31 b25 q31
+t3 a32 b25 q32
+t3 a33 b25 q33
+t3 a0 b26 q0
+t3 a1 b26 q1
+t3 a2 b26 q2
+t3 a3 b26 q3
+t3 a4 b26 q4
+t3 a5 b26 q5
+t3 a6 b26 q6
+t3 a7 b26 q7
+t3 a8 b26 q8
+t3 a9 b26 q9
+t3 a10 b26 q10
+t3 a11 b26 q11
+t3 a12 b26 q12
+t3 a13 b26 q13
+t3 a14 b26 q14
+t3 a15 b26 q15
+t3 a16 b26 q16
+t3 a17 b26 q17
+t3 a18 b26 q18
+t3 a19 b26 q19
+t3 a20 b26 q20
+t3 a21 b26 q21
+t3 a22 b26 q22
+t3 a23 b26 q23
+t3 a24 b26 q24
+t3 a25 b26 q25
+t3 a26 b26 q26
+t3 a27 b26 q27
+t3 a28 b26 q28
+t3 a29 b26 q29
+t3 a30 b26 q30
+t3 a31 b26 q31
+t3 a32 b26 q32
+t3 a33 b26 q33
+t2 q0 p26
+t2 q0 cin
+t3 cin p26 q0
+t2 q1 p27
+t2 q1 q0
+t3 q0 p27 q1
+t2 q2 p28
+t2 q2 q1
+t3 q1 p28 q2
+t2 q3 p29
+t2 q3 q2
+t3 q2 p29 q3
+t2 q4 p30
+t2 q4 q3
+t3 q3 p30 q4
+t2 q5 p31
+t2 q5 q4
+t3 q4 p31 q5
+t2 q6 p32
+t2 q6 q5
+t3 q5 p32 q6
+t2 q7 p33
+t2 q7 q6
+t3 q6 p33 q7
+t2 q8 p34
+t2 q8 q7
+t3 q7 p34 q8
+t2 q9 p35
+t2 q9 q8
+t3 q8 p35 q9
+t2 q10 p36
+t2 q10 q9
+t3 q9 p36 q10
+t2 q11 p37
+t2 q11 q10
+t3 q10 p37 q11
+t2 q12 p38
+t2 q12 q11
+t3 q11 p38 q12
+t2 q13 p39
+t2 q13 q12
+t3 q12 p39 q13
+t2 q14 p40
+t2 q14 q13
+t3 q13 p40 q14
+t2 q15 p41
+t2 q15 q14
+t3 q14 p41 q15
+t2 q16 p42
+t2 q16 q15
+t3 q15 p42 q16
+t2 q17 p43
+t2 q17 q16
+t3 q16 p43 q17
+t2 q18 p44
+t2 q18 q17
+t3 q17 p44 q18
+t2 q19 p45
+t2 q19 q18
+t3 q18 p45 q19
+t2 q20 p46
+t2 q20 q19
+t3 q19 p46 q20
+t2 q21 p47
+t2 q21 q20
+t3 q20 p47 q21
+t2 q22 p48
+t2 q22 q21
+t3 q21 p48 q22
+t2 q23 p49
+t2 q23 q22
+t3 q22 p49 q23
+t2 q24 p50
+t2 q24 q23
+t3 q23 p50 q24
+t2 q25 p51
+t2 q25 q24
+t3 q24 p51 q25
+t2 q26 p52
+t2 q26 q25
+t3 q25 p52 q26
+t2 q27 p53
+t2 q27 q26
+t3 q26 p53 q27
+t2 q28 p54
+t2 q28 q27
+t3 q27 p54 q28
+t2 q29 p55
+t2 q29 q28
+t3 q28 p55 q29
+t2 q30 p56
+t2 q30 q29
+t3 q29 p56 q30
+t2 q31 p57
+t2 q31 q30
+t3 q30 p57 q31
+t2 q32 p58
+t2 q32 q31
+t3 q31 p58 q32
+t2 q33 p59
+t2 q33 q32
+t3 q32 p59 q33
+t2 q34 p60
+t2 q33 p60
+t3 q32 p59 q33
+t2 q33 q32
+t2 q32 p59
+t3 q31 p58 q32
+t2 q32 q31
+t2 q31 p58
+t3 q30 p57 q31
+t2 q31 q30
+t2 q30 p57
+t3 q29 p56 q30
+t2 q30 q29
+t2 q29 p56
+t3 q28 p55 q29
+t2 q29 q28
+t2 q28 p55
+t3 q27 p54 q28
+t2 q28 q27
+t2 q27 p54
+t3 q26 p53 q27
+t2 q27 q26
+t2 q26 p53
+t3 q25 p52 q26
+t2 q26 q25
+t2 q25 p52
+t3 q24 p51 q25
+t2 q25 q24
+t2 q24 p51
+t3 q23 p50 q24
+t2 q24 q23
+t2 q23 p50
+t3 q22 p49 q23
+t2 q23 q22
+t2 q22 p49
+t3 q21 p48 q22
+t2 q22 q21
+t2 q21 p48
+t3 q20 p47 q21
+t2 q21 q20
+t2 q20 p47
+t3 q19 p46 q20
+t2 q20 q19
+t2 q19 p46
+t3 q18 p45 q19
+t2 q19 q18
+t2 q18 p45
+t3 q17 p44 q18
+t2 q18 q17
+t2 q17 p44
+t3 q16 p43 q17
+t2 q17 q16
+t2 q16 p43
+t3 q15 p42 q16
+t2 q16 q15
+t2 q15 p42
+t3 q14 p41 q15
+t2 q15 q14
+t2 q14 p41
+t3 q13 p40 q14
+t2 q14 q13
+t2 q13 p40
+t3 q12 p39 q13
+t2 q13 q12
+t2 q12 p39
+t3 q11 p38 q12
+t2 q12 q11
+t2 q11 p38
+t3 q10 p37 q11
+t2 q11 q10
+t2 q10 p37
+t3 q9 p36 q10
+t2 q10 q9
+t2 q9 p36
+t3 q8 p35 q9
+t2 q9 q8
+t2 q8 p35
+t3 q7 p34 q8
+t2 q8 q7
+t2 q7 p34
+t3 q6 p33 q7
+t2 q7 q6
+t2 q6 p33
+t3 q5 p32 q6
+t2 q6 q5
+t2 q5 p32
+t3 q4 p31 q5
+t2 q5 q4
+t2 q4 p31
+t3 q3 p30 q4
+t2 q4 q3
+t2 q3 p30
+t3 q2 p29 q3
+t2 q3 q2
+t2 q2 p29
+t3 q1 p28 q2
+t2 q2 q1
+t2 q1 p28
+t3 q0 p27 q1
+t2 q1 q0
+t2 q0 p27
+t3 cin p26 q0
+t2 q0 cin
+t2 cin p26
+t3 a0 b26 q0
+t3 a1 b26 q1
+t3 a2 b26 q2
+t3 a3 b26 q3
+t3 a4 b26 q4
+t3 a5 b26 q5
+t3 a6 b26 q6
+t3 a7 b26 q7
+t3 a8 b26 q8
+t3 a9 b26 q9
+t3 a10 b26 q10
+t3 a11 b26 q11
+t3 a12 b26 q12
+t3 a13 b26 q13
+t3 a14 b26 q14
+t3 a15 b26 q15
+t3 a16 b26 q16
+t3 a17 b26 q17
+t3 a18 b26 q18
+t3 a19 b26 q19
+t3 a20 b26 q20
+t3 a21 b26 q21
+t3 a22 b26 q22
+t3 a23 b26 q23
+t3 a24 b26 q24
+t3 a25 b26 q25
+t3 a26 b26 q26
+t3 a27 b26 q27
+t3 a28 b26 q28
+t3 a29 b26 q29
+t3 a30 b26 q30
+t3 a31 b26 q31
+t3 a32 b26 q32
+t3 a33 b26 q33
+t3 a0 b27 q0
+t3 a1 b27 q1
+t3 a2 b27 q2
+t3 a3 b27 q3
+t3 a4 b27 q4
+t3 a5 b27 q5
+t3 a6 b27 q6
+t3 a7 b27 q7
+t3 a8 b27 q8
+t3 a9 b27 q9
+t3 a10 b27 q10
+t3 a11 b27 q11
+t3 a12 b27 q12
+t3 a13 b27 q13
+t3 a14 b27 q14
+t3 a15 b27 q15
+t3 a16 b27 q16
+t3 a17 b27 q17
+t3 a18 b27 q18
+t3 a19 b27 q19
+t3 a20 b27 q20
+t3 a21 b27 q21
+t3 a22 b27 q22
+t3 a23 b27 q23
+t3 a24 b27 q24
+t3 a25 b27 q25
+t3 a26 b27 q26
+t3 a27 b27 q27
+t3 a28 b27 q28
+t3 a29 b27 q29
+t3 a30 b27 q30
+t3 a31 b27 q31
+t3 a32 b27 q32
+t3 a33 b27 q33
+t2 q0 p27
+t2 q0 cin
+t3 cin p27 q0
+t2 q1 p28
+t2 q1 q0
+t3 q0 p28 q1
+t2 q2 p29
+t2 q2 q1
+t3 q1 p29 q2
+t2 q3 p30
+t2 q3 q2
+t3 q2 p30 q3
+t2 q4 p31
+t2 q4 q3
+t3 q3 p31 q4
+t2 q5 p32
+t2 q5 q4
+t3 q4 p32 q5
+t2 q6 p33
+t2 q6 q5
+t3 q5 p33 q6
+t2 q7 p34
+t2 q7 q6
+t3 q6 p34 q7
+t2 q8 p35
+t2 q8 q7
+t3 q7 p35 q8
+t2 q9 p36
+t2 q9 q8
+t3 q8 p36 q9
+t2 q10 p37
+t2 q10 q9
+t3 q9 p37 q10
+t2 q11 p38
+t2 q11 q10
+t3 q10 p38 q11
+t2 q12 p39
+t2 q12 q11
+t3 q11 p39 q12
+t2 q13 p40
+t2 q13 q12
+t3 q12 p40 q13
+t2 q14 p41
+t2 q14 q13
+t3 q13 p41 q14
+t2 q15 p42
+t2 q15 q14
+t3 q14 p42 q15
+t2 q16 p43
+t2 q16 q15
+t3 q15 p43 q16
+t2 q17 p44
+t2 q17 q16
+t3 q16 p44 q17
+t2 q18 p45
+t2 q18 q17
+t3 q17 p45 q18
+t2 q19 p46
+t2 q19 q18
+t3 q18 p46 q19
+t2 q20 p47
+t2 q20 q19
+t3 q19 p47 q20
+t2 q21 p48
+t2 q21 q20
+t3 q20 p48 q21
+t2 q22 p49
+t2 q22 q21
+t3 q21 p49 q22
+t2 q23 p50
+t2 q23 q22
+t3 q22 p50 q23
+t2 q24 p51
+t2 q24 q23
+t3 q23 p51 q24
+t2 q25 p52
+t2 q25 q24
+t3 q24 p52 q25
+t2 q26 p53
+t2 q26 q25
+t3 q25 p53 q26
+t2 q27 p54
+t2 q27 q26
+t3 q26 p54 q27
+t2 q28 p55
+t2 q28 q27
+t3 q27 p55 q28
+t2 q29 p56
+t2 q29 q28
+t3 q28 p56 q29
+t2 q30 p57
+t2 q30 q29
+t3 q29 p57 q30
+t2 q31 p58
+t2 q31 q30
+t3 q30 p58 q31
+t2 q32 p59
+t2 q32 q31
+t3 q31 p59 q32
+t2 q33 p60
+t2 q33 q32
+t3 q32 p60 q33
+t2 q34 p61
+t2 q33 p61
+t3 q32 p60 q33
+t2 q33 q32
+t2 q32 p60
+t3 q31 p59 q32
+t2 q32 q31
+t2 q31 p59
+t3 q30 p58 q31
+t2 q31 q30
+t2 q30 p58
+t3 q29 p57 q30
+t2 q30 q29
+t2 q29 p57
+t3 q28 p56 q29
+t2 q29 q28
+t2 q28 p56
+t3 q27 p55 q28
+t2 q28 q27
+t2 q27 p55
+t3 q26 p54 q27
+t2 q27 q26
+t2 q26 p54
+t3 q25 p53 q26
+t2 q26 q25
+t2 q25 p53
+t3 q24 p52 q25
+t2 q25 q24
+t2 q24 p52
+t3 q23 p51 q24
+t2 q24 q23
+t2 q23 p51
+t3 q22 p50 q23
+t2 q23 q22
+t2 q22 p50
+t3 q21 p49 q22
+t2 q22 q21
+t2 q21 p49
+t3 q20 p48 q21
+t2 q21 q20
+t2 q20 p48
+t3 q19 p47 q20
+t2 q20 q19
+t2 q19 p47
+t3 q18 p46 q19
+t2 q19 q18
+t2 q18 p46
+t3 q17 p45 q18
+t2 q18 q17
+t2 q17 p45
+t3 q16 p44 q17
+t2 q17 q16
+t2 q16 p44
+t3 q15 p43 q16
+t2 q16 q15
+t2 q15 p43
+t3 q14 p42 q15
+t2 q15 q14
+t2 q14 p42
+t3 q13 p41 q14
+t2 q14 q13
+t2 q13 p41
+t3 q12 p40 q13
+t2 q13 q12
+t2 q12 p40
+t3 q11 p39 q12
+t2 q12 q11
+t2 q11 p39
+t3 q10 p38 q11
+t2 q11 q10
+t2 q10 p38
+t3 q9 p37 q10
+t2 q10 q9
+t2 q9 p37
+t3 q8 p36 q9
+t2 q9 q8
+t2 q8 p36
+t3 q7 p35 q8
+t2 q8 q7
+t2 q7 p35
+t3 q6 p34 q7
+t2 q7 q6
+t2 q6 p34
+t3 q5 p33 q6
+t2 q6 q5
+t2 q5 p33
+t3 q4 p32 q5
+t2 q5 q4
+t2 q4 p32
+t3 q3 p31 q4
+t2 q4 q3
+t2 q3 p31
+t3 q2 p30 q3
+t2 q3 q2
+t2 q2 p30
+t3 q1 p29 q2
+t2 q2 q1
+t2 q1 p29
+t3 q0 p28 q1
+t2 q1 q0
+t2 q0 p28
+t3 cin p27 q0
+t2 q0 cin
+t2 cin p27
+t3 a0 b27 q0
+t3 a1 b27 q1
+t3 a2 b27 q2
+t3 a3 b27 q3
+t3 a4 b27 q4
+t3 a5 b27 q5
+t3 a6 b27 q6
+t3 a7 b27 q7
+t3 a8 b27 q8
+t3 a9 b27 q9
+t3 a10 b27 q10
+t3 a11 b27 q11
+t3 a12 b27 q12
+t3 a13 b27 q13
+t3 a14 b27 q14
+t3 a15 b27 q15
+t3 a16 b27 q16
+t3 a17 b27 q17
+t3 a18 b27 q18
+t3 a19 b27 q19
+t3 a20 b27 q20
+t3 a21 b27 q21
+t3 a22 b27 q22
+t3 a23 b27 q23
+t3 a24 b27 q24
+t3 a25 b27 q25
+t3 a26 b27 q26
+t3 a27 b27 q27
+t3 a28 b27 q28
+t3 a29 b27 q29
+t3 a30 b27 q30
+t3 a31 b27 q31
+t3 a32 b27 q32
+t3 a33 b27 q33
+t3 a0 b28 q0
+t3 a1 b28 q1
+t3 a2 b28 q2
+t3 a3 b28 q3
+t3 a4 b28 q4
+t3 a5 b28 q5
+t3 a6 b28 q6
+t3 a7 b28 q7
+t3 a8 b28 q8
+t3 a9 b28 q9
+t3 a10 b28 q10
+t3 a11 b28 q11
+t3 a12 b28 q12
+t3 a13 b28 q13
+t3 a14 b28 q14
+t3 a15 b28 q15
+t3 a16 b28 q16
+t3 a17 b28 q17
+t3 a18 b28 q18
+t3 a19 b28 q19
+t3 a20 b28 q20
+t3 a21 b28 q21
+t3 a22 b28 q22
+t3 a23 b28 q23
+t3 a24 b28 q24
+t3 a25 b28 q25
+t3 a26 b28 q26
+t3 a27 b28 q27
+t3 a28 b28 q28
+t3 a29 b28 q29
+t3 a30 b28 q30
+t3 a31 b28 q31
+t3 a32 b28 q32
+t3 a33 b28 q33
+t2 q0 p28
+t2 q0 cin
+t3 cin p28 q0
+t2 q1 p29
+t2 q1 q0
+t3 q0 p29 q1
+t2 q2 p30
+t2 q2 q1
+t3 q1 p30 q2
+t2 q3 p31
+t2 q3 q2
+t3 q2 p31 q3
+t2 q4 p32
+t2 q4 q3
+t3 q3 p32 q4
+t2 q5 p33
+t2 q5 q4
+t3 q4 p33 q5
+t2 q6 p34
+t2 q6 q5
+t3 q5 p34 q6
+t2 q7 p35
+t2 q7 q6
+t3 q6 p35 q7
+t2 q8 p36
+t2 q8 q7
+t3 q7 p36 q8
+t2 q9 p37
+t2 q9 q8
+t3 q8 p37 q9
+t2 q10 p38
+t2 q10 q9
+t3 q9 p38 q10
+t2 q11 p39
+t2 q11 q10
+t3 q10 p39 q11
+t2 q12 p40
+t2 q12 q11
+t3 q11 p40 q12
+t2 q13 p41
+t2 q13 q12
+t3 q12 p41 q13
+t2 q14 p42
+t2 q14 q13
+t3 q13 p42 q14
+t2 q15 p43
+t2 q15 q14
+t3 q14 p43 q15
+t2 q16 p44
+t2 q16 q15
+t3 q15 p44 q16
+t2 q17 p45
+t2 q17 q16
+t3 q16 p45 q17
+t2 q18 p46
+t2 q18 q17
+t3 q17 p46 q18
+t2 q19 p47
+t2 q19 q18
+t3 q18 p47 q19
+t2 q20 p48
+t2 q20 q19
+t3 q19 p48 q20
+t2 q21 p49
+t2 q21 q20
+t3 q20 p49 q21
+t2 q22 p50
+t2 q22 q21
+t3 q21 p50 q22
+t2 q23 p51
+t2 q23 q22
+t3 q22 p51 q23
+t2 q24 p52
+t2 q24 q23
+t3 q23 p52 q24
+t2 q25 p53
+t2 q25 q24
+t3 q24 p53 q25
+t2 q26 p54
+t2 q26 q25
+t3 q25 p54 q26
+t2 q27 p55
+t2 q27 q26
+t3 q26 p55 q27
+t2 q28 p56
+t2 q28 q27
+t3 q27 p56 q28
+t2 q29 p57
+t2 q29 q28
+t3 q28 p57 q29
+t2 q30 p58
+t2 q30 q29
+t3 q29 p58 q30
+t2 q31 p59
+t2 q31 q30
+t3 q30 p59 q31
+t2 q32 p60
+t2 q32 q31
+t3 q31 p60 q32
+t2 q33 p61
+t2 q33 q32
+t3 q32 p61 q33
+t2 q34 p62
+t2 q33 p62
+t3 q32 p61 q33
+t2 q33 q32
+t2 q32 p61
+t3 q31 p60 q32
+t2 q32 q31
+t2 q31 p60
+t3 q30 p59 q31
+t2 q31 q30
+t2 q30 p59
+t3 q29 p58 q30
+t2 q30 q29
+t2 q29 p58
+t3 q28 p57 q29
+t2 q29 q28
+t2 q28 p57
+t3 q27 p56 q28
+t2 q28 q27
+t2 q27 p56
+t3 q26 p55 q27
+t2 q27 q26
+t2 q26 p55
+t3 q25 p54 q26
+t2 q26 q25
+t2 q25 p54
+t3 q24 p53 q25
+t2 q25 q24
+t2 q24 p53
+t3 q23 p52 q24
+t2 q24 q23
+t2 q23 p52
+t3 q22 p51 q23
+t2 q23 q22
+t2 q22 p51
+t3 q21 p50 q22
+t2 q22 q21
+t2 q21 p50
+t3 q20 p49 q21
+t2 q21 q20
+t2 q20 p49
+t3 q19 p48 q20
+t2 q20 q19
+t2 q19 p48
+t3 q18 p47 q19
+t2 q19 q18
+t2 q18 p47
+t3 q17 p46 q18
+t2 q18 q17
+t2 q17 p46
+t3 q16 p45 q17
+t2 q17 q16
+t2 q16 p45
+t3 q15 p44 q16
+t2 q16 q15
+t2 q15 p44
+t3 q14 p43 q15
+t2 q15 q14
+t2 q14 p43
+t3 q13 p42 q14
+t2 q14 q13
+t2 q13 p42
+t3 q12 p41 q13
+t2 q13 q12
+t2 q12 p41
+t3 q11 p40 q12
+t2 q12 q11
+t2 q11 p40
+t3 q10 p39 q11
+t2 q11 q10
+t2 q10 p39
+t3 q9 p38 q10
+t2 q10 q9
+t2 q9 p38
+t3 q8 p37 q9
+t2 q9 q8
+t2 q8 p37
+t3 q7 p36 q8
+t2 q8 q7
+t2 q7 p36
+t3 q6 p35 q7
+t2 q7 q6
+t2 q6 p35
+t3 q5 p34 q6
+t2 q6 q5
+t2 q5 p34
+t3 q4 p33 q5
+t2 q5 q4
+t2 q4 p33
+t3 q3 p32 q4
+t2 q4 q3
+t2 q3 p32
+t3 q2 p31 q3
+t2 q3 q2
+t2 q2 p31
+t3 q1 p30 q2
+t2 q2 q1
+t2 q1 p30
+t3 q0 p29 q1
+t2 q1 q0
+t2 q0 p29
+t3 cin p28 q0
+t2 q0 cin
+t2 cin p28
+t3 a0 b28 q0
+t3 a1 b28 q1
+t3 a2 b28 q2
+t3 a3 b28 q3
+t3 a4 b28 q4
+t3 a5 b28 q5
+t3 a6 b28 q6
+t3 a7 b28 q7
+t3 a8 b28 q8
+t3 a9 b28 q9
+t3 a10 b28 q10
+t3 a11 b28 q11
+t3 a12 b28 q12
+t3 a13 b28 q13
+t3 a14 b28 q14
+t3 a15 b28 q15
+t3 a16 b28 q16
+t3 a17 b28 q17
+t3 a18 b28 q18
+t3 a19 b28 q19
+t3 a20 b28 q20
+t3 a21 b28 q21
+t3 a22 b28 q22
+t3 a23 b28 q23
+t3 a24 b28 q24
+t3 a25 b28 q25
+t3 a26 b28 q26
+t3 a27 b28 q27
+t3 a28 b28 q28
+t3 a29 b28 q29
+t3 a30 b28 q30
+t3 a31 b28 q31
+t3 a32 b28 q32
+t3 a33 b28 q33
+t3 a0 b29 q0
+t3 a1 b29 q1
+t3 a2 b29 q2
+t3 a3 b29 q3
+t3 a4 b29 q4
+t3 a5 b29 q5
+t3 a6 b29 q6
+t3 a7 b29 q7
+t3 a8 b29 q8
+t3 a9 b29 q9
+t3 a10 b29 q10
+t3 a11 b29 q11
+t3 a12 b29 q12
+t3 a13 b29 q13
+t3 a14 b29 q14
+t3 a15 b29 q15
+t3 a16 b29 q16
+t3 a17 b29 q17
+t3 a18 b29 q18
+t3 a19 b29 q19
+t3 a20 b29 q20
+t3 a21 b29 q21
+t3 a22 b29 q22
+t3 a23 b29 q23
+t3 a24 b29 q24
+t3 a25 b29 q25
+t3 a26 b29 q26
+t3 a27 b29 q27
+t3 a28 b29 q28
+t3 a29 b29 q29
+t3 a30 b29 q30
+t3 a31 b29 q31
+t3 a32 b29 q32
+t3 a33 b29 q33
+t2 q0 p29
+t2 q0 cin
+t3 cin p29 q0
+t2 q1 p30
+t2 q1 q0
+t3 q0 p30 q1
+t2 q2 p31
+t2 q2 q1
+t3 q1 p31 q2
+t2 q3 p32
+t2 q3 q2
+t3 q2 p32 q3
+t2 q4 p33
+t2 q4 q3
+t3 q3 p33 q4
+t2 q5 p34
+t2 q5 q4
+t3 q4 p34 q5
+t2 q6 p35
+t2 q6 q5
+t3 q5 p35 q6
+t2 q7 p36
+t2 q7 q6
+t3 q6 p36 q7
+t2 q8 p37
+t2 q8 q7
+t3 q7 p37 q8
+t2 q9 p38
+t2 q9 q8
+t3 q8 p38 q9
+t2 q10 p39
+t2 q10 q9
+t3 q9 p39 q10
+t2 q11 p40
+t2 q11 q10
+t3 q10 p40 q11
+t2 q12 p41
+t2 q12 q11
+t3 q11 p41 q12
+t2 q13 p42
+t2 q13 q12
+t3 q12 p42 q13
+t2 q14 p43
+t2 q14 q13
+t3 q13 p43 q14
+t2 q15 p44
+t2 q15 q14
+t3 q14 p44 q15
+t2 q16 p45
+t2 q16 q15
+t3 q15 p45 q16
+t2 q17 p46
+t2 q17 q16
+t3 q16 p46 q17
+t2 q18 p47
+t2 q18 q17
+t3 q17 p47 q18
+t2 q19 p48
+t2 q19 q18
+t3 q18 p48 q19
+t2 q20 p49
+t2 q20 q19
+t3 q19 p49 q20
+t2 q21 p50
+t2 q21 q20
+t3 q20 p50 q21
+t2 q22 p51
+t2 q22 q21
+t3 q21 p51 q22
+t2 q23 p52
+t2 q23 q22
+t3 q22 p52 q23
+t2 q24 p53
+t2 q24 q23
+t3 q23 p53 q24
+t2 q25 p54
+t2 q25 q24
+t3 q24 p54 q25
+t2 q26 p55
+t2 q26 q25
+t3 q25 p55 q26
+t2 q27 p56
+t2 q27 q26
+t3 q26 p56 q27
+t2 q28 p57
+t2 q28 q27
+t3 q27 p57 q28
+t2 q29 p58
+t2 q29 q28
+t3 q28 p58 q29
+t2 q30 p59
+t2 q30 q29
+t3 q29 p59 q30
+t2 q31 p60
+t2 q31 q30
+t3 q30 p60 q31
+t2 q32 p61
+t2 q32 q31
+t3 q31 p61 q32
+t2 q33 p62
+t2 q33 q32
+t3 q32 p62 q33
+t2 q34 p63
+t2 q33 p63
+t3 q32 p62 q33
+t2 q33 q32
+t2 q32 p62
+t3 q31 p61 q32
+t2 q32 q31
+t2 q31 p61
+t3 q30 p60 q31
+t2 q31 q30
+t2 q30 p60
+t3 q29 p59 q30
+t2 q30 q29
+t2 q29 p59
+t3 q28 p58 q29
+t2 q29 q28
+t2 q28 p58
+t3 q27 p57 q28
+t2 q28 q27
+t2 q27 p57
+t3 q26 p56 q27
+t2 q27 q26
+t2 q26 p56
+t3 q25 p55 q26
+t2 q26 q25
+t2 q25 p55
+t3 q24 p54 q25
+t2 q25 q24
+t2 q24 p54
+t3 q23 p53 q24
+t2 q24 q23
+t2 q23 p53
+t3 q22 p52 q23
+t2 q23 q22
+t2 q22 p52
+t3 q21 p51 q22
+t2 q22 q21
+t2 q21 p51
+t3 q20 p50 q21
+t2 q21 q20
+t2 q20 p50
+t3 q19 p49 q20
+t2 q20 q19
+t2 q19 p49
+t3 q18 p48 q19
+t2 q19 q18
+t2 q18 p48
+t3 q17 p47 q18
+t2 q18 q17
+t2 q17 p47
+t3 q16 p46 q17
+t2 q17 q16
+t2 q16 p46
+t3 q15 p45 q16
+t2 q16 q15
+t2 q15 p45
+t3 q14 p44 q15
+t2 q15 q14
+t2 q14 p44
+t3 q13 p43 q14
+t2 q14 q13
+t2 q13 p43
+t3 q12 p42 q13
+t2 q13 q12
+t2 q12 p42
+t3 q11 p41 q12
+t2 q12 q11
+t2 q11 p41
+t3 q10 p40 q11
+t2 q11 q10
+t2 q10 p40
+t3 q9 p39 q10
+t2 q10 q9
+t2 q9 p39
+t3 q8 p38 q9
+t2 q9 q8
+t2 q8 p38
+t3 q7 p37 q8
+t2 q8 q7
+t2 q7 p37
+t3 q6 p36 q7
+t2 q7 q6
+t2 q6 p36
+t3 q5 p35 q6
+t2 q6 q5
+t2 q5 p35
+t3 q4 p34 q5
+t2 q5 q4
+t2 q4 p34
+t3 q3 p33 q4
+t2 q4 q3
+t2 q3 p33
+t3 q2 p32 q3
+t2 q3 q2
+t2 q2 p32
+t3 q1 p31 q2
+t2 q2 q1
+t2 q1 p31
+t3 q0 p30 q1
+t2 q1 q0
+t2 q0 p30
+t3 cin p29 q0
+t2 q0 cin
+t2 cin p29
+t3 a0 b29 q0
+t3 a1 b29 q1
+t3 a2 b29 q2
+t3 a3 b29 q3
+t3 a4 b29 q4
+t3 a5 b29 q5
+t3 a6 b29 q6
+t3 a7 b29 q7
+t3 a8 b29 q8
+t3 a9 b29 q9
+t3 a10 b29 q10
+t3 a11 b29 q11
+t3 a12 b29 q12
+t3 a13 b29 q13
+t3 a14 b29 q14
+t3 a15 b29 q15
+t3 a16 b29 q16
+t3 a17 b29 q17
+t3 a18 b29 q18
+t3 a19 b29 q19
+t3 a20 b29 q20
+t3 a21 b29 q21
+t3 a22 b29 q22
+t3 a23 b29 q23
+t3 a24 b29 q24
+t3 a25 b29 q25
+t3 a26 b29 q26
+t3 a27 b29 q27
+t3 a28 b29 q28
+t3 a29 b29 q29
+t3 a30 b29 q30
+t3 a31 b29 q31
+t3 a32 b29 q32
+t3 a33 b29 q33
+t3 a0 b30 q0
+t3 a1 b30 q1
+t3 a2 b30 q2
+t3 a3 b30 q3
+t3 a4 b30 q4
+t3 a5 b30 q5
+t3 a6 b30 q6
+t3 a7 b30 q7
+t3 a8 b30 q8
+t3 a9 b30 q9
+t3 a10 b30 q10
+t3 a11 b30 q11
+t3 a12 b30 q12
+t3 a13 b30 q13
+t3 a14 b30 q14
+t3 a15 b30 q15
+t3 a16 b30 q16
+t3 a17 b30 q17
+t3 a18 b30 q18
+t3 a19 b30 q19
+t3 a20 b30 q20
+t3 a21 b30 q21
+t3 a22 b30 q22
+t3 a23 b30 q23
+t3 a24 b30 q24
+t3 a25 b30 q25
+t3 a26 b30 q26
+t3 a27 b30 q27
+t3 a28 b30 q28
+t3 a29 b30 q29
+t3 a30 b30 q30
+t3 a31 b30 q31
+t3 a32 b30 q32
+t3 a33 b30 q33
+t2 q0 p30
+t2 q0 cin
+t3 cin p30 q0
+t2 q1 p31
+t2 q1 q0
+t3 q0 p31 q1
+t2 q2 p32
+t2 q2 q1
+t3 q1 p32 q2
+t2 q3 p33
+t2 q3 q2
+t3 q2 p33 q3
+t2 q4 p34
+t2 q4 q3
+t3 q3 p34 q4
+t2 q5 p35
+t2 q5 q4
+t3 q4 p35 q5
+t2 q6 p36
+t2 q6 q5
+t3 q5 p36 q6
+t2 q7 p37
+t2 q7 q6
+t3 q6 p37 q7
+t2 q8 p38
+t2 q8 q7
+t3 q7 p38 q8
+t2 q9 p39
+t2 q9 q8
+t3 q8 p39 q9
+t2 q10 p40
+t2 q10 q9
+t3 q9 p40 q10
+t2 q11 p41
+t2 q11 q10
+t3 q10 p41 q11
+t2 q12 p42
+t2 q12 q11
+t3 q11 p42 q12
+t2 q13 p43
+t2 q13 q12
+t3 q12 p43 q13
+t2 q14 p44
+t2 q14 q13
+t3 q13 p44 q14
+t2 q15 p45
+t2 q15 q14
+t3 q14 p45 q15
+t2 q16 p46
+t2 q16 q15
+t3 q15 p46 q16
+t2 q17 p47
+t2 q17 q16
+t3 q16 p47 q17
+t2 q18 p48
+t2 q18 q17
+t3 q17 p48 q18
+t2 q19 p49
+t2 q19 q18
+t3 q18 p49 q19
+t2 q20 p50
+t2 q20 q19
+t3 q19 p50 q20
+t2 q21 p51
+t2 q21 q20
+t3 q20 p51 q21
+t2 q22 p52
+t2 q22 q21
+t3 q21 p52 q22
+t2 q23 p53
+t2 q23 q22
+t3 q22 p53 q23
+t2 q24 p54
+t2 q24 q23
+t3 q23 p54 q24
+t2 q25 p55
+t2 q25 q24
+t3 q24 p55 q25
+t2 q26 p56
+t2 q26 q25
+t3 q25 p56 q26
+t2 q27 p57
+t2 q27 q26
+t3 q26 p57 q27
+t2 q28 p58
+t2 q28 q27
+t3 q27 p58 q28
+t2 q29 p59
+t2 q29 q28
+t3 q28 p59 q29
+t2 q30 p60
+t2 q30 q29
+t3 q29 p60 q30
+t2 q31 p61
+t2 q31 q30
+t3 q30 p61 q31
+t2 q32 p62
+t2 q32 q31
+t3 q31 p62 q32
+t2 q33 p63
+t2 q33 q32
+t3 q32 p63 q33
+t2 q34 p64
+t2 q33 p64
+t3 q32 p63 q33
+t2 q33 q32
+t2 q32 p63
+t3 q31 p62 q32
+t2 q32 q31
+t2 q31 p62
+t3 q30 p61 q31
+t2 q31 q30
+t2 q30 p61
+t3 q29 p60 q30
+t2 q30 q29
+t2 q29 p60
+t3 q28 p59 q29
+t2 q29 q28
+t2 q28 p59
+t3 q27 p58 q28
+t2 q28 q27
+t2 q27 p58
+t3 q26 p57 q27
+t2 q27 q26
+t2 q26 p57
+t3 q25 p56 q26
+t2 q26 q25
+t2 q25 p56
+t3 q24 p55 q25
+t2 q25 q24
+t2 q24 p55
+t3 q23 p54 q24
+t2 q24 q23
+t2 q23 p54
+t3 q22 p53 q23
+t2 q23 q22
+t2 q22 p53
+t3 q21 p52 q22
+t2 q22 q21
+t2 q21 p52
+t3 q20 p51 q21
+t2 q21 q20
+t2 q20 p51
+t3 q19 p50 q20
+t2 q20 q19
+t2 q19 p50
+t3 q18 p49 q19
+t2 q19 q18
+t2 q18 p49
+t3 q17 p48 q18
+t2 q18 q17
+t2 q17 p48
+t3 q16 p47 q17
+t2 q17 q16
+t2 q16 p47
+t3 q15 p46 q16
+t2 q16 q15
+t2 q15 p46
+t3 q14 p45 q15
+t2 q15 q14
+t2 q14 p45
+t3 q13 p44 q14
+t2 q14 q13
+t2 q13 p44
+t3 q12 p43 q13
+t2 q13 q12
+t2 q12 p43
+t3 q11 p42 q12
+t2 q12 q11
+t2 q11 p42
+t3 q10 p41 q11
+t2 q11 q10
+t2 q10 p41
+t3 q9 p40 q10
+t2 q10 q9
+t2 q9 p40
+t3 q8 p39 q9
+t2 q9 q8
+t2 q8 p39
+t3 q7 p38 q8
+t2 q8 q7
+t2 q7 p38
+t3 q6 p37 q7
+t2 q7 q6
+t2 q6 p37
+t3 q5 p36 q6
+t2 q6 q5
+t2 q5 p36
+t3 q4 p35 q5
+t2 q5 q4
+t2 q4 p35
+t3 q3 p34 q4
+t2 q4 q3
+t2 q3 p34
+t3 q2 p33 q3
+t2 q3 q2
+t2 q2 p33
+t3 q1 p32 q2
+t2 q2 q1
+t2 q1 p32
+t3 q0 p31 q1
+t2 q1 q0
+t2 q0 p31
+t3 cin p30 q0
+t2 q0 cin
+t2 cin p30
+t3 a0 b30 q0
+t3 a1 b30 q1
+t3 a2 b30 q2
+t3 a3 b30 q3
+t3 a4 b30 q4
+t3 a5 b30 q5
+t3 a6 b30 q6
+t3 a7 b30 q7
+t3 a8 b30 q8
+t3 a9 b30 q9
+t3 a10 b30 q10
+t3 a11 b30 q11
+t3 a12 b30 q12
+t3 a13 b30 q13
+t3 a14 b30 q14
+t3 a15 b30 q15
+t3 a16 b30 q16
+t3 a17 b30 q17
+t3 a18 b30 q18
+t3 a19 b30 q19
+t3 a20 b30 q20
+t3 a21 b30 q21
+t3 a22 b30 q22
+t3 a23 b30 q23
+t3 a24 b30 q24
+t3 a25 b30 q25
+t3 a26 b30 q26
+t3 a27 b30 q27
+t3 a28 b30 q28
+t3 a29 b30 q29
+t3 a30 b30 q30
+t3 a31 b30 q31
+t3 a32 b30 q32
+t3 a33 b30 q33
+t3 a0 b31 q0
+t3 a1 b31 q1
+t3 a2 b31 q2
+t3 a3 b31 q3
+t3 a4 b31 q4
+t3 a5 b31 q5
+t3 a6 b31 q6
+t3 a7 b31 q7
+t3 a8 b31 q8
+t3 a9 b31 q9
+t3 a10 b31 q10
+t3 a11 b31 q11
+t3 a12 b31 q12
+t3 a13 b31 q13
+t3 a14 b31 q14
+t3 a15 b31 q15
+t3 a16 b31 q16
+t3 a17 b31 q17
+t3 a18 b31 q18
+t3 a19 b31 q19
+t3 a20 b31 q20
+t3 a21 b31 q21
+t3 a22 b31 q22
+t3 a23 b31 q23
+t3 a24 b31 q24
+t3 a25 b31 q25
+t3 a26 b31 q26
+t3 a27 b31 q27
+t3 a28 b31 q28
+t3 a29 b31 q29
+t3 a30 b31 q30
+t3 a31 b31 q31
+t3 a32 b31 q32
+t3 a33 b31 q33
+t2 q0 p31
+t2 q0 cin
+t3 cin p31 q0
+t2 q1 p32
+t2 q1 q0
+t3 q0 p32 q1
+t2 q2 p33
+t2 q2 q1
+t3 q1 p33 q2
+t2 q3 p34
+t2 q3 q2
+t3 q2 p34 q3
+t2 q4 p35
+t2 q4 q3
+t3 q3 p35 q4
+t2 q5 p36
+t2 q5 q4
+t3 q4 p36 q5
+t2 q6 p37
+t2 q6 q5
+t3 q5 p37 q6
+t2 q7 p38
+t2 q7 q6
+t3 q6 p38 q7
+t2 q8 p39
+t2 q8 q7
+t3 q7 p39 q8
+t2 q9 p40
+t2 q9 q8
+t3 q8 p40 q9
+t2 q10 p41
+t2 q10 q9
+t3 q9 p41 q10
+t2 q11 p42
+t2 q11 q10
+t3 q10 p42 q11
+t2 q12 p43
+t2 q12 q11
+t3 q11 p43 q12
+t2 q13 p44
+t2 q13 q12
+t3 q12 p44 q13
+t2 q14 p45
+t2 q14 q13
+t3 q13 p45 q14
+t2 q15 p46
+t2 q15 q14
+t3 q14 p46 q15
+t2 q16 p47
+t2 q16 q15
+t3 q15 p47 q16
+t2 q17 p48
+t2 q17 q16
+t3 q16 p48 q17
+t2 q18 p49
+t2 q18 q17
+t3 q17 p49 q18
+t2 q19 p50
+t2 q19 q18
+t3 q18 p50 q19
+t2 q20 p51
+t2 q20 q19
+t3 q19 p51 q20
+t2 q21 p52
+t2 q21 q20
+t3 q20 p52 q21
+t2 q22 p53
+t2 q22 q21
+t3 q21 p53 q22
+t2 q23 p54
+t2 q23 q22
+t3 q22 p54 q23
+t2 q24 p55
+t2 q24 q23
+t3 q23 p55 q24
+t2 q25 p56
+t2 q25 q24
+t3 q24 p56 q25
+t2 q26 p57
+t2 q26 q25
+t3 q25 p57 q26
+t2 q27 p58
+t2 q27 q26
+t3 q26 p58 q27
+t2 q28 p59
+t2 q28 q27
+t3 q27 p59 q28
+t2 q29 p60
+t2 q29 q28
+t3 q28 p60 q29
+t2 q30 p61
+t2 q30 q29
+t3 q29 p61 q30
+t2 q31 p62
+t2 q31 q30
+t3 q30 p62 q31
+t2 q32 p63
+t2 q32 q31
+t3 q31 p63 q32
+t2 q33 p64
+t2 q33 q32
+t3 q32 p64 q33
+t2 q34 p65
+t2 q33 p65
+t3 q32 p64 q33
+t2 q33 q32
+t2 q32 p64
+t3 q31 p63 q32
+t2 q32 q31
+t2 q31 p63
+t3 q30 p62 q31
+t2 q31 q30
+t2 q30 p62
+t3 q29 p61 q30
+t2 q30 q29
+t2 q29 p61
+t3 q28 p60 q29
+t2 q29 q28
+t2 q28 p60
+t3 q27 p59 q28
+t2 q28 q27
+t2 q27 p59
+t3 q26 p58 q27
+t2 q27 q26
+t2 q26 p58
+t3 q25 p57 q26
+t2 q26 q25
+t2 q25 p57
+t3 q24 p56 q25
+t2 q25 q24
+t2 q24 p56
+t3 q23 p55 q24
+t2 q24 q23
+t2 q23 p55
+t3 q22 p54 q23
+t2 q23 q22
+t2 q22 p54
+t3 q21 p53 q22
+t2 q22 q21
+t2 q21 p53
+t3 q20 p52 q21
+t2 q21 q20
+t2 q20 p52
+t3 q19 p51 q20
+t2 q20 q19
+t2 q19 p51
+t3 q18 p50 q19
+t2 q19 q18
+t2 q18 p50
+t3 q17 p49 q18
+t2 q18 q17
+t2 q17 p49
+t3 q16 p48 q17
+t2 q17 q16
+t2 q16 p48
+t3 q15 p47 q16
+t2 q16 q15
+t2 q15 p47
+t3 q14 p46 q15
+t2 q15 q14
+t2 q14 p46
+t3 q13 p45 q14
+t2 q14 q13
+t2 q13 p45
+t3 q12 p44 q13
+t2 q13 q12
+t2 q12 p44
+t3 q11 p43 q12
+t2 q12 q11
+t2 q11 p43
+t3 q10 p42 q11
+t2 q11 q10
+t2 q10 p42
+t3 q9 p41 q10
+t2 q10 q9
+t2 q9 p41
+t3 q8 p40 q9
+t2 q9 q8
+t2 q8 p40
+t3 q7 p39 q8
+t2 q8 q7
+t2 q7 p39
+t3 q6 p38 q7
+t2 q7 q6
+t2 q6 p38
+t3 q5 p37 q6
+t2 q6 q5
+t2 q5 p37
+t3 q4 p36 q5
+t2 q5 q4
+t2 q4 p36
+t3 q3 p35 q4
+t2 q4 q3
+t2 q3 p35
+t3 q2 p34 q3
+t2 q3 q2
+t2 q2 p34
+t3 q1 p33 q2
+t2 q2 q1
+t2 q1 p33
+t3 q0 p32 q1
+t2 q1 q0
+t2 q0 p32
+t3 cin p31 q0
+t2 q0 cin
+t2 cin p31
+t3 a0 b31 q0
+t3 a1 b31 q1
+t3 a2 b31 q2
+t3 a3 b31 q3
+t3 a4 b31 q4
+t3 a5 b31 q5
+t3 a6 b31 q6
+t3 a7 b31 q7
+t3 a8 b31 q8
+t3 a9 b31 q9
+t3 a10 b31 q10
+t3 a11 b31 q11
+t3 a12 b31 q12
+t3 a13 b31 q13
+t3 a14 b31 q14
+t3 a15 b31 q15
+t3 a16 b31 q16
+t3 a17 b31 q17
+t3 a18 b31 q18
+t3 a19 b31 q19
+t3 a20 b31 q20
+t3 a21 b31 q21
+t3 a22 b31 q22
+t3 a23 b31 q23
+t3 a24 b31 q24
+t3 a25 b31 q25
+t3 a26 b31 q26
+t3 a27 b31 q27
+t3 a28 b31 q28
+t3 a29 b31 q29
+t3 a30 b31 q30
+t3 a31 b31 q31
+t3 a32 b31 q32
+t3 a33 b31 q33
+t3 a0 b32 q0
+t3 a1 b32 q1
+t3 a2 b32 q2
+t3 a3 b32 q3
+t3 a4 b32 q4
+t3 a5 b32 q5
+t3 a6 b32 q6
+t3 a7 b32 q7
+t3 a8 b32 q8
+t3 a9 b32 q9
+t3 a10 b32 q10
+t3 a11 b32 q11
+t3 a12 b32 q12
+t3 a13 b32 q13
+t3 a14 b32 q14
+t3 a15 b32 q15
+t3 a16 b32 q16
+t3 a17 b32 q17
+t3 a18 b32 q18
+t3 a19 b32 q19
+t3 a20 b32 q20
+t3 a21 b32 q21
+t3 a22 b32 q22
+t3 a23 b32 q23
+t3 a24 b32 q24
+t3 a25 b32 q25
+t3 a26 b32 q26
+t3 a27 b32 q27
+t3 a28 b32 q28
+t3 a29 b32 q29
+t3 a30 b32 q30
+t3 a31 b32 q31
+t3 a32 b32 q32
+t3 a33 b32 q33
+t2 q0 p32
+t2 q0 cin
+t3 cin p32 q0
+t2 q1 p33
+t2 q1 q0
+t3 q0 p33 q1
+t2 q2 p34
+t2 q2 q1
+t3 q1 p34 q2
+t2 q3 p35
+t2 q3 q2
+t3 q2 p35 q3
+t2 q4 p36
+t2 q4 q3
+t3 q3 p36 q4
+t2 q5 p37
+t2 q5 q4
+t3 q4 p37 q5
+t2 q6 p38
+t2 q6 q5
+t3 q5 p38 q6
+t2 q7 p39
+t2 q7 q6
+t3 q6 p39 q7
+t2 q8 p40
+t2 q8 q7
+t3 q7 p40 q8
+t2 q9 p41
+t2 q9 q8
+t3 q8 p41 q9
+t2 q10 p42
+t2 q10 q9
+t3 q9 p42 q10
+t2 q11 p43
+t2 q11 q10
+t3 q10 p43 q11
+t2 q12 p44
+t2 q12 q11
+t3 q11 p44 q12
+t2 q13 p45
+t2 q13 q12
+t3 q12 p45 q13
+t2 q14 p46
+t2 q14 q13
+t3 q13 p46 q14
+t2 q15 p47
+t2 q15 q14
+t3 q14 p47 q15
+t2 q16 p48
+t2 q16 q15
+t3 q15 p48 q16
+t2 q17 p49
+t2 q17 q16
+t3 q16 p49 q17
+t2 q18 p50
+t2 q18 q17
+t3 q17 p50 q18
+t2 q19 p51
+t2 q19 q18
+t3 q18 p51 q19
+t2 q20 p52
+t2 q20 q19
+t3 q19 p52 q20
+t2 q21 p53
+t2 q21 q20
+t3 q20 p53 q21
+t2 q22 p54
+t2 q22 q21
+t3 q21 p54 q22
+t2 q23 p55
+t2 q23 q22
+t3 q22 p55 q23
+t2 q24 p56
+t2 q24 q23
+t3 q23 p56 q24
+t2 q25 p57
+t2 q25 q24
+t3 q24 p57 q25
+t2 q26 p58
+t2 q26 q25
+t3 q25 p58 q26
+t2 q27 p59
+t2 q27 q26
+t3 q26 p59 q27
+t2 q28 p60
+t2 q28 q27
+t3 q27 p60 q28
+t2 q29 p61
+t2 q29 q28
+t3 q28 p61 q29
+t2 q30 p62
+t2 q30 q29
+t3 q29 p62 q30
+t2 q31 p63
+t2 q31 q30
+t3 q30 p63 q31
+t2 q32 p64
+t2 q32 q31
+t3 q31 p64 q32
+t2 q33 p65
+t2 q33 q32
+t3 q32 p65 q33
+t2 q34 p66
+t2 q33 p66
+t3 q32 p65 q33
+t2 q33 q32
+t2 q32 p65
+t3 q31 p64 q32
+t2 q32 q31
+t2 q31 p64
+t3 q30 p63 q31
+t2 q31 q30
+t2 q30 p63
+t3 q29 p62 q30
+t2 q30 q29
+t2 q29 p62
+t3 q28 p61 q29
+t2 q29 q28
+t2 q28 p61
+t3 q27 p60 q28
+t2 q28 q27
+t2 q27 p60
+t3 q26 p59 q27
+t2 q27 q26
+t2 q26 p59
+t3 q25 p58 q26
+t2 q26 q25
+t2 q25 p58
+t3 q24 p57 q25
+t2 q25 q24
+t2 q24 p57
+t3 q23 p56 q24
+t2 q24 q23
+t2 q23 p56
+t3 q22 p55 q23
+t2 q23 q22
+t2 q22 p55
+t3 q21 p54 q22
+t2 q22 q21
+t2 q21 p54
+t3 q20 p53 q21
+t2 q21 q20
+t2 q20 p53
+t3 q19 p52 q20
+t2 q20 q19
+t2 q19 p52
+t3 q18 p51 q19
+t2 q19 q18
+t2 q18 p51
+t3 q17 p50 q18
+t2 q18 q17
+t2 q17 p50
+t3 q16 p49 q17
+t2 q17 q16
+t2 q16 p49
+t3 q15 p48 q16
+t2 q16 q15
+t2 q15 p48
+t3 q14 p47 q15
+t2 q15 q14
+t2 q14 p47
+t3 q13 p46 q14
+t2 q14 q13
+t2 q13 p46
+t3 q12 p45 q13
+t2 q13 q12
+t2 q12 p45
+t3 q11 p44 q12
+t2 q12 q11
+t2 q11 p44
+t3 q10 p43 q11
+t2 q11 q10
+t2 q10 p43
+t3 q9 p42 q10
+t2 q10 q9
+t2 q9 p42
+t3 q8 p41 q9
+t2 q9 q8
+t2 q8 p41
+t3 q7 p40 q8
+t2 q8 q7
+t2 q7 p40
+t3 q6 p39 q7
+t2 q7 q6
+t2 q6 p39
+t3 q5 p38 q6
+t2 q6 q5
+t2 q5 p38
+t3 q4 p37 q5
+t2 q5 q4
+t2 q4 p37
+t3 q3 p36 q4
+t2 q4 q3
+t2 q3 p36
+t3 q2 p35 q3
+t2 q3 q2
+t2 q2 p35
+t3 q1 p34 q2
+t2 q2 q1
+t2 q1 p34
+t3 q0 p33 q1
+t2 q1 q0
+t2 q0 p33
+t3 cin p32 q0
+t2 q0 cin
+t2 cin p32
+t3 a0 b32 q0
+t3 a1 b32 q1
+t3 a2 b32 q2
+t3 a3 b32 q3
+t3 a4 b32 q4
+t3 a5 b32 q5
+t3 a6 b32 q6
+t3 a7 b32 q7
+t3 a8 b32 q8
+t3 a9 b32 q9
+t3 a10 b32 q10
+t3 a11 b32 q11
+t3 a12 b32 q12
+t3 a13 b32 q13
+t3 a14 b32 q14
+t3 a15 b32 q15
+t3 a16 b32 q16
+t3 a17 b32 q17
+t3 a18 b32 q18
+t3 a19 b32 q19
+t3 a20 b32 q20
+t3 a21 b32 q21
+t3 a22 b32 q22
+t3 a23 b32 q23
+t3 a24 b32 q24
+t3 a25 b32 q25
+t3 a26 b32 q26
+t3 a27 b32 q27
+t3 a28 b32 q28
+t3 a29 b32 q29
+t3 a30 b32 q30
+t3 a31 b32 q31
+t3 a32 b32 q32
+t3 a33 b32 q33
+t3 a0 b33 q0
+t3 a1 b33 q1
+t3 a2 b33 q2
+t3 a3 b33 q3
+t3 a4 b33 q4
+t3 a5 b33 q5
+t3 a6 b33 q6
+t3 a7 b33 q7
+t3 a8 b33 q8
+t3 a9 b33 q9
+t3 a10 b33 q10
+t3 a11 b33 q11
+t3 a12 b33 q12
+t3 a13 b33 q13
+t3 a14 b33 q14
+t3 a15 b33 q15
+t3 a16 b33 q16
+t3 a17 b33 q17
+t3 a18 b33 q18
+t3 a19 b33 q19
+t3 a20 b33 q20
+t3 a21 b33 q21
+t3 a22 b33 q22
+t3 a23 b33 q23
+t3 a24 b33 q24
+t3 a25 b33 q25
+t3 a26 b33 q26
+t3 a27 b33 q27
+t3 a28 b33 q28
+t3 a29 b33 q29
+t3 a30 b33 q30
+t3 a31 b33 q31
+t3 a32 b33 q32
+t3 a33 b33 q33
+t2 q0 p33
+t2 q0 cin
+t3 cin p33 q0
+t2 q1 p34
+t2 q1 q0
+t3 q0 p34 q1
+t2 q2 p35
+t2 q2 q1
+t3 q1 p35 q2
+t2 q3 p36
+t2 q3 q2
+t3 q2 p36 q3
+t2 q4 p37
+t2 q4 q3
+t3 q3 p37 q4
+t2 q5 p38
+t2 q5 q4
+t3 q4 p38 q5
+t2 q6 p39
+t2 q6 q5
+t3 q5 p39 q6
+t2 q7 p40
+t2 q7 q6
+t3 q6 p40 q7
+t2 q8 p41
+t2 q8 q7
+t3 q7 p41 q8
+t2 q9 p42
+t2 q9 q8
+t3 q8 p42 q9
+t2 q10 p43
+t2 q10 q9
+t3 q9 p43 q10
+t2 q11 p44
+t2 q11 q10
+t3 q10 p44 q11
+t2 q12 p45
+t2 q12 q11
+t3 q11 p45 q12
+t2 q13 p46
+t2 q13 q12
+t3 q12 p46 q13
+t2 q14 p47
+t2 q14 q13
+t3 q13 p47 q14
+t2 q15 p48
+t2 q15 q14
+t3 q14 p48 q15
+t2 q16 p49
+t2 q16 q15
+t3 q15 p49 q16
+t2 q17 p50
+t2 q17 q16
+t3 q16 p50 q17
+t2 q18 p51
+t2 q18 q17
+t3 q17 p51 q18
+t2 q19 p52
+t2 q19 q18
+t3 q18 p52 q19
+t2 q20 p53
+t2 q20 q19
+t3 q19 p53 q20
+t2 q21 p54
+t2 q21 q20
+t3 q20 p54 q21
+t2 q22 p55
+t2 q22 q21
+t3 q21 p55 q22
+t2 q23 p56
+t2 q23 q22
+t3 q22 p56 q23
+t2 q24 p57
+t2 q24 q23
+t3 q23 p57 q24
+t2 q25 p58
+t2 q25 q24
+t3 q24 p58 q25
+t2 q26 p59
+t2 q26 q25
+t3 q25 p59 q26
+t2 q27 p60
+t2 q27 q26
+t3 q26 p60 q27
+t2 q28 p61
+t2 q28 q27
+t3 q27 p61 q28
+t2 q29 p62
+t2 q29 q28
+t3 q28 p62 q29
+t2 q30 p63
+t2 q30 q29
+t3 q29 p63 q30
+t2 q31 p64
+t2 q31 q30
+t3 q30 p64 q31
+t2 q32 p65
+t2 q32 q31
+t3 q31 p65 q32
+t2 q33 p66
+t2 q33 q32
+t3 q32 p66 q33
+t2 q34 p67
+t2 q33 p67
+t3 q32 p66 q33
+t2 q33 q32
+t2 q32 p66
+t3 q31 p65 q32
+t2 q32 q31
+t2 q31 p65
+t3 q30 p64 q31
+t2 q31 q30
+t2 q30 p64
+t3 q29 p63 q30
+t2 q30 q29
+t2 q29 p63
+t3 q28 p62 q29
+t2 q29 q28
+t2 q28 p62
+t3 q27 p61 q28
+t2 q28 q27
+t2 q27 p61
+t3 q26 p60 q27
+t2 q27 q26
+t2 q26 p60
+t3 q25 p59 q26
+t2 q26 q25
+t2 q25 p59
+t3 q24 p58 q25
+t2 q25 q24
+t2 q24 p58
+t3 q23 p57 q24
+t2 q24 q23
+t2 q23 p57
+t3 q22 p56 q23
+t2 q23 q22
+t2 q22 p56
+t3 q21 p55 q22
+t2 q22 q21
+t2 q21 p55
+t3 q20 p54 q21
+t2 q21 q20
+t2 q20 p54
+t3 q19 p53 q20
+t2 q20 q19
+t2 q19 p53
+t3 q18 p52 q19
+t2 q19 q18
+t2 q18 p52
+t3 q17 p51 q18
+t2 q18 q17
+t2 q17 p51
+t3 q16 p50 q17
+t2 q17 q16
+t2 q16 p50
+t3 q15 p49 q16
+t2 q16 q15
+t2 q15 p49
+t3 q14 p48 q15
+t2 q15 q14
+t2 q14 p48
+t3 q13 p47 q14
+t2 q14 q13
+t2 q13 p47
+t3 q12 p46 q13
+t2 q13 q12
+t2 q12 p46
+t3 q11 p45 q12
+t2 q12 q11
+t2 q11 p45
+t3 q10 p44 q11
+t2 q11 q10
+t2 q10 p44
+t3 q9 p43 q10
+t2 q10 q9
+t2 q9 p43
+t3 q8 p42 q9
+t2 q9 q8
+t2 q8 p42
+t3 q7 p41 q8
+t2 q8 q7
+t2 q7 p41
+t3 q6 p40 q7
+t2 q7 q6
+t2 q6 p40
+t3 q5 p39 q6
+t2 q6 q5
+t2 q5 p39
+t3 q4 p38 q5
+t2 q5 q4
+t2 q4 p38
+t3 q3 p37 q4
+t2 q4 q3
+t2 q3 p37
+t3 q2 p36 q3
+t2 q3 q2
+t2 q2 p36
+t3 q1 p35 q2
+t2 q2 q1
+t2 q1 p35
+t3 q0 p34 q1
+t2 q1 q0
+t2 q0 p34
+t3 cin p33 q0
+t2 q0 cin
+t2 cin p33
+t3 a0 b33 q0
+t3 a1 b33 q1
+t3 a2 b33 q2
+t3 a3 b33 q3
+t3 a4 b33 q4
+t3 a5 b33 q5
+t3 a6 b33 q6
+t3 a7 b33 q7
+t3 a8 b33 q8
+t3 a9 b33 q9
+t3 a10 b33 q10
+t3 a11 b33 q11
+t3 a12 b33 q12
+t3 a13 b33 q13
+t3 a14 b33 q14
+t3 a15 b33 q15
+t3 a16 b33 q16
+t3 a17 b33 q17
+t3 a18 b33 q18
+t3 a19 b33 q19
+t3 a20 b33 q20
+t3 a21 b33 q21
+t3 a22 b33 q22
+t3 a23 b33 q23
+t3 a24 b33 q24
+t3 a25 b33 q25
+t3 a26 b33 q26
+t3 a27 b33 q27
+t3 a28 b33 q28
+t3 a29 b33 q29
+t3 a30 b33 q30
+t3 a31 b33 q31
+t3 a32 b33 q32
+t3 a33 b33 q33
+.end

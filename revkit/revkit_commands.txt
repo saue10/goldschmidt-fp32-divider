@@ -1,0 +1,7 @@
+# RevKit: run per file (adjust to your RevKit 2.0 front end; command names as in the RevKit CLI)
+revkit> read_real real/mult24x10.real
+revkit> ps -c          # prints lines, gate counts and quantum cost (NCV)
+revkit> tt             # optional: truth table check only for small blocks
+# Check the circuit is the intended multiplier (inputs a,b, constants 0): use revsim on a few vectors
+# Repeat for: mult23x24, square18x18, mult16x18, mult34x34, constsub36, constsub34, abs36, addsub34, add34, copy34
+# Convert Toffoli networks to NCV for the cost, as in the original paper: use the same 'ps -c' / NCV mapping setting.
